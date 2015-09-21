@@ -20,6 +20,7 @@ html {
 body {
 
 	background: #272727;
+	font-size: 16px;
 
 	> header {
 		background: #fafafa;
@@ -268,7 +269,7 @@ form {
 
 // Bootstrap XS
 @media screen and (max-width: 767px) {
-
+	
 }
 
 // Bootstrap SM
@@ -278,7 +279,7 @@ form {
 
 // Bootstrap MD
 @media screen and (min-width: 870px) {
-	html {
+	body {
 		
 	}
 }
