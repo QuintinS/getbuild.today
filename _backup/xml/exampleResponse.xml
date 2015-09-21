@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApiResponse Status="OK" xmlns="http://api.namecheap.com/xml.response">
+  <Errors />
+  <RequestedCommand>namecheap.domains.check</RequestedCommand>
+  <CommandResponse Type="namecheap.domains.check">
+    <DomainCheckResult Domain="availabledomain.com" Available="true" />
+    <DomainCheckResult Domain="availabledomain.net" Available="true" />
+    <DomainCheckResult Domain="availabledomain.biz" Available="true" />
+    <DomainCheckResult Domain="availabledomain.org" Available="true" />
+    <DomainCheckResult Domain="availabledomain.info" Available="true" />
+    <DomainCheckResult Domain="availabledomain.us" Available="true" />
+    <DomainCheckResult Domain="availabledomain.co.uk" Available="true" />
+    <DomainCheckResult Domain="availabledomain.de" Available="false" />
+    <DomainCheckResult Domain="availabledomain.co" Available="false" />
+    <DomainCheckResult Domain="availabledomain.io" Available="false" />
+  </CommandResponse>
+  <Server>SERVER-NAME</Server>
+  <GMTTimeDifference>+5</GMTTimeDifference>
+  <ExecutionTime>32.76</ExecutionTime>
+</ApiResponse>

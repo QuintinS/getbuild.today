@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% 
+		
+	
+    myTestString = Request.ServerVariables("HTTP_USER_AGENT")
+    myReturn = InStr(myTestString,"MSIE")
+    if myReturn > 0 then
+	
+    %> 
+  <link type="text/css" rel="stylesheet" href="CSS/all-ie-only.css" />
+    
+	<% else %>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   	<meta name="viewport" content="width=device-width" />
+    <link type="text/css" rel="stylesheet" href="CSS/styles.css" />
+    <link rel='stylesheet' media='screen and (-webkit-device-pixel-ratio: 2)' href='CSS/S3.css' />
+	<link rel='stylesheet' media='screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)' href='CSS/iPhone5.css' />
+    <link rel='stylesheet' media='screen and (min-width: 300px) and (max-width: 480px)' href='CSS/Phones.css' />
+
+    <%end if%>
+    
+	<!-- #include file="Connections/VirtualOfficeLive.asp" -->
+	<%
+	
+	'set conn=Server.CreateObject("ADODB.Connection")
+	'conn.Open MM_VirtualOfficeLive_STRING
+	'set rs=Server.CreateObject("ADODB.recordset")
+	'rs.Open "SELECT * FROM UserAccounts WHERE UserAccounts.UserID = '" & session("userID") &  "'", conn
+		
+	%>
+<title>Select Virtual Office</title>
+
+</head> 
+
+<body>
+	
+    <div class="wrapper">
+    <div id="nameBar" style="margin-bottom:6px; margin-top:2px;">
+        	<img src="Images/VoDeskLogo3Edit.png" style="margin-top: 4px; margin-left: 4px;"/>
+        	<img src="Images/Unsorted/Buttons/CloseAPP3.png" style=" margin-right:0.5%; margin-top:0; float:right; border:#FFF solid thin"/>
+        </div>
+		<div class="topBar">
+        	<img src="Images/EyeBall.png" />
+          	<div class="headingHeading">
+            	Suggest a feature
+            </div>
+            
+         	<div class="headingText">
+            	We are in business to help you grow your business. If you have a suggestion for a 
+                feature we can add to help add value to our product the please suggest it to us. 
+                Click "Make Suggestion" when you are ready.
+        	</div>
+        </div>
+    	<div class="box">
+        
+        	<div class="boxLogo">            
+            </div>
+            
+            <div class="boxHeaderText">
+            	Introduction to suggesting new features.
+            </div>
+            
+            <div class="boxClose">            
+            </div>
+            
+            <div class="boxTopSepLine">            
+            </div>
+            <div style="width:450px;height:200px;margin-left: 50px; margin-top:-20px; font-size:14px; text-align:left;">
+            	The Virtual Office is continually being monitored and upgraded by our full time development team
+            	and we are open to suggestions. If your original suggestion is
+            	used you will be credited with one month's free subscription to say thank you for helping us improve our service.
+            <p>
+            	As we develop new versions of our software, we will provide upgrades to existing subscribers free of charge.
+            </p>
+            <p> 
+            	We will also add any new features, content, templates, articles, downloads, application and services that we
+            	feel a value to the majority of our users. We will also try to make as many of these feautres
+           		free where ever possible.
+            </p>
+            
+            Suggestions should fall into one of the following Categories:<br><br>
+             
+            - Website and ISP related features to help business grow their online presence.<br>
+            - Business management, operations management and e-commerce.<br>
+            - Marketing tools, CRM, mass communication and Advertising.<br>
+            - Entertainment services, sites and software for your enjoyment.
+            
+            
+            <div class="aboutSuggestBottomSepLine">
+           		<div class="bottomBox">
+                	<a href="BusinessManager.asp">
+           		 	<div class="boxLeftButton">
+           	 			Exit Suggestions
+           		 	</div>
+                    </a>
+            		<a href="suggestFeature.html">
+            		<div class="boxRightButton">
+            			Make Suggestion
+            		</div>
+                	</a>
+            	</div>
+        	</div>
+        
+    </div>
+	
+</body>
+</html>

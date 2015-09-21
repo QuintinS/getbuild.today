@@ -1,0 +1,24 @@
+@import "compass/css3";
+
+$build-color-blue: #218ec7;
+// $color-b2t-blue: rgb(33, 142, 199);
+
+$build-color-green: #b4d455;
+// $color-b2t-green: rgb(180, 212, 85);
+
+$build-color-red: #ff0000;
+// $color-b2t-red: rgb(255,0,0);
+
+$build-color-bodytext: #333;
+
+$build-animation-duration-default: 0.5s;
+
+$build-button-color-default: #9c9c9c;
+$build-button-color-primary: #499bd3;
+$build-button-color-success: $build-color-green;
+$build-button-color-info: #7fbdcf;
+$build-button-color-warning: #ff9600;
+$build-button-color-danger: #f34040;
+// $build-button-color-link : #499bd3;
+
+$build-background-mesh: url('../images/buildtheme-mesh.png');

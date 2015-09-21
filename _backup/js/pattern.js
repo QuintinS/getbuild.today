@@ -1,0 +1,1 @@
+﻿jQuery.validator.addMethod("pattern",function(n,t,i){return this.optional(t)?!0:(typeof i=="string"&&(i=new RegExp(i)),i.test(n))},"Invalid format.");

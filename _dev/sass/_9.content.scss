@@ -1,0 +1,188 @@
+@import "compass/css3";
+
+body.page-content {
+	
+	main {
+
+		h1, h2, h3, h4, h5, h6 {
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+		}
+
+	}
+
+	header {
+
+		&.parallax {
+			
+			height: auto;
+			max-height: 800px;
+			position:relative;
+
+			text-align: center;
+			
+			z-index: 1;		
+
+			@include box-shadow(0 0 50px rgba(0,0,0, .5) inset);
+			
+			h1 {
+				font-family: "OpenSansLight" !important;
+				font-size: 3em;
+			}
+
+			&:before {
+				content: '';
+				position:absolute;
+				height: 100%;
+				z-index: 0;
+				opacity: .1
+			}
+
+		}
+
+		img.background-image {
+
+			position:absolute;
+			left:0;
+			top:0;
+			width: 100%;
+			z-index: 0;
+			opacity: .1;
+
+		}
+
+	}
+
+	.post-author {
+		margin: 0;
+		font-family: "OpenSansLight";
+		font-size: 1.6em;
+		span {
+			font-family: "OpenSans";
+		}
+	}
+
+	.post-button {
+
+		@extend .buildtheme-button-hollow;
+
+	}
+
+}
+
+// Bootstrap XS
+@media screen and (max-width: 767px) {
+
+
+
+}
+
+@media screen and (max-width: 870px) {
+
+	body.page-content {
+
+		header {
+
+			&.parallax {
+
+				max-height: none;
+
+			}
+ 
+	        .post-cover {
+				padding: 5% 0;
+			}
+
+		    .post-title { font-size: .8em;}
+
+			.post-actions { 
+				position:static !important;
+	            margin-top: 50px;;
+	            a.btn {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+			}
+
+	        .post-intro {margin-bottom: 2em;}
+
+			.post-title,
+			.post-meta,
+			.post-intro {
+				margin-bottom: 2em;
+			}
+
+		}
+
+	}
+
+	img.background-image {
+		width: auto !important;
+		height: 100%;
+	}
+
+}
+
+// Bootstrap MD
+@media screen and (min-width: 870px) {
+
+
+
+	body.page-content {
+
+		header {
+
+			&.parallax {
+				&:before {
+					background-size: 100%;
+				}
+			}
+
+		}
+
+		
+
+		.post-cover {
+			padding: 10% 0;
+		}
+
+		.post-title {
+
+		}
+
+		.post-meta {
+
+		}
+
+		.post-intro {
+			margin: 0 20%;
+		}
+
+		.post-actions {
+			position:absolute;
+			left:0;
+			right: 0;
+			bottom: 20px;
+		}
+
+		.post-title,
+		.post-meta,
+		.post-intro {
+			margin-bottom: 2em;
+		}
+
+	}
+
+	
+	
+}
+
+// Bootstrap LG
+@media screen and (min-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,248 @@
+<div class="modal-body modal-help">
+
+<!-- 	<div class="container"> -->
+	
+		<div class="row">
+		
+			<div class="col-md-12">
+	
+				<h4>Contact Us</h4>
+				
+				<p>If you want to ask us a question or be in touch with us about something, please complete the form below.</p>
+			
+				<form id="build-contact-form" method="post" action="contactus.asp">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="buildContactEmail">Email address</label>
+								<input type="email" class="form-control" id="buildContactEmail" name="buildContactEmail" placeholder="Enter Email Address">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="buildContactName">Full Name</label>
+								<input type="text" class="form-control" id="buildContactName" name="buildContactName" placeholder="Enter your full name">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="buildContactMessage">Message</label>
+								<textarea class="form-control" rows="3" id="buildContactMessage" name="buildContactMessage"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							
+							<div class="checkbox">
+								<label>
+								  <input type="checkbox" id="buildContactCheckbox" name="buildContactCheckbox"> Please keep me up to date about Build.
+								</label>
+							</div>
+							
+							<button type="submit" class="btn btn-lg btn-primary">Send</button>
+														
+						</div>
+					</div>
+				</form>
+				
+				<div id="ContactFeedbackMessage">
+						
+					<span class="state-2" style="display:none;">
+						<div class="alert alert-success">
+							<p class="text-align-center">Your message was sent successfully. Thanks for your interest!</p>
+						</div>
+					</span>
+					<span class="state-3" style="display:none;">
+						<div class="alert alert-warning">
+							<p class="text-align-center">Oops. Something went... a bit pear-shaped. Sorry! Please try again later.</p>
+						</div>
+					</span>
+					
+				</div>
+				
+			</div>
+		
+		</div>
+	
+<!-- 	</div> -->
+		
+</div>
+
+
+<script>
+
+console.log("Included buidmodal-include-contactus.html");
+
+$('.modal-body a[data-toggle="tooltip"]').tooltip();
+$('.modal-body span[data-toggle="tooltip"]').tooltip();
+	
+/*	=====================================
+	Contact Form
+	===================================== */
+	
+function sendContactEmail() {
+
+	console.log("sendContactEmail()");
+
+	myEmail 				= $("#buildContactEmail").val();
+	myName 					= $("#buildContactName").val();
+	myMessage 				= $("#buildContactMessage").val();
+	myCheckbox 				= $("#buildContactCheckbox").is(':checked');
+
+	$.ajax({
+	    type: "POST",
+	    url: "/contactus.asp",
+	    data: { 
+
+	    	buildContactEmail : myEmail,
+	    	buildContactName : myName,
+	    	buildContactMessage : myMessage,
+	    	buildContactCheckbox : myCheckbox
+	    	
+	    },
+	    beforeSend: function() {
+	    	$("#buildModal > .modal-dialog").append(PrintLoadingOverlay());
+	    },
+	})
+	.success(function(response){
+	
+		console.log(response);
+		
+		myAuth = $(response).find("authentication").text();
+		
+		if (myAuth == "updated") {
+
+			var n = noty({
+
+				text: "Thank you! Your inquiry has been sent.",
+				theme: "relax",
+				layout: "bottomCenter",
+				animation: {
+			        open: 'animated fadeInUp', // Animate.css class names
+			        close: 'animated fadeOut', // Animate.css class names
+			        speed: 50 // unavailable - no need
+			    },
+			    timeout: 2000,
+			    type: "success",
+
+			});
+
+			$("#buildModal").modal("hide");
+		
+		}
+		
+		else
+		
+		{
+		
+			var n = noty({
+
+				text: "Oops! Something went wrong. Don't worry, it's nothing you did... we're looking into it. Please try again later!",
+				theme: "relax",
+				layout: "bottomCenter",
+				animation: {
+			        open: 'animated fadeInUp', // Animate.css class names
+			        close: 'animated fadeOut', // Animate.css class names
+			        speed: 50 // unavailable - no need
+			    },
+			    timeout: 2000,
+			    type: "error",
+
+			});
+
+			$("#buildModal").modal("hide");
+		
+		}
+		
+	})
+	.fail(function() {
+		
+		var n = noty({
+
+			text: "Oops! Something went wrong. Don't worry, it's nothing you did... we'll look into it. Please try again later!",
+			theme: "relax",
+			layout: "bottomCenter",
+			animation: {
+		        open: 'animated fadeInUp', // Animate.css class names
+		        close: 'animated fadeOut', // Animate.css class names
+		        speed: 50 // unavailable - no need
+		    },
+		    timeout: 2000,
+		    type: "error",
+
+		});
+
+		$("#buildModal").modal("hide");
+
+	});
+
+}
+
+var validateContactForm = $("#build-contact-form").validate({
+
+	rules: {
+	
+		buildContactEmail : {
+			required: true,
+			email:true
+		},
+
+		buildContactName : {
+			required: true
+		},
+		
+		buildContactMessage : {
+			required: true
+		}
+
+	},
+
+
+	messages : {
+
+		buildContactEmail: "Please enter a valid e-mail address.",
+		buildContactName: "Please enter your name.",
+		buildContactMessage: "Please enter your suggestion.",
+
+	},
+
+	submitHandler : function(form) {
+		console.log("Submitted");
+		sendContactEmail();
+	},
+	
+	showErrors: function(errorMap, errorList) {
+
+		$.each(this.successList, function(index, value) {
+			return $(value).popover("hide");
+		});
+	
+		return $.each(errorList, function(index, value) {
+		
+			var _popover;
+			console.log(value.message);
+			
+			_popover = $(value.element).popover({
+				trigger: "manual",
+				placement: "bottom",
+				content: value.message,
+				template: "<div class=\"popover\"><div class=\"arrow\"></div><div class=\"popover-inner\"><div class=\"popover-content\"><p></p></div></div></div>"
+			});
+			
+			_popover.data("bs.popover").options.content = value.message;
+			return $(value.element).popover("show");
+			
+		});
+
+		
+	}
+
+
+});
+
+
+
+</script>

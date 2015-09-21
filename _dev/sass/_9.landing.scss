@@ -1,0 +1,93 @@
+body.page-landing {
+
+	a.landingitem { 
+		
+		display:inline-block;
+		
+		&:hover { 
+			
+			text-decoration: none;
+
+			.landingitem-wrapper {
+				box-shadow: 0 0 5px rgba(0,0,0,.2);
+			}
+
+		}
+
+	}
+
+  .landingitem-wrapper {
+    
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    
+  }
+
+  .landingitem-image {
+	  img {
+	    display: inline-block;
+	    width: 100%;
+	  }
+  }
+
+  .landingitem-content {
+    padding: 2em 2em;
+  }
+
+  .landingitem-content h5 {
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    
+   .landingitem-content {
+	padding: 1.5em
+   }
+    
+  }
+
+  @media only screen and (min-width: 767px) {
+    
+   .landingitem-wrapper {
+	min-height: 300px;
+	max-height: 500px;
+	height: 500px;
+   } 
+    
+  }
+
+  @media only screen and (min-width: 762px) and (max-width: 992px) {
+    
+    .landingitem-wrapper {
+	   min-height: 450px;
+	   max-height: 450px;
+	   height: 450px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 992px) {
+    
+    
+    
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .landingitem-wrapper {
+	   min-height: 450px;
+	   max-height: 450px;
+	   height: 450px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1200px) {
+    
+    
+  }
+
+}

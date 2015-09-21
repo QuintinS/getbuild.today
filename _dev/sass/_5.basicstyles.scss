@@ -1,0 +1,311 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+* {
+	+ btn {
+		margin-left: 10px;
+	}
+}
+
+html {
+
+	::selection {
+		color: $build-color-green;
+		background-color: rgba($build-color-green, .2);
+	}
+
+}
+
+body {
+
+	background: #272727;
+
+	> header {
+		background: #fafafa;
+		padding: 0 !important;
+	}
+
+	main {
+		> section {
+			&:nth-child(even) {
+				background: #fafafa;
+				box-shadow: 0 0 15px rgba(0,0,0,.1) inset;
+			}
+			&:nth-child(odd) {
+				@extend .BackgroundWhite;
+			}
+		}	
+	}
+	
+
+}
+
+h1 { 
+	font-size: 2.8em; 
+	color: $build-color-blue; 
+	a {
+		color: lighten($build-color-blue, 20%);
+		border-bottom: 1px dotted $build-color-blue;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-blue, 10%);
+		}
+	}
+}
+
+h2 { 
+	font-size: 2.4em;
+	color: $build-color-blue;
+	a {
+		color: lighten($build-color-blue, 20%);
+		border-bottom: 1px dotted $build-color-blue;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-blue, 10%);
+		}
+	}
+}
+
+h3 { 
+	font-size: 2.0em;
+	color: $build-color-blue;
+	a {
+		color: lighten($build-color-blue, 20%);
+		border-bottom: 1px dotted $build-color-blue;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-blue, 10%);
+		}
+	}
+}
+
+h4 { 
+	font-family: "OpenSans";
+	font-size: 1.4em;
+	color: $build-color-bodytext;
+	a {
+		color: lighten($build-color-bodytext, 20%);
+		border-bottom: 1px dotted $build-color-bodytext;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-bodytext, 10%);
+		}
+	}
+}
+
+h5 { 
+	font-family: "OpenSans";
+	font-weight: bold;
+	font-size: 1.2em;
+	color: $build-color-bodytext;
+	a {
+		color: lighten($build-color-bodytext, 20%);
+		border-bottom: 1px dotted $build-color-bodytext;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-bodytext, 10%);
+		}
+	}
+}
+
+h6 { 
+	font-family: "OpenSans";
+	font-weight: bold;
+	font-size: 1.2em;
+	color: $build-color-green;
+	a {
+		color: lighten($build-color-green, 20%);
+		border-bottom: 1px dotted $build-color-green;
+		// text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			color: darken($build-color-green, 10%);
+		}
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	// text-transform: capitalize;
+	margin-top: 1em;
+	margin-bottom: 0.75em;
+	line-height: 1.2em;
+	strong {
+		font-family: "OpenSans", Helvetica, Arial, sans-serif;
+		font-weight:bold;
+	}
+	&:only-child {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+p { 
+	margin-bottom: 1.4em;
+	&:last-of-type,
+	&:last-child {
+		// margin-bottom: 0;
+	}
+}
+
+a::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+ul, ol {
+	
+	nav & {
+		margin-left: 0;
+		margin-bottom: 0;
+		li {
+			list-style: none;
+			margin-bottom: 0;
+		}
+	}
+	
+}
+
+
+ul, ol {
+	li {
+		margin-left: 4em;
+		color: $build-color-green;
+		p {
+			color: $build-color-bodytext;
+		}
+	}
+	ul, ol {
+		li {
+			margin-left: 2em;	
+		}
+		ul, ol {
+			li {
+				margin-left: 2em;
+			}
+		}
+	}
+}
+
+ul {
+	li {
+		list-style: disc;
+	}
+	ul {
+		li {
+			list-style: circle;
+		}
+		ul {
+			li {
+				list-style: square;
+			}
+		}
+	}
+}
+
+ol {
+	li {
+		list-style: decimal;
+	}
+	ol {
+		li {
+			list-style: lower-roman;
+		}
+		ol {
+			li {
+				list-style: upper-roman;
+			}
+		}
+	}
+}
+
+nav {
+
+	ul li,
+	ol li {
+
+		margin-left: 0;
+		margin-bottom: 0;
+
+	}
+
+}
+
+form {
+	label {
+		text-align: left;
+	}
+}
+
+
+
+/* 	========================================
+	Media Queries
+	======================================== */
+
+// Bootstrap XS
+@media screen and (max-width: 767px) {
+
+}
+
+// Bootstrap SM
+@media screen and (min-width: 767px) {
+
+}
+
+// Bootstrap MD
+@media screen and (min-width: 870px) {
+	html {
+		
+	}
+}
+
+// Bootstrap LG
+@media screen and (min-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+
+// Bootstrap XS
+@media screen and (max-width: 767px) {
+
+}
+
+// Bootstrap SM <= MD
+@media screen and (min-width: 767px) and (max-width: 992px) {
+
+}
+
+// Bootstrap MD <= LG
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}

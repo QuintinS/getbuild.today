@@ -1,0 +1,292 @@
+<!--#include file="../../../includes/GetContent.inc" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--#include file="../../../includes/ContentHead.inc" -->
+	<!--#include file="../../../includes/ContentJscripts.inc" -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/superfish.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/forms.css" type="text/css" media="screen">
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/jquery.hoverIntent.js"></script>
+	<script src="js/jquery.responsivemenu.js"></script>
+	<script src="js/jquery.backgroundPosition.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				effect: 'fade',
+				fadeSpeed:700,
+				play: 7000,
+				pause: 4000,
+				generatePagination: true,
+				crossfade: true,
+				hoverPause: true,
+				animationStart: function(current){$('.caption').animate({left:-500},200);},
+				animationComplete: function(current){$('.caption').animate({left:0},300);},
+				slidesLoaded: function() {$('.caption').animate({left:0},300);}
+			});
+		});
+	</script>
+	<!--[if lt IE 8]>
+		<div style='clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+			</a>
+		</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css"> 
+	<![endif]-->
+	<!--[if IE 9]>
+		<style>
+			#search-form input{padding:7px 10px 6px;}
+			#subs-form input{padding:8px 10px 7px;}
+		</style>
+	<![endif]-->
+</head>
+<body id="page1" >
+	<div class="light">
+		<div class="container_24">
+			<div class="wrapper">
+				<div class="grid_24">
+					<!--======================== header ============================-->
+					<header>
+						<div class="wrapper indent-bottom">
+							<!--======================== logo ============================-->
+							<h1><a href="index.html">Primex</a></h1>
+							<!--=================== search form =====================-->
+							<form id="search-form">
+								<fieldset>
+									<label class="keywords">
+										<input type="text">
+									</label>
+									<a onclick="document.getElementById('search-form').submit()" class="button">Search</a>
+								</fieldset>
+							</form>
+						</div>
+						<!--======================== menu ============================-->
+						<div class="navigation">
+							<nav>
+								<ul class="menu responsive-menu">
+									<li class="current"><a href="index.html">About Us</a>
+										<ul>
+											<li><a href="#">Who We Are</a></li>
+											<li><a href="#">News</a>
+												<ul>
+													<li><a href="#">Latest</a></li>
+													<li class="last-item"><a href="#">Archive</a></li>
+												</ul>
+											</li>
+											<li class="last-item"><a href="#">Contacts</a></li>
+										</ul>
+									</li>
+									<li><a href="index-1.html">Services</a></li>
+									<li><a href="index-2.html">Solutions</a></li>
+									<li><a href="index-3.html">Training</a></li>
+									<li><a href="index-4.html">Support</a></li>
+									<li><a href="index-5.html">Clients</a></li>
+									<li class="last-item"><a href="index-6.html">Contacts</a></li>
+								</ul>
+							</nav>
+							<div class="clear"></div>
+						</div>
+						<!--=================== slider ==================-->
+						<div id="slides">
+							<div class="slides_container">
+								<div class="slide">
+									<img src="images/slider-img1.jpg" alt="">
+									<div class="caption">Be Successful <br><span>with Us!</span></div>
+								</div>
+								<div class="slide">
+									<img src="images/slider-img2.jpg" alt="">
+									<div class="caption">Business Solutions <br>of <span>New Age</span></div>
+								</div>
+								<div class="slide">
+									<img src="images/slider-img3.jpg" alt="">
+									<div class="caption">Light Ideas <br>for <span>Your </span><br>Success!</div>
+								</div>
+								<div class="slide">
+									<img src="images/slider-img4.jpg" alt="">
+									<div class="caption">Quality. <br>Support. <br>Ideas.</div>
+								</div>
+							</div>
+						</div>
+					</header>
+					<!--======================== content ===========================-->
+					<section id="content">
+						<div class="wrapper indent-bottom12-1">
+							<div class="grid_12 alpha">
+								<div class="wrapper">
+									<div class="col-6">
+										<a href="#" class="box1">
+											<div class="indents1">
+												<figure>
+													<span class="img-box">
+														<span><img src="images/box1-icon1.png" alt=""></span>
+													</span>
+												</figure>
+												<h4>support</h4>
+												Natoqe penatus mag&shy;nis parturient montes. 
+											</div>
+										</a>
+									</div>
+									<div class="col-6 last-item">
+										<a href="#" class="box1">
+											<div class="indents1">
+												<figure>
+													<span class="img-box">
+														<span><img src="images/box1-icon2.png" alt=""></span>
+													</span>
+												</figure>
+												<h4>analysis</h4>
+												Natoqe penatus mag&shy;nis parturient montes. 
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="grid_12 last-item">
+								<div class="wrapper">
+									<div class="col-6">
+										<a href="#" class="box1">
+											<div class="indents1">
+												<figure>
+													<span class="img-box">
+														<span><img src="images/box1-icon3.png" alt=""></span>
+													</span>
+												</figure>
+												<h4>experience</h4>
+												Natoqe penatus mag&shy;nis parturient montes. 
+											</div>
+										</a>
+									</div>
+									<div class="col-6 last-item">
+										<a href="#" class="box1">
+											<div class="indents1">
+												<figure>
+													<span class="img-box">
+														<span><img src="images/box1-icon4.png" alt=""></span>
+													</span>
+												</figure>
+												<h4>strategies</h4>
+												Natoqe penatus mag&shy;nis parturient montes. 
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="grid_13 alpha">
+								<div class="suffix_1">
+									<div class="indent-bottom11">
+										<h3 class="p6-1">We Work for You!</h3>
+										<p class="p4">Natoqe penatus magnis parturient montes. Ridiculus nulla fusegin alesda. Morb nuncodio, gravida cursus necluctus lorenas tristique acem aenan auctor ultricies. </p>
+										<p class="p3"><a href="#" class="link-1">Donec accumsan malesuada orci.</a> Donec situmamet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. </p>
+										<a href="#" class="button">read more</a>
+									</div>
+									<h3 class="p6">Featured Services</h3>
+									<div class="wrapper">
+										<div class="col-6">
+											<ul class="list-1">
+												<li><a href="#">Market Research</a></li>
+												<li><a href="#">Online Banking</a></li>
+												<li><a href="#">Financial Services</a></li>
+												<li><a href="#">Client Network Solutions</a></li>
+												<li class="last-item"><a href="#">Business Help</a></li>
+											</ul>
+										</div>
+										<div class="col-6 last-item">
+											<ul class="list-1">
+												<li><a href="#">Solutions &amp; Training</a></li>
+												<li><a href="#">Affiliate Program</a></li>
+												<li><a href="#">Production</a></li>
+												<li><a href="#">Risk Management</a></li>
+												<li class="last-item"><a href="#">Consultation</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="grid_11 last-item font-1">
+								<h3 class="p5-1">Latest News</h3>
+								<div class="wrapper p6">
+									<figure class="img-indent3 img-indent-none-ip">
+										<span class="img-box">
+											<span><img src="images/page1-img1.jpg" alt=""></span>
+										</span>
+									</figure>
+									<div class="extra-wrap indent-top1">
+										<p class="p2-1"><time datetime="2012-01-01" class="date1"><a href="#" class="link-1">05-25-2011</a></time></p>
+										Lorem ipsum dolor amet consectetur adipis vestibulum ut risus vitae commodo pharetra nullam consequat scelerisque.
+									</div>
+								</div>
+								<div class="wrapper p6">
+									<figure class="img-indent3 img-indent-none-ip">
+										<span class="img-box">
+											<span><img src="images/page1-img2.jpg" alt=""></span>
+										</span>
+									</figure>
+									<div class="extra-wrap indent-top1">
+										<p class="p2-1"><time datetime="2012-01-01" class="date1"><a href="#" class="link-1">05-20-2011</a></time></p>
+										Consectetur adipiscing elit. Vestibulum modo pharetra nullam consequat scelerisque licitu din suspendisse laoreet.
+									</div>
+								</div>
+								<div class="wrapper p4">
+									<figure class="img-indent3 img-indent-none-ip">
+										<span class="img-box">
+											<span><img src="images/page1-img3.jpg" alt=""></span>
+										</span>
+									</figure>
+									<div class="extra-wrap indent-top1">
+										<p class="p2-1"><time datetime="2012-01-01" class="date1"><a href="#" class="link-1">05-15-2011</a></time></p>
+										Adipiscing elit. Vestibulum risus vitae modo pharetra nullam consequat scelerisqueurna, sed sollicitudin elit lobortis varius. 
+									</div>
+								</div>
+								<a href="#" class="button">more news</a>
+							</div>
+						</div>
+					</section>
+					<!--======================== footer ============================-->
+					<footer>
+						<div class="wrapper">
+							<div class="col-9">
+								<!--===================== subscribe form ====================-->
+								<form id="subs-form">
+									<fieldset>
+										<label class="email">
+											<input type="text" value="Enter your e-mail here:" onfocus="if(this.value =='Enter your e-mail here:' ) this.value=''" onblur="if(this.value=='') this.value='Enter your e-mail here:'">
+										</label>
+										<a onclick="document.getElementById('subs-form').submit()" class="button">Submit</a>
+									</fieldset>
+									<a href="#">Unsubscribe</a>
+								</form>
+							</div>
+							<div class="col-15">
+								<a href="index-1.html" class="footer-logo">Primex</a>
+								<p class="p3">8901 Marmora Road Glasgow, D04 89GR<br>
+								Phone: +1 800 559 6580&nbsp; <span class="block-ip">E-mail:&nbsp;<a href="#">mail@demolink.org</a></span></p>
+								<div class="footer-text">
+									<!--#include file="../../../includes/powered-by.inc" --> | <!-- #include file="../../../includes/Privacy-Policy.asp"-->
+									<div class="footer-link"><!--{%FOOTER_LINK} --></div>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--#include file="../../../includes/ContentPageEnd.inc" -->
+</body>
+</html>

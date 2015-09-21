@@ -1,0 +1,2730 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"current",
+				"currentTemplateID"
+			],
+			[
+				"val",
+				"valDefined	Undefined"
+			],
+			[
+				"build-co",
+				"build-color-green"
+			],
+			[
+				"show",
+				"showTemplateDemoFrame"
+			],
+			[
+				"printTemplate",
+				"printTemplateDemoFrame"
+			],
+			[
+				"mytem",
+				"myTemplateID"
+			],
+			[
+				"build-color",
+				"build-color-bodytext"
+			],
+			[
+				"PRicing",
+				"PricingPlanFree"
+			],
+			[
+				"print",
+				"printTemplate"
+			],
+			[
+				"templa",
+				"templatesXML"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"build",
+				"build-color-bodytext"
+			],
+			[
+				"build-",
+				"build-color-green"
+			],
+			[
+				"build-color-",
+				"build-color-blue"
+			],
+			[
+				"content",
+				"contentheading"
+			],
+			[
+				"build-butt",
+				"build-button-color-primary"
+			],
+			[
+				"OnCo",
+				"onContentLoadProgress"
+			],
+			[
+				"return",
+				"returnHTML"
+			],
+			[
+				"retur",
+				"returnHTML"
+			],
+			[
+				"glyphicon-",
+				"glyphicon-question-sign"
+			],
+			[
+				"loading",
+				"loading-overlay"
+			],
+			[
+				"onCon",
+				"onContentLoadBeforeSend"
+			],
+			[
+				"refresh",
+				"refreshBreadcrumbActions"
+			],
+			[
+				"initBreadc",
+				"initBreadcrumbActions"
+			],
+			[
+				"ini",
+				"initBreadcrumbs"
+			],
+			[
+				"printBread",
+				"printBreadcrumbDivider"
+			],
+			[
+				"ret",
+				"returnHTML"
+			],
+			[
+				"Return",
+				"returnHTML"
+			],
+			[
+				"templte",
+				"templateModalFooterContent"
+			],
+			[
+				"r",
+				"removeClass"
+			],
+			[
+				"Show",
+				"ShowSubdomainValidationPopover"
+			],
+			[
+				"Validate",
+				"ValidateSubDomain"
+			],
+			[
+				"myAdd",
+				"myAddressLine2"
+			],
+			[
+				"myAddre",
+				"myAddressLine1"
+			],
+			[
+				"RegistrationAddre",
+				"RegistrationAddressLine2"
+			],
+			[
+				"Sho",
+				"ShowModalLoadingOverlay"
+			],
+			[
+				"Remove",
+				"RemoveModalLoadingOverlay"
+			],
+			[
+				"Modal",
+				"ModalCheckout"
+			],
+			[
+				"remove",
+				"RemoveTwoCheckoutScript"
+			],
+			[
+				"CheckoutIni",
+				"CheckoutInvisbleForm"
+			],
+			[
+				"Bu",
+				"BuildCheckOut"
+			],
+			[
+				"Calculate",
+				"CalculateCartWeight"
+			],
+			[
+				"beforeS",
+				"beforeSend"
+			],
+			[
+				"myCart",
+				"myCartCurrency"
+			],
+			[
+				"EComm",
+				"ECommerceSettings"
+			],
+			[
+				"Select",
+				"SelectedCurrency"
+			],
+			[
+				"Ec",
+				"ECommerceSettings"
+			],
+			[
+				"curren",
+				"currency_name"
+			],
+			[
+				"currn",
+				"currency_name"
+			],
+			[
+				"cur",
+				"currency_code"
+			],
+			[
+				"Refresh",
+				"RefreshCheckoutShippingValues"
+			],
+			[
+				"Out",
+				"OutOfRange"
+			],
+			[
+				"Grand",
+				"GrandTotal"
+			],
+			[
+				"Region",
+				"RegionAdjustment"
+			],
+			[
+				"Outo",
+				"OutOfRangeAdjustment"
+			],
+			[
+				"Total",
+				"TotalValue"
+			],
+			[
+				"OutO",
+				"OutOfRangeAdjustment"
+			],
+			[
+				"Totla",
+				"TotalValue"
+			],
+			[
+				"ClearShipping",
+				"ClearCheckoutShippingValues"
+			],
+			[
+				"displa",
+				"DisplayField"
+			],
+			[
+				"SelectedShi",
+				"SelectedShippingRegion"
+			],
+			[
+				"ResetShi",
+				"ResetShippingAddressLocations"
+			],
+			[
+				"selectedShipp",
+				"SelectedShippingRange"
+			],
+			[
+				"GetRegion",
+				"GetRegionListByCountry"
+			],
+			[
+				"SetCart",
+				"SetCartSettingsData"
+			],
+			[
+				"Refre",
+				"RefreshGrandTotal"
+			],
+			[
+				"ShowC",
+				"ShowCalculatorLoadingOverlay"
+			],
+			[
+				"SelectedShipping",
+				"SelectedShippingCountry"
+			],
+			[
+				"CaptureShippingRegion",
+				"CaptureShippingRegionAdjustments"
+			],
+			[
+				"SElecte",
+				"SelectedShippingRange"
+			],
+			[
+				"ResetShipping",
+				"ResetShippingMethodsDropdown"
+			],
+			[
+				"CpatureShipping",
+				"CaptureShippingRegions"
+			],
+			[
+				"SelectedSh",
+				"SelectedShippingMethod"
+			],
+			[
+				"CaptureShipping",
+				"CaptureShippingRanges"
+			],
+			[
+				"PopulateShipp",
+				"PopulateShippingMethods"
+			],
+			[
+				"ActiveShip",
+				"ActiveShippingMethods"
+			],
+			[
+				"PopulateShipping",
+				"PopulateShippingRegions"
+			],
+			[
+				"Selected",
+				"SelectedShippingRegion"
+			],
+			[
+				"complete",
+				"completeDebug"
+			],
+			[
+				"EnableShipp",
+				"EnableShippingMethodsDropdown"
+			],
+			[
+				"Reset",
+				"ResetShippingMethodsDropdown"
+			],
+			[
+				"ActiveS",
+				"ActiveShippingMethodsArray"
+			],
+			[
+				"Close",
+				"CloseTemplatePreview"
+			],
+			[
+				"Print",
+				"PrintPreviewIFrame"
+			],
+			[
+				"complet",
+				"completeDebug"
+			],
+			[
+				"before",
+				"beforeSendDebug"
+			],
+			[
+				"bef",
+				"before"
+			],
+			[
+				"Gener",
+				"GenericFailHandler"
+			],
+			[
+				"Generic",
+				"GenericErrorHandler"
+			],
+			[
+				"ne",
+				"NextStep"
+			],
+			[
+				"Clear",
+				"ClearShippingCalcValues"
+			],
+			[
+				"Celar",
+				"ClearCheckoutShippingValues"
+			],
+			[
+				"ClearCheckout",
+				"ClearCheckoutShippingValues"
+			],
+			[
+				"Country",
+				"Cart_ShippingCalculator_Country"
+			],
+			[
+				"ResetS",
+				"ResetShippingRegionsDropdown"
+			],
+			[
+				"EnableShipping",
+				"EnableShippingRegionsDropdown"
+			],
+			[
+				"PopulateCheck",
+				"PopulateCheckoutCartValues"
+			],
+			[
+				"SelectedShip",
+				"SelectedShippingRange"
+			],
+			[
+				"GetShipp",
+				"GetShippingTypesByCountry"
+			],
+			[
+				"2C",
+				"2CheckoutPostData"
+			],
+			[
+				"Calcul",
+				"CalculateShippingCost"
+			],
+			[
+				"Shipping",
+				"ShippingEnabled"
+			],
+			[
+				"InitC",
+				"InitCountryListSelectBoxes"
+			],
+			[
+				"Init",
+				"InitCountrySelectBoxes"
+			],
+			[
+				"Hid",
+				"HideModalOverlayDialogue"
+			],
+			[
+				"countryNam",
+				"countryname"
+			],
+			[
+				"SelectedShipp",
+				"SelectedShippingCountry"
+			],
+			[
+				"Delete",
+				"DeleteShippingRateClick"
+			],
+			[
+				"ShippingMethod",
+				"ShippingMethodActive"
+			],
+			[
+				"Selecte",
+				"SelectedShippingRate"
+			],
+			[
+				"Complet",
+				"completeDebug"
+			],
+			[
+				"PrintShipping",
+				"PrintButtonDeactivateShippingMethod"
+			],
+			[
+				"select",
+				"SelectedShippingRate"
+			],
+			[
+				"SelectShipping",
+				"SelectedShippingCountry"
+			],
+			[
+				"Slect",
+				"SelectedShippingCountry"
+			],
+			[
+				"PrintAc",
+				"PrintButtonDeactivateShippingMethod"
+			],
+			[
+				"Activate",
+				"ActivateShippingMethodURL"
+			],
+			[
+				"Deact",
+				"DeactivateShippingMethod"
+			],
+			[
+				"GetRegions",
+				"GetRegionListByCountry"
+			],
+			[
+				"GetCountry",
+				"GetCountryListURL"
+			],
+			[
+				"GetShippin",
+				"GetShippingCountriesURL"
+			],
+			[
+				"Hide",
+				"HideModalLoadingOverlay"
+			],
+			[
+				"comple",
+				"completeDebug"
+			],
+			[
+				"Dim",
+				"DismissLogoutOverlay"
+			],
+			[
+				"Dismiss",
+				"DismissLogoutOverlay"
+			],
+			[
+				"sele",
+				"SelectedShippingRate"
+			],
+			[
+				"Toggle",
+				"ToggleMenuLoginState"
+			],
+			[
+				"Callba",
+				"callbackSuccess"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/getstarted/index.html",
+			"settings":
+			{
+				"buffer_size": 7047,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/index_vouchers.html",
+			"settings":
+			{
+				"buffer_size": 20867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/index.html",
+			"settings":
+			{
+				"buffer_size": 20424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/createaccount/index.asp",
+			"settings":
+			{
+				"buffer_size": 17723,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-1/induction-1.js",
+			"settings":
+			{
+				"buffer_size": 7731,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js",
+			"settings":
+			{
+				"buffer_size": 14933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/utilities.js",
+			"settings":
+			{
+				"buffer_size": 5170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/induction.scss",
+			"settings":
+			{
+				"buffer_size": 7586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/generic.scss",
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_3.mixins.scss",
+			"settings":
+			{
+				"buffer_size": 1729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10b.bootstrap-theme.scss",
+			"settings":
+			{
+				"buffer_size": 16866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 32 files for \"loading-overlay\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_7.common.scss:\n  115  }\n  116  \n  117: .loading-overlay {\n  118  	position:absolute;\n  119  	left:0;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_induction-old.scss:\n  356  \n  357  /* line 723, ../sass/_8.components.scss */\n  358: .modal-dialog .loading-overlay {\n  359    position: absolute;\n  360    top: 0;\n  ...\n  367  \n  368  /* line 736, ../sass/_8.components.scss */\n  369: .modal-dialog .loading-overlay .thankyou {\n  370    position: absolute;\n  371    top: 0;\n  ...\n  379  }\n  380  /* line 749, ../sass/_8.components.scss */\n  381: .modal-dialog .loading-overlay .thankyou p {\n  382    font-weight: bold;\n  383  }\n  384  \n  385  /* line 753, ../sass/_8.components.scss */\n  386: .modal-dialog .loading-overlay .throbber {\n  387    position: absolute;\n  388    top: 0;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_induction-old2.scss:\n  356  \n  357  /* line 723, ../sass/_8.components.scss */\n  358: .modal-dialog .loading-overlay {\n  359    position: absolute;\n  360    top: 0;\n  ...\n  367  \n  368  /* line 736, ../sass/_8.components.scss */\n  369: .modal-dialog .loading-overlay .thankyou {\n  370    position: absolute;\n  371    top: 0;\n  ...\n  379  }\n  380  /* line 749, ../sass/_8.components.scss */\n  381: .modal-dialog .loading-overlay .thankyou p {\n  382    font-weight: bold;\n  383  }\n  384  \n  385  /* line 753, ../sass/_8.components.scss */\n  386: .modal-dialog .loading-overlay .throbber {\n  387    position: absolute;\n  388    top: 0;\n\n9 matches across 3 files\n\n\nSearching 32 files for \"animate\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10.animate.scss:\n    1  @charset \"UTF-8\";\n    2  /*!\n    3: Animate.css - http://daneden.me/animate\n    4  Licensed under the MIT license - http://opensource.org/licenses/MIT\n    5  \n    .\n    7  */\n    8  \n    9: .animated {\n   10    -webkit-animation-duration: $build-animation-duration-default;\n   11            animation-duration: $build-animation-duration-default;\n   ..\n   14  }\n   15  \n   16: .animated.infinite {\n   17    -webkit-animation-iteration-count: infinite;\n   18            animation-iteration-count: infinite;\n   19  }\n   20  \n   21: .animated.hinge {\n   22    -webkit-animation-duration: 2s;\n   23            animation-duration: 2s;\n   ..\n 1650  }\n 1651  \n 1652: .animated.flip {\n 1653    -webkit-backface-visibility: visible;\n 1654            backface-visibility: visible;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10.trip.scss:\n 1291      position: fixed; }\n 1292  \n 1293: .trip-block.animated.flash {\n 1294    -webkit-animation: flash 0.5s 0s ease both;\n 1295    -moz-animation: flash 0.5s 0s ease both;\n ....\n 1297    -o-animation: flash 0.5s 0s ease both;\n 1298    animation: flash 0.5s 0s ease both; }\n 1299: .trip-block.animated.bounce {\n 1300    -webkit-animation: bounce 0.5s 0s ease both;\n 1301    -moz-animation: bounce 0.5s 0s ease both;\n ....\n 1303    -o-animation: bounce 0.5s 0s ease both;\n 1304    animation: bounce 0.5s 0s ease both; }\n 1305: .trip-block.animated.shake {\n 1306    -webkit-animation: shake 0.5s 0s ease both;\n 1307    -moz-animation: shake 0.5s 0s ease both;\n ....\n 1309    -o-animation: shake 0.5s 0s ease both;\n 1310    animation: shake 0.5s 0s ease both; }\n 1311: .trip-block.animated.tada {\n 1312    -webkit-animation: tada 0.5s 0s ease both;\n 1313    -moz-animation: tada 0.5s 0s ease both;\n ....\n 1315    -o-animation: tada 0.5s 0s ease both;\n 1316    animation: tada 0.5s 0s ease both; }\n 1317: .trip-block.animated.fadeIn {\n 1318    -webkit-animation: fadeIn 0.5s 0s ease both;\n 1319    -moz-animation: fadeIn 0.5s 0s ease both;\n ....\n 1321    -o-animation: fadeIn 0.5s 0s ease both;\n 1322    animation: fadeIn 0.5s 0s ease both; }\n 1323: .trip-block.animated.fadeInUp {\n 1324    -webkit-animation: fadeInUp 0.5s 0s ease both;\n 1325    -moz-animation: fadeInUp 0.5s 0s ease both;\n ....\n 1327    -o-animation: fadeInUp 0.5s 0s ease both;\n 1328    animation: fadeInUp 0.5s 0s ease both; }\n 1329: .trip-block.animated.fadeInDown {\n 1330    -webkit-animation: fadeInDown 0.5s 0s ease both;\n 1331    -moz-animation: fadeInDown 0.5s 0s ease both;\n ....\n 1333    -o-animation: fadeInDown 0.5s 0s ease both;\n 1334    animation: fadeInDown 0.5s 0s ease both; }\n 1335: .trip-block.animated.fadeInLeft {\n 1336    -webkit-animation: fadeInLeft 0.5s 0s ease both;\n 1337    -moz-animation: fadeInLeft 0.5s 0s ease both;\n ....\n 1339    -o-animation: fadeInLeft 0.5s 0s ease both;\n 1340    animation: fadeInLeft 0.5s 0s ease both; }\n 1341: .trip-block.animated.fadeInRight {\n 1342    -webkit-animation: fadeInRight 0.5s 0s ease both;\n 1343    -moz-animation: fadeInRight 0.5s 0s ease both;\n ....\n 1345    -o-animation: fadeInRight 0.5s 0s ease both;\n 1346    animation: fadeInRight 0.5s 0s ease both; }\n 1347: .trip-block.animated.fadeInUpBig {\n 1348    -webkit-animation: fadeInUpBig 0.5s 0s ease both;\n 1349    -moz-animation: fadeInUpBig 0.5s 0s ease both;\n ....\n 1351    -o-animation: fadeInUpBig 0.5s 0s ease both;\n 1352    animation: fadeInUpBig 0.5s 0s ease both; }\n 1353: .trip-block.animated.fadeInDownBig {\n 1354    -webkit-animation: fadeInDownBig 0.5s 0s ease both;\n 1355    -moz-animation: fadeInDownBig 0.5s 0s ease both;\n ....\n 1357    -o-animation: fadeInDownBig 0.5s 0s ease both;\n 1358    animation: fadeInDownBig 0.5s 0s ease both; }\n 1359: .trip-block.animated.fadeInLeftBig {\n 1360    -webkit-animation: fadeInLeftBig 0.5s 0s ease both;\n 1361    -moz-animation: fadeInLeftBig 0.5s 0s ease both;\n ....\n 1363    -o-animation: fadeInLeftBig 0.5s 0s ease both;\n 1364    animation: fadeInLeftBig 0.5s 0s ease both; }\n 1365: .trip-block.animated.fadeInRightBig {\n 1366    -webkit-animation: fadeInRightBig 0.5s 0s ease both;\n 1367    -moz-animation: fadeInRightBig 0.5s 0s ease both;\n ....\n 1369    -o-animation: fadeInRightBig 0.5s 0s ease both;\n 1370    animation: fadeInRightBig 0.5s 0s ease both; }\n 1371: .trip-block.animated.bounceIn {\n 1372    -webkit-animation: bounceIn 0.5s 0s ease both;\n 1373    -moz-animation: bounceIn 0.5s 0s ease both;\n ....\n 1375    -o-animation: bounceIn 0.5s 0s ease both;\n 1376    animation: bounceIn 0.5s 0s ease both; }\n 1377: .trip-block.animated.bounceInDown {\n 1378    -webkit-animation: bounceInDown 0.5s 0s ease both;\n 1379    -moz-animation: bounceInDown 0.5s 0s ease both;\n ....\n 1381    -o-animation: bounceInDown 0.5s 0s ease both;\n 1382    animation: bounceInDown 0.5s 0s ease both; }\n 1383: .trip-block.animated.bounceInUp {\n 1384    -webkit-animation: bounceInUp 0.5s 0s ease both;\n 1385    -moz-animation: bounceInUp 0.5s 0s ease both;\n ....\n 1387    -o-animation: bounceInUp 0.5s 0s ease both;\n 1388    animation: bounceInUp 0.5s 0s ease both; }\n 1389: .trip-block.animated.bounceInLeft {\n 1390    -webkit-animation: bounceInLeft 0.5s 0s ease both;\n 1391    -moz-animation: bounceInLeft 0.5s 0s ease both;\n ....\n 1393    -o-animation: bounceInLeft 0.5s 0s ease both;\n 1394    animation: bounceInLeft 0.5s 0s ease both; }\n 1395: .trip-block.animated.bounceInRight {\n 1396    -webkit-animation: bounceInRight 0.5s 0s ease both;\n 1397    -moz-animation: bounceInRight 0.5s 0s ease both;\n ....\n 1399    -o-animation: bounceInRight 0.5s 0s ease both;\n 1400    animation: bounceInRight 0.5s 0s ease both; }\n 1401: .trip-block.animated.rotateIn {\n 1402    -webkit-animation: rotateIn 0.5s 0s ease both;\n 1403    -moz-animation: rotateIn 0.5s 0s ease both;\n ....\n 1405    -o-animation: rotateIn 0.5s 0s ease both;\n 1406    animation: rotateIn 0.5s 0s ease both; }\n 1407: .trip-block.animated.rotateInDownLeft {\n 1408    -webkit-animation: rotateInDownLeft 0.5s 0s ease both;\n 1409    -moz-animation: rotateInDownLeft 0.5s 0s ease both;\n ....\n 1411    -o-animation: rotateInDownLeft 0.5s 0s ease both;\n 1412    animation: rotateInDownLeft 0.5s 0s ease both; }\n 1413: .trip-block.animated.rotateInDownRight {\n 1414    -webkit-animation: rotateInDownRight 0.5s 0s ease both;\n 1415    -moz-animation: rotateInDownRight 0.5s 0s ease both;\n ....\n 1417    -o-animation: rotateInDownRight 0.5s 0s ease both;\n 1418    animation: rotateInDownRight 0.5s 0s ease both; }\n 1419: .trip-block.animated.rotateInUpLeft {\n 1420    -webkit-animation: rotateInUpLeft 0.5s 0s ease both;\n 1421    -moz-animation: rotateInUpLeft 0.5s 0s ease both;\n ....\n 1423    -o-animation: rotateInUpLeft 0.5s 0s ease both;\n 1424    animation: rotateInUpLeft 0.5s 0s ease both; }\n 1425: .trip-block.animated.rotateInUpRight {\n 1426    -webkit-animation: rotateInUpRight 0.5s 0s ease both;\n 1427    -moz-animation: rotateInUpRight 0.5s 0s ease both;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/generic.scss:\n   35  \n   36  // 10. Third Party CSS\n   37: @import \"_10.animate.scss\";\n   38  @import \"_10.trip.scss\";\n   39  @import \"_10.fancybox.scss\";\n\n29 matches across 3 files\n\n\nSearching 852 files for \"ShowLoadingOverlay\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js:\n  405  				\n  406  				if (myAuth === \"true\" || myAuth === true) {\n  407: 					ShowLoadingOverlay();\n  408  					ResetCheckout();\n  409  					TriggerCheckout();\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js:\n  315                  var myAuth = data;\n  316                  if (myAuth === \"true\" || myAuth === true) {\n  317:                     ShowLoadingOverlay();\n  318                      ResetCheckout();\n  319                      TriggerCheckout();\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step2.js:\n  405  				\n  406  				if (myAuth === \"true\" || myAuth === true) {\n  407: 					ShowLoadingOverlay();\n  408  					ResetCheckout();\n  409  					TriggerCheckout();\n\n/Users/quintinschnehage/Desktop/Backup/step2.js:\n  405  				\n  406  				if (myAuth === \"true\" || myAuth === true) {\n  407: 					ShowLoadingOverlay();\n  408  					ResetCheckout();\n  409  					TriggerCheckout();\n\n4 matches across 4 files\n\n\nSearching 847 files for \"PageLoadingOverlay\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js:\n  405  				\n  406  				if (myAuth === \"true\" || myAuth === true) {\n  407: 					PageLoadingOverlay.show();\n  408  					ResetCheckout();\n  409  					TriggerCheckout();\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/utilities/loadingOverlays.js:\n    1: PageLoadingOverlay = {\n    2  	\n    3  	create : function() {},\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js:\n  315                  var myAuth = data;\n  316                  if (myAuth === \"true\" || myAuth === true) {\n  317:                     PageLoadingOverlay.show();\n  318                      ResetCheckout();\n  319                      TriggerCheckout();\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step2.js:\n  405  				\n  406  				if (myAuth === \"true\" || myAuth === true) {\n  407: 					PageLoadingOverlay.show();\n  408  					ResetCheckout();\n  409  					TriggerCheckout();\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/utilities.js:\n   87  };\n   88  \n   89: PageLoadingOverlay = {\n   90      create: function() {},\n   91      show: function() {},\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/js/utilities.js:\n   87  };\n   88  \n   89: PageLoadingOverlay = {\n   90      create: function() {},\n   91      show: function() {},\n\n6 matches across 6 files\n\n\nSearching 847 files for \"trial.asp\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js:\n  130  \n  131  	if (SelectedPricingPlan === \"free\") {\n  132: 		FormPostLocation = \"trial.asp\";\n  133  \n  134  		ProductName = \"Build - 14 Day Trial\";\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js:\n  103      };\n  104      if (SelectedPricingPlan === \"free\") {\n  105:         FormPostLocation = \"trial.asp\";\n  106          ProductName = \"Build - 14 Day Trial\";\n  107          ProductQuantity = 1;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step2.js:\n  130  \n  131  	if (SelectedPricingPlan === \"free\") {\n  132: 		FormPostLocation = \"trial.asp\";\n  133  \n  134  		ProductName = \"Build - 14 Day Trial\";\n\n3 matches across 3 files\n\n\nSearching 847 files for \"trial.asp\" (case sensitive)\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js:\n  130  \n  131  	if (SelectedPricingPlan === \"free\") {\n  132: 		FormPostLocation = \"/trial.asp\";\n  133  \n  134  		ProductName = \"Build - 14 Day Trial\";\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js:\n  103      };\n  104      if (SelectedPricingPlan === \"free\") {\n  105:         FormPostLocation = \"trial.asp\";\n  106          ProductName = \"Build - 14 Day Trial\";\n  107          ProductQuantity = 1;\n\n/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step2.js:\n  130  \n  131  	if (SelectedPricingPlan === \"free\") {\n  132: 		FormPostLocation = \"trial.asp\";\n  133  \n  134  		ProductName = \"Build - 14 Day Trial\";\n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 13056,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js",
+			"settings":
+			{
+				"buffer_size": 13512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_7.common.scss",
+			"settings":
+			{
+				"buffer_size": 6642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<template-list>\n\n    <template>\n        <template-id>37173</template-id>\n        <template-name>Shevas</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37359</template-id>\n        <template-name>Gordon Brothers</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>White</tag>\n                <tag>Red</tag>\n                <tag>Brown</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37517</template-id>\n        <template-name>Fashion Brand</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Fashion</tag>\n                <tag>Hobbies</tag>\n                <tag>Hobbies</tag>\n                <tag>Travel</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Tan</tag>\n                <tag>Beige</tag>\n                <tag>White</tag>\n                <tag>Yellow</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37685</template-id>\n        <template-name>Global Industrial</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Industry</tag>\n                <tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37721</template-id>\n        <template-name>CircleX</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n                <tag>Legal</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Blue</tag>\n                <tag>White</tag>\n                <tag>Grey</tag>\n                <tag>Light</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37752</template-id>\n        <template-name>Puresoft</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n                <tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Pink</tag>\n                <tag>Clean</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37765</template-id>\n        <template-name>Wedding Planner</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Entertainment</tag>\n                <tag>Photography</tag>\n                <tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Brown</tag>\n                <tag>White</tag>\n                <tag>Pink</tag>\n                <tag>Turqouise</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37861</template-id>\n        <template-name>Rich Harvest</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Food</tag>\n                <tag>Nature / Farming</tag>\n                <tag>Industry</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Green</tag>\n                <tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37862</template-id>\n        <template-name>Glosey</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37902</template-id>\n        <template-name>Boleo</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Tan</tag>\n                <tag>Beige</tag>\n                <tag>Brown</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>37903</template-id>\n        <template-name>Wabrick</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n                <tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Black</tag>\n                <tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38011</template-id>\n        <template-name>Qurix</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Creative</tag>\n                <tag>Business</tag>\n                <tag>Web</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Green</tag>\n                <tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38095</template-id>\n        <template-name>Goodwin Solutions</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Black</tag>\n                <tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38257</template-id>\n        <template-name>Maneuver</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Blue</tag>\n                <tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38267</template-id>\n        <template-name>Archo</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Architecture</tag>\n                <tag>Photography</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38389</template-id>\n        <template-name>Smith&amp;Wilson</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Legal</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Brown</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38403</template-id>\n        <template-name>Promex</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38426</template-id>\n        <template-name>Prospect</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38446</template-id>\n        <template-name>Tenor</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Red</tag>\n                <tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38508</template-id>\n        <template-name>Weboo</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Creative</tag>\n                <tag>Web</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38509</template-id>\n        <template-name>Ostin</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Web</tag>\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Beige</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38614</template-id>\n        <template-name>Gourmet</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>Tan</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38615</template-id>\n        <template-name>Salut</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Purple</tag>\n                <tag>Tan</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38730</template-id>\n        <template-name>Leo</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Photography</tag>\n                <tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>38797</template-id>\n        <template-name>Gloria Hotel</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Real Estate / Accommodation</tag>\n                <tag>Photography</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39097</template-id>\n        <template-name>Primex</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39098</template-id>\n        <template-name>Industrial</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Industry</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39110</template-id>\n        <template-name>Car Repair</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Cars / Automotive</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Silver</tag>\n                <tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39120</template-id>\n        <template-name>BonFon</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n                <tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39158</template-id>\n        <template-name>Mitchell's</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Light</tag>\n                <tag>White</tag>\n                <tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39201</template-id>\n        <template-name>GWay</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n                <tag>Dark</tag>\n                <tag>Black</tag>\n                <tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39257</template-id>\n        <template-name>Computer Repair</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n                <tag>Technology</tag>\n                <tag>Web</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39291</template-id>\n        <template-name>U42</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Industry</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Grey</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39324</template-id>\n        <template-name>Mercy</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Charity</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Grey</tag>\n				<tag>Colorful</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39376</template-id>\n        <template-name>Quality</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39378</template-id>\n        <template-name>Intrum</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Blue</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39379</template-id>\n        <template-name>Elementary School</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Education</tag>\n				<tag>Parenting</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Colourful</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39455</template-id>\n        <template-name>Lissbon</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39458</template-id>\n        <template-name>Raffinato</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39459</template-id>\n        <template-name>Wise</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39554</template-id>\n        <template-name>Martin Johnes</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Charity</tag>\n				<tag>Complementary Medicine</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Tan</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39606</template-id>\n        <template-name>LawyersCo</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Legal</tag>\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39607</template-id>\n        <template-name>Interior Design</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39608</template-id>\n        <template-name>DecoLux</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39813</template-id>\n        <template-name>Direct</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Brown</tag>\n				<tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39814</template-id>\n        <template-name>4Point</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39815</template-id>\n        <template-name>Motivation</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39816</template-id>\n        <template-name>Genesio</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Web</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39817</template-id>\n        <template-name>GoodDog</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Pets</tag>\n				<tag>Medical</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39870</template-id>\n        <template-name>Startex</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39920</template-id>\n        <template-name>Leaf&amp;Stone</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Nature / Farming</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39925</template-id>\n        <template-name>Cars &amp; Motors</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Cars / Automotive</tag>\n				<tag>Technology</tag>\n				<tag>Industry</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39964</template-id>\n        <template-name>Cars</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Cars / Automotive</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39965</template-id>\n        <template-name>Modern Interior Design</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39966</template-id>\n        <template-name>Chiropractic</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Complementary Medicine</tag>\n				<tag>Medical</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Blue</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39974</template-id>\n        <template-name>Bistro</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Green</tag>\n				<tag>Yellow</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>39975</template-id>\n        <template-name>Generat</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40017</template-id>\n        <template-name>Pool Company</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Water / Pools</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40034</template-id>\n        <template-name>Alliance Agency</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Legal</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40086</template-id>\n        <template-name>Concord</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40187</template-id>\n        <template-name>Meridian</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Complementary Medicine</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40188</template-id>\n        <template-name>Lightbiz</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Blue</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40189</template-id>\n        <template-name>Stolet</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Orange</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40233</template-id>\n        <template-name>ComText</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Blue</tag>\n				<tag>Grey</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40234</template-id>\n        <template-name>Safesco</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Orange</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40235</template-id>\n        <template-name>Security</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Orange</tag>\n				<tag>Tan</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40236</template-id>\n        <template-name>Real Estate</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40263</template-id>\n        <template-name>Success</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40310</template-id>\n        <template-name>Milan</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40311</template-id>\n        <template-name>Grateful</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Brown</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40450</template-id>\n        <template-name>GRANDBand</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Music</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Red</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40451</template-id>\n        <template-name>Aquamarine</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Water / Pools</tag>\n				<tag>Pets</tag>\n				<tag>Hobbies</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Brown</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40452</template-id>\n        <template-name>OpenHeart</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Charity</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Tan</tag>\n				<tag>Red</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40454</template-id>\n        <template-name>Attitude</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40461</template-id>\n        <template-name>Archon</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40505</template-id>\n        <template-name>IT</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Grey</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40548</template-id>\n        <template-name>Fashion Style</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Fashion</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Pink</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40591</template-id>\n        <template-name>Perfecto</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Blue</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40601</template-id>\n        <template-name>Henry Lomer</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Fashion</tag>\n				<tag>Photography</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Yellow</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40647</template-id>\n        <template-name>Parenting</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Parenting</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Pink</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40652</template-id>\n        <template-name>Industrix</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Industry</tag>\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Green</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40653</template-id>\n        <template-name>Travel &amp; Pleasure</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Travel</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Gold</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40654</template-id>\n        <template-name>Evolution</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40659</template-id>\n        <template-name>GF</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n\n            </tag-group>\n            <tag-group name=\"colour\">\n\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>40952</template-id>\n        <template-name>Ideales</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Red</tag>\n				<tag>White</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41009</template-id>\n        <template-name>Lucky Henflory</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Grey</tag>\n				<tag>Green</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41179</template-id>\n        <template-name>SkyLab</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n\n            </tag-group>\n            <tag-group name=\"colour\">\n\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41184</template-id>\n        <template-name>Family</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41192</template-id>\n        <template-name>Arsani</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41210</template-id>\n        <template-name>Family</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Family</tag>\n				<tag>Parenting</tag>\n				<tag>Education</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Colourful</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41211</template-id>\n        <template-name>Desire</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Red</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41261</template-id>\n        <template-name>Epica</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Business</tag>\n				<tag>Science</tag>\n				<tag>Medical</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41403</template-id>\n        <template-name>'Software</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Technology</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41404</template-id>\n        <template-name>Restaurant</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Food</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41405</template-id>\n        <template-name>Jewelry Brand</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Fasion</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Silver</tag>\n				<tag>Gold</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41655</template-id>\n        <template-name>Harvest</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Nature / Farming</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Green</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41832</template-id>\n        <template-name>Oux</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Creative</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>Grey</tag>\n				<tag>Blue</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>41990</template-id>\n        <template-name>Nightclub</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Entertainment</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Orange</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n	    <template-id>42180</template-id>\n        <template-name>Quato</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Architecture</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Light</tag>\n				<tag>White</tag>\n				<tag>Black</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n    <template>\n        <template-id>42806</template-id>\n        <template-name>Fashion</template-name>\n        <template-tags>\n            <tag-group name=\"subject\">\n				<tag>Fashion</tag>\n            </tag-group>\n            <tag-group name=\"colour\">\n				<tag>Dark</tag>\n				<tag>Black</tag>\n				<tag>Purple</tag>\n            </tag-group>\n        </template-tags>\n    </template>\n\n</template-list>\n",
+			"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/xml/Templates.xml",
+			"file_size": 41215,
+			"file_write_time": 130689197550000000,
+			"settings":
+			{
+				"buffer_size": 41218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<snippet>\n	<content><![CDATA[\n	console.log($1);\n]]></content>\n	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->\n	<tabTrigger>console1</tabTrigger>\n	<!-- Optional: Set a scope to limit where the snippet will trigger -->\n	<!-- <scope>source.python</scope> -->\n</snippet>\n",
+			"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Console.sublime-snippet",
+			"file_size": 292,
+			"file_write_time": 130688152160000000,
+			"settings":
+			{
+				"buffer_size": 293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val1.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val2.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val3.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Function.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: setTimeout function"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"installe",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/.sass-cache",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js"
+	],
+	"file_history":
+	[
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/.sass-cache/633bac4e7c1eecdddf0ba1343c585620dd39cea6/_9.buildmodal.scssc",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_3.html",
+		"/Users/quintinschnehage/Desktop/9c.step2.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/xml/templatelist.xml",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/terms.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/.sass-cache/4916e2617e72294e99d67c49caa184778d2541df/_utilities.scssc",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/induction/js/utilities.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_11.utilityclasses.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-1.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/induction.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/index.html",
+		"/Users/quintinschnehage/Desktop/Backup/step4.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step1.js",
+		"/Users/quintinschnehage/Desktop/Backup/utilities.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-1/induction-1.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js",
+		"/Users/quintinschnehage/Desktop/Backup/step3.js",
+		"/Users/quintinschnehage/Desktop/Backup/step2.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/utilities.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/utilities/loadingOverlays.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/step2.js",
+		"/Users/quintinschnehage/Desktop/Backup/step1.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/js/utilities.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/modal/_utilities.js",
+		"/Users/quintinschnehage/Desktop/allsteps.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/css/generic.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/.bin/nopt",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/gruntfile.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/utilities/functions.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/utilities/pageBehaviours.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_2.asp",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_5.basicstyles.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/basicstyles.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/build-a-better-website.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/build-modal.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_1.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/minimatch/minimatch.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/modal/modal.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/landing.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_3.mixins.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_7.common.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_4.asp",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_4.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10b.bootstrap-theme.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_8.components.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/video-competition.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/support.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/startup-competition.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/blogger-competition.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/step_3-cert.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/components.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/config.rb",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/.sass-cache/0792476a5e0d14a39905ce7910a9671844ba62a2/_text-shadow.scssc",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/fancybox/helpers/jquery.fancybox-buttons.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_9.buildmodal.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/.tern-port",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-compass/node_modules/async/component.json",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/css/induction.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_induction.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10.animate.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_9.content.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/why-saas-is-the-way-of-the-future.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/why-saas-web-builders-are-the-way-of-the-future.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/css/bootstrap-theme.css.map",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10a.bootstrap.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/css/bootstrap.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/why-saas-web-builders-are-the-way-of-the-future.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/tests/fancybox.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/privacy.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/xml/Template Tags.txt",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/content/saas.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/content/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/contact/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/case-studies/villas/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/refunds.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_old/step_2.asp",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_old/step_1.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/case-studies/villas/index_old.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/case-studies/villas/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/biz4afrika.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/index_new.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/createaccount/index.asp",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/whybuild/landingpage.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/whybuild/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/whybuild/17reasons.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/support/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/getstarted/template.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/index.html",
+		"/Users/quintinschnehage/Desktop/untitled.scss",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/.sass-cache/4916e2617e72294e99d67c49caa184778d2541df/_utilities.scssc",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/node_modules/pako/test/deflate_cover.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/css/demo.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/getobject/lib/getobject.js",
+		"/Users/quintinschnehage/Desktop/step1.css",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/induction",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/underscore.string/dist/underscore.string.min.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/includes/muchcontent.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/page-content.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/node_modules/pako/test/fixtures/samples_deflated_raw/sheet2.compressed",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/exit/test/fixtures/create-files.sh",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/compeitition-rules.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_content/wwdCreateNewShopper.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/robots.txt",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/getstarted/index.html",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-compass/node_modules/tmp/test-all.sh",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/appveyor.yml",
+		"/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val2.sublime-snippet",
+		"/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val1.sublime-snippet",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/exit/LICENSE-MIT",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/fancybox/helpers/jquery.fancybox-media.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/xup.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_passthrough.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/styleguide/themetemplate_files/ie10-viewport-bug-workaround.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/build/test-prefix.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/whybuild/list.txt",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/bash-comparison.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/matchdep/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/test/ignored/test-zlib-dictionary-fail.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/test/ignored/test-zlib-dictionary.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/collections.js",
+		"/Users/quintinschnehage/Sites/_GIT/getbuild.today/_project/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/functions.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 246.0,
+		"where_history":
+		[
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html, *.asp",
+			"*.html",
+			"*.scss",
+			"*.sass",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.js",
+			"*.html",
+			"*.scss",
+			"*.js",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.html",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.html",
+			"*.asp",
+			"/Users/quintinschnehage/Sites/build",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.html",
+			"*.js",
+			"*.scss",
+			"<open files>",
+			"",
+			"*.scss",
+			"",
+			"*.scss",
+			"",
+			"cert6.txt",
+			"cert2.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Hentry",
+			"FormPostLocation",
+			"location",
+			"trial.asp",
+			"PageLoadingOverlay",
+			"Page",
+			"ShowLoadingOverlay()",
+			"ShowLoadingOverlay",
+			"animate",
+			"loading-overlay",
+			"LoadingOverlay",
+			"ShowLoadingOverlay",
+			".error",
+			"TemplateSelect",
+			"TemplateDemoClick",
+			"TemplateDemo",
+			"='TemplateDemo'",
+			"onTemplateDemo",
+			"onTemplateSelect",
+			"templateSelect",
+			"templateDemo",
+			"templateSelect",
+			"currentTemplate",
+			"onTemplateSelect",
+			"showTemplateDemoFrame",
+			"TemplateSelect",
+			"showTemplateDemoFrame",
+			"templateID",
+			"iframe-container",
+			"printTemplate",
+			"showLoadingModal",
+			"2co",
+			"2checkout",
+			"inline",
+			"hidden-xs",
+			"induction-progress-separator",
+			"btn-sm",
+			"Create Account",
+			"Select Template",
+			"aria-label=\"Select Template\"",
+			"input",
+			"select",
+			"addon",
+			"sr-only",
+			"form-group",
+			"closest(\".validate\")",
+			"form-control",
+			"Validate",
+			"generateErrorList",
+			"GenerateError",
+			"GenerateErrorList",
+			"induction-1",
+			"BuildHeaderBranding",
+			"blue",
+			"$build-color;",
+			"$build-color666",
+			";\n	",
+			"#666",
+			"#499bd3",
+			"#b4d455",
+			"class=\"section\"",
+			"section",
+			"@media",
+			".PricingPlans",
+			"/* line ",
+			"PricingPlanButton",
+			"PricingPlans",
+			"induction-1",
+			"Pricin",
+			"PricingPlans",
+			".PricingPlans",
+			"/* line ",
+			"load-fadein",
+			"PricingPlans",
+			"getstarted",
+			"a href=\"step_1.html\"",
+			"step_1.html",
+			"step1.html",
+			"<a href=\"/step_1.html\"",
+			"<a href=\"/step_1.html\" class=\"btn btn-lg btn-success\">",
+			"step_1.html",
+			"<a class=\"btn btn-success\" href=\"/step_1.html\">",
+			"<a href=\"/step_1.html\" class=\"btn btn-success\">",
+			"src=\"js/",
+			"=\"\"",
+			"href=\"css/",
+			"templateChoose",
+			"location",
+			"opacity",
+			".append",
+			"TemplatePreview",
+			"mouseleave",
+			"hollow",
+			"this",
+			"printTemplate",
+			"template",
+			"printTemplate",
+			"myArgument",
+			"scope",
+			"template",
+			"printTemplate",
+			"e1",
+			"i1",
+			"templatesXML",
+			"templatexXML",
+			"myTemplateID",
+			"totalTemplates",
+			"onTemplateMouseEnter",
+			"getTemplatesXML",
+			"};",
+			"var on",
+			"templatesLoaded",
+			"Step1.templates",
+			"templateIDArray",
+			"getTemplatesXML",
+			"loops",
+			"myTemplateIDArray",
+			"xmlLoaded",
+			"parseXML",
+			"ajax",
+			"Ajax",
+			"templateIDArray",
+			">\n",
+			"<tag-group name=\"look\">",
+			"<template-tags>",
+			"<template-name>",
+			"<template-id>",
+			"<div class=\"template-over\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"PageLoadingOverlay.show()",
+			"",
+			"a href=\"/getstarted/\"",
+			"<a href=\"/getstarted/\"",
+			"<a href=\"/getstarted/\" class=\"btn btn-lg btn-success\">",
+			"<a href=\"/getstarted/\" class=\"btn btn-success\">",
+			"/support",
+			"",
+			"<!-- Global - Include on All Pages -->\n	<script type=\"text/javascript\" src=\"/js/bootstrap.min.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/velocity.min.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/trip.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/fancybox/jquery.fancybox.pack.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/noty/packaged/jquery.noty.packaged.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/utilities.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/header.js\"></script>\n	<script type=\"text/javascript\" src=\"/js/build-modal.js\"></script>\n	<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32\"></script>\n 	<script type=\"text/javascript\"> (function(e,t,n,r,i,s,o){e[\"GoogleAnalyticsObject\"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,\"script\",\"//www.google-analytics.com/analytics.js\",\"ga\");ga(\"create\",\"UA-49577301-1\",\"auto\");ga(\"send\",\"pageview\") </script>",
+			"<!-- Global - Include on All Pages -->\n	<script src=\"/js/bootstrap.min.js\"></script>\n	<script src=\"/js/velocity.min.js\"></script>\n	<script src=\"/js/trip.js\"></script>\n	<script src=\"/js/fancybox/jquery.fancybox.pack.js\"></script>\n	<script src=\"/js/noty/packaged/jquery.noty.packaged.js\"></script>\n	<script src=\"/js/utilities.js\"></script>\n	<script src=\"/js/header.js\"></script>\n	<script src=\"/js/build-modal.js\"></script>\n	<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32\"></script>",
+			"<meta name=\"description\" content=\"With Build, you can get a world class, fully functional professional business website up in no time. Web pages, photo galleries, e-commerce, domains, hosting, analytics, 24/7/365 support and over $1000 in business vouchers - all included.\">",
+			"<!-- Global - Include on All Pages -->\n	<script src=\"/js/bootstrap.min.js\"></script>\n	<script src=\"/js/velocity.min.js\"></script>\n	<script src=\"/js/trip.js\"></script>\n	<script src=\"/js/fancybox/jquery.fancybox.pack.js\"></script>\n	<script src=\"/js/noty/packaged/jquery.noty.packaged.js\"></script>\n	<script src=\"/js/utilities.js\"></script>\n	<script src=\"/js/header.js\"></script>\n	<script src=\"/js/build-modal.js\"></script>\n	<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32\"></script>",
+			"<script src=\"/js/noty/packaged/jquery.noty.packaged.js\"></script>",
+			"<!-- Global - Include on All Pages -->\n	<script src=\"/js/utilities.js\"></script>\n	<script src=\"/js/header.js\"></script>\n	<script src=\"/js/build-modal.js\"></script>\n	<script src=\"/js/bootstrap.min.js\"></script>\n	<script src=\"/js/velocity.min.js\"></script>\n	<script src=\"/js/trip.js\"></script>\n	<script src=\"/js/fancybox/jquery.fancybox.pack.js\"></script>\n	<script src=\"/js/noty/jquery.noty.js\"></script>",
+			"<a href=\"/step_1.html\" class=\"btn btn-success\">\n								<span class=\"build-button-label\">Build a Website Now!</span>\n							</a>	",
+			"href=\"/step_1.html\"",
+			"<div class=\"LegalFooterLinks col-sm-6 col-sm-push-6\" id=\"LegalFooterLinks\">\n						<a href=\"/refunds.html\" id=\"FooterLinkRefund\">Refund Policy</a>\n						<a href=\"/terms.html\" id=\"FooterLinkTerms\">Terms of Use</a>\n						<a href=\"/privacy.html\" id=\"FooterLinkPrivacy\">Privacy Policy</a>\n					</div>",
+			"<div class=\"BuildHeaderMenuLinks\">\n							<a href=\"/whybuild\">Why use Build?</a>\n							<!-- <a href=\"javascript:;\">Competitions</a> -->\n							<a href=\"http://build.myomnistar.com/users/main.php\" target=\"_blank\">Affiliates</a>\n							<a href=\"/support\">Support</a>\n							<a href=\"/contact\">Contact Us</a>\n						</div>",
+			"<li><a href=\"/\">Home</a></li>",
+			"<a class=\"LogoLink\" href=\"/\">\n			    		<img class=\"Logo\" src=\"../images/logo.png\" alt=\"\">\n			    	</a>",
+			"<a class=\"LogoLink\" href=\"/index.html\">\n			    		<img class=\"Logo\" src=\"../images/logo.png\" alt=\"\">\n			    	</a>",
+			"<a class=\"LogoLink\" href=\"/\">\n			    		<img class=\"Logo\" src=\"../images/logo.png\" alt=\"\">\n			    	</a>",
+			"<a class=\"LogoLink\" href=\"/index.html\">\n			    		<img class=\"Logo\" src=\"../images/logo.png\" alt=\"\">\n			    	</a>",
+			"<div class=\"FooterMenu\">\n			<div class=\"container\">\n				<div class=\"row\">\n					<div class=\"col-sm-6\">\n						<h5>Get your business online and trading, fast.</h5>\n						<p>With Build, you can get a world class, fully functional professional business website up in record time and with almost no effort.</p>\n						<p>We’ve designed Build to be easy to use for anybody, whether you’re as seasoned software CEO or just need to get a quick website up for your new business.</p>\n					</div>\n					<div class=\"col-sm-6\">\n						<h5>Quick Links</h5>\n						<nav class=\"FooterNavigation\">\n							<ul>\n								<li><a href=\"javascript:;\">Home</a></li>\n								<li><a href=\"/whybuild\">Why use Build?</a></li>\n								<li><a href=\"http://build.myomnistar.com/users/main.php\">Affiliates</a></li>\n								<li><a href=\"/support\">Support</a></li>\n								<li><a href=\"/contact\">Contact Us</a></li>\n							</ul>\n						</nav>\n					</div>\n				</div>\n			</div>\n		</div>",
+			"-width: 767px)",
+			"true",
+			"class",
+			"	\n",
+			"$build",
+			"$build-color-green",
+			"{},\n",
+			"GetCountryList",
+			"ddShippingRate_Name",
+			"{\n",
+			".",
+			"});\n",
+			"};\n",
+			"data-panel=\"RuleActions\"",
+			"data-panel=\"RuleList\"",
+			"PrintWeightRange",
+			"PrintFieldSet",
+			"PrintBaseFields",
+			"CancelEditShippingAddress",
+			"'",
+			">\n	<",
+			"\n",
+			"'",
+			"",
+			"	"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/getstarted/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5592,
+								5592
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/index_vouchers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2527.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7679,
+								7679
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/createaccount/index.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17723,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8645,
+								8593
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4541.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-1/induction-1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3315,
+								3315
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2015.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/induction-2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2700,
+								2700
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1521.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/js/utilities.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								747
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/induction.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1443,
+								1443
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1487.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/generic.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_3.mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1060,
+								1060
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_10b.bootstrap-theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3242,
+								3242
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13056,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										160,
+										175
+									],
+									[
+										383,
+										398
+									],
+									[
+										533,
+										548
+									],
+									[
+										694,
+										709
+									],
+									[
+										841,
+										856
+									],
+									[
+										1078,
+										1093
+									],
+									[
+										1228,
+										1243
+									],
+									[
+										1389,
+										1404
+									],
+									[
+										1536,
+										1551
+									],
+									[
+										1842,
+										1849
+									],
+									[
+										1965,
+										1972
+									],
+									[
+										2151,
+										2158
+									],
+									[
+										2304,
+										2311
+									],
+									[
+										2434,
+										2441
+									],
+									[
+										2677,
+										2684
+									],
+									[
+										2917,
+										2924
+									],
+									[
+										3162,
+										3169
+									],
+									[
+										3402,
+										3409
+									],
+									[
+										3637,
+										3644
+									],
+									[
+										3882,
+										3889
+									],
+									[
+										4137,
+										4144
+									],
+									[
+										4402,
+										4409
+									],
+									[
+										4667,
+										4674
+									],
+									[
+										4937,
+										4944
+									],
+									[
+										5207,
+										5214
+									],
+									[
+										5487,
+										5494
+									],
+									[
+										5767,
+										5774
+									],
+									[
+										6052,
+										6059
+									],
+									[
+										6307,
+										6314
+									],
+									[
+										6582,
+										6589
+									],
+									[
+										6847,
+										6854
+									],
+									[
+										7122,
+										7129
+									],
+									[
+										7402,
+										7409
+									],
+									[
+										7657,
+										7664
+									],
+									[
+										7952,
+										7959
+									],
+									[
+										8252,
+										8259
+									],
+									[
+										8537,
+										8544
+									],
+									[
+										8820,
+										8827
+									],
+									[
+										9160,
+										9178
+									],
+									[
+										9448,
+										9466
+									],
+									[
+										9703,
+										9721
+									],
+									[
+										9914,
+										9932
+									],
+									[
+										10252,
+										10270
+									],
+									[
+										10435,
+										10453
+									],
+									[
+										10705,
+										10723
+									],
+									[
+										10965,
+										10983
+									],
+									[
+										11145,
+										11163
+									],
+									[
+										11338,
+										11356
+									],
+									[
+										11678,
+										11687
+									],
+									[
+										11913,
+										11922
+									],
+									[
+										12161,
+										12170
+									],
+									[
+										12480,
+										12489
+									],
+									[
+										12715,
+										12724
+									],
+									[
+										12963,
+										12972
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								12487,
+								12487
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 6,
+							"remote_loading": false,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"synced": false,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/js/induction-2/induction-2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2771,
+								2771
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2121.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/_dev/sass/_7.common.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1473,
+								1480
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2062,
+								2062
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 953.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/quintinschnehage/Sites/_GIT/getbuild.today/xml/Templates.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35742,
+								35742
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22651.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Console.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val1.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val2.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								410
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Val3.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/quintinschnehage/Library/Application Support/Sublime Text 3/Packages/User/Quintin/Javascript/Function.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "getbuild.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"templates.xml",
+				"xml/Templates.xml"
+			],
+			[
+				"utilitis.js",
+				"js/utilities.js"
+			],
+			[
+				"induction-1.js",
+				"_dev/js/induction-1/induction-1.js"
+			],
+			[
+				"utilities.js",
+				"js/utilities.js"
+			],
+			[
+				"gneric.scss",
+				"_dev/sass/generic.scss"
+			],
+			[
+				"step2.js",
+				"js/step2.js"
+			],
+			[
+				"theme",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"step",
+				"step_2.asp"
+			],
+			[
+				"mixin",
+				"_dev/sass/_3.mixins.scss"
+			],
+			[
+				"induction",
+				"_dev/sass/induction.scss"
+			],
+			[
+				"mixins",
+				"_dev/sass/_3.mixins.scss"
+			],
+			[
+				"common.scss",
+				"_dev/sass/_7.common.scss"
+			],
+			[
+				"induction.",
+				"_dev/sass/induction.scss"
+			],
+			[
+				"indexasp",
+				"createaccount/index.asp"
+			],
+			[
+				"common",
+				"_dev/sass/_7.common.scss"
+			],
+			[
+				"bootstra-theme",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"components",
+				"_dev/sass/_8.components.scss"
+			],
+			[
+				"devutilities",
+				"_dev/js/utilities/functions.js"
+			],
+			[
+				"utilities",
+				"induction/js/utilities.js"
+			],
+			[
+				"getstarted",
+				"getstarted/index.html"
+			],
+			[
+				"index.asp",
+				"createaccount/index.asp"
+			],
+			[
+				"induction.css",
+				"css/induction.css"
+			],
+			[
+				"step_2",
+				"step_2.asp"
+			],
+			[
+				"pagebehav",
+				"_dev/js/utilities/pageBehaviours.js"
+			],
+			[
+				"createaccount",
+				"createaccount/index.asp"
+			],
+			[
+				"animate.scss",
+				"_dev/sass/_10.animate.scss"
+			],
+			[
+				"templatelist",
+				"xml/templatelist.xml"
+			],
+			[
+				"step1.",
+				"step_1.html"
+			],
+			[
+				"step1.js",
+				"js/step1.js"
+			],
+			[
+				"landing",
+				"_dev/sass/landing.scss"
+			],
+			[
+				"landingpage",
+				"whybuild/landingpage.html"
+			],
+			[
+				"step1",
+				"_old/step_1.html"
+			],
+			[
+				"robots.",
+				"robots.txt"
+			],
+			[
+				"17reao",
+				"whybuild/17reasons.html"
+			],
+			[
+				"villaindex",
+				"case-studies/villas/index.html"
+			],
+			[
+				"pagebeh",
+				"_dev/js/utilities/pageBehaviours.js"
+			],
+			[
+				"whybuildindex",
+				"whybuild/index.html"
+			],
+			[
+				"whysass",
+				"why-saas-web-builders-are-the-way-of-the-future.html"
+			],
+			[
+				"villas/index.html",
+				"case-studies/villas/index.html"
+			],
+			[
+				"case-studies",
+				"_content/case-studies/villas/index.html"
+			],
+			[
+				"why-",
+				"why-saas-web-builders-are-the-way-of-the-future.html"
+			],
+			[
+				"_9.content",
+				"_dev/sass/_9.content.scss"
+			],
+			[
+				"content.scss",
+				"_dev/sass/_9.content.scss"
+			],
+			[
+				"generic.scss",
+				"_dev/sass/generic.scss"
+			],
+			[
+				".txt",
+				"whybuild/list.txt"
+			],
+			[
+				"orde.rasp",
+				"order.asp"
+			],
+			[
+				"robot",
+				"robots.txt"
+			],
+			[
+				"index.h",
+				"index.html"
+			],
+			[
+				"index_old",
+				"_content/case-studies/villas/index_old.html"
+			],
+			[
+				"villas",
+				"_content/case-studies/villas/index.html"
+			],
+			[
+				"whybuild",
+				"why-saas-web-builders-are-the-way-of-the-future.html"
+			],
+			[
+				"index.html",
+				"index.html"
+			],
+			[
+				"home",
+				"_dev/sass/_9.home.scss"
+			],
+			[
+				"pagebeha",
+				"_dev/js/utilities/pageBehaviours.js"
+			],
+			[
+				"web-builders",
+				"why-saas-web-builders-are-the-way-of-the-future.html"
+			],
+			[
+				"saas",
+				"content/saas.html"
+			],
+			[
+				"vairbl",
+				"_dev/sass/_2.variables.scss"
+			],
+			[
+				"config.",
+				"_project/config.rb"
+			],
+			[
+				"basicstyles",
+				"_dev/sass/_5.basicstyles.scss"
+			],
+			[
+				"terms",
+				"terms.html"
+			],
+			[
+				"contact",
+				"_dev/js/contact/contact.js"
+			],
+			[
+				"home.js",
+				"js/home.js"
+			],
+			[
+				"generic.css",
+				"css/generic.css"
+			],
+			[
+				"fancybox.ht",
+				"tests/fancybox.html"
+			],
+			[
+				"gruntfile",
+				"_project/gruntfile.js"
+			],
+			[
+				"styleguideindex",
+				"styleguide/index.html"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"glyphicons",
+				"glyphicons_index.html"
+			],
+			[
+				"font",
+				"_dev/sass/_4.fonts.scss"
+			],
+			[
+				"layout",
+				"_dev/sass/_6.layout.scss"
+			],
+			[
+				"contactindex",
+				"contact/index.html"
+			],
+			[
+				"supportindex",
+				"support/index.html"
+			],
+			[
+				"contactinde",
+				"contact/index.html"
+			],
+			[
+				"video.html",
+				"includes/video.html"
+			],
+			[
+				"demo.js",
+				"getbuild.today/js/demo.js"
+			],
+			[
+				"components.html",
+				"styleguide/components.html"
+			],
+			[
+				"build-modal.",
+				"js/build-modal.js"
+			],
+			[
+				"_utilities",
+				"_dev/js/modal/_utilities.js"
+			],
+			[
+				"fancyboxjs",
+				"js/jquery.fancybox.pack.js"
+			],
+			[
+				"fancybox",
+				"css/jquery.fancybox.css"
+			],
+			[
+				"supportinde",
+				"support/index.html"
+			],
+			[
+				"form",
+				"demo/includes/form.html"
+			],
+			[
+				"getbuildindex",
+				"getbuild.today/index.html"
+			],
+			[
+				"generic",
+				"css/generic.css"
+			],
+			[
+				"_home",
+				"_dev/sass/_9.home.scss"
+			],
+			[
+				"bootstrap",
+				"_dev/sass/_10a.bootstrap.scss"
+			],
+			[
+				"utilitclasses",
+				"_dev/sass/_11.utilityclasses.scss"
+			],
+			[
+				"bootstrap.css",
+				"css/bootstrap.css"
+			],
+			[
+				"bootstrap-theme",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"variables",
+				"_dev/sass/_2.variables.scss"
+			],
+			[
+				"components.",
+				"_dev/sass/_8.components.scss"
+			],
+			[
+				"components.scss",
+				"_dev/sass/_8.components.scss"
+			],
+			[
+				"demo.html",
+				"demo/components.html"
+			],
+			[
+				"demo.css",
+				"demo/css/demo.css"
+			],
+			[
+				"utilitcals",
+				"_dev/sass/_11.utilityclasses.scss"
+			],
+			[
+				"utilitclass",
+				"_dev/sass/_11.utilityclasses.scss"
+			],
+			[
+				"includeform",
+				"demo/includes/form.html"
+			],
+			[
+				"build-modal.js",
+				"demo/js/build-modal.js"
+			],
+			[
+				"build-modal",
+				"js/build-modal.js"
+			],
+			[
+				"theme.scss",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"pretti",
+				"demo/css/prettify.css"
+			],
+			[
+				"4fonts",
+				"_dev/sass/_4.fonts.scss"
+			],
+			[
+				"4",
+				".sass-cache/d07b1cfb2489f3c0addf6cf669031efab2099104/_4.fonts.scssc"
+			],
+			[
+				"buildmodal",
+				"_dev/sass/_9.buildmodal.scss"
+			],
+			[
+				"modal",
+				"_dev/js/modal/modal.js"
+			],
+			[
+				"modal.js",
+				"_dev/js/modal/modal.js"
+			],
+			[
+				"form.html",
+				"demo/includes/form.html"
+			],
+			[
+				"bootstraptheme",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"utilit",
+				"_dev/sass/_11.utilityclasses.scss"
+			],
+			[
+				"buildmodal.scss",
+				"_dev/sass/_9.buildmodal.scss"
+			],
+			[
+				"order.asp",
+				"order.asp"
+			],
+			[
+				"modal.scss",
+				"_dev/sass/_9.buildmodal.scss"
+			],
+			[
+				"boostrap-theme",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"boostrap-them",
+				"_dev/sass/_10b.bootstrap-theme.scss"
+			],
+			[
+				"variabl",
+				"_dev/sass/_2.variables.scss"
+			],
+			[
+				"7",
+				"_dev/sass/_7.common.scss"
+			],
+			[
+				"animate",
+				"_dev/sass/_10.animate.scss"
+			],
+			[
+				"9order.scss",
+				"_dev/sass/_9.order.scss"
+			],
+			[
+				"order.scss",
+				"_dev/sass/order.scss"
+			],
+			[
+				"css.map",
+				"css/bootstrap-theme.css.map"
+			],
+			[
+				"5basics",
+				"_dev/sass/_5.basicstyles.scss"
+			],
+			[
+				"fonts",
+				"_dev/sass/_4.fonts.scss"
+			],
+			[
+				"utilityclasses",
+				"_dev/sass/_11.utilityclasses.scss"
+			],
+			[
+				"package.json",
+				"_project/package.json"
+			],
+			[
+				"npm",
+				"_project/npm-debug.log"
+			],
+			[
+				"config",
+				"_project/config.rb"
+			],
+			[
+				"grunt",
+				"_project/gruntfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"build",
+				"~/Sites/build/build.sublime-project"
+			],
+			[
+				"",
+				"~/Sites/build/build.sublime-project"
+			],
+			[
+				"getbuild",
+				"~/Desktop/Build/Projects/GetBuild.Today/Code/GetBuild.sublime-workspace"
+			],
+			[
+				"getb",
+				"~/Desktop/Build/Projects/GetBuild.Today/Code/GetBuild.sublime-workspace"
+			],
+			[
+				"getbuild.to",
+				"~/Desktop/Build/Projects/GetBuild.Today/Code/GetBuild.sublime-project"
+			],
+			[
+				" build",
+				"~/Sites/build/build.sublime-project"
+			],
+			[
+				"biu",
+				"~/Sites/build/build.sublime-project"
+			],
+			[
+				"Build",
+				"~/Sites/build/build.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 710.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

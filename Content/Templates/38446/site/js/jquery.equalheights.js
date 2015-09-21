@@ -1,0 +1,1 @@
+﻿(function(n){n.fn.equalHeights=function(t,i){return tallest=t?t:0,this.each(function(){n(this).height()>tallest&&(tallest=n(this).height())}),i&&tallest>i&&(tallest=i),this.each(function(){n(this).height(tallest)})}})(jQuery);

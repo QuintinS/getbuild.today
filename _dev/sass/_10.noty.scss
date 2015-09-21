@@ -1,0 +1,16 @@
+ul#noty_top_layout_container,
+ul#noty_topLeft_layout_container,
+ul#noty_topCenter_layout_container,
+ul#noty_topRight_layout_container,
+ul#noty_left_layout_container,
+ul#noty_center_layout_container,
+ul#noty_right_layout_container,
+ul#noty_bottom_layout_container,
+ul#noty_bottomLeft_layout_container,
+ul#noty_bottomCenter_layout_container,
+ul#noty_bottomRight_layout_container {
+	li {
+		list-style: none;
+		height: auto !important;
+	}
+}

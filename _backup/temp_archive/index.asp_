@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Build 2 Trade</title>
+		
+		<link href="css/screen.css" rel="stylesheet" media="screen, projection">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body id="home">
+		<div id="header">
+			<div class="container top">
+				<div class="logo col-md-3">
+					<h1>Build 2 Trade</h1>
+				</div>
+				<div class="navigation col-md-5 col-md-offset-4">	
+				<!-- #include file = "topnav.asp" --> 	
+				</div>
+			</div>
+			<div class="container bottom">
+				<h2>Build, then trade</h2>
+				<p>Get your business online and trading fast.<br />
+				With Build you can get a beautiful, fully functional<br />
+				business website up in record time and with almost no effort.</p>
+				<a href="step_1.html" type="button" class="btn btn-default btn-lg build-site">Build a Site Now</a>
+			</div>
+		</div>
+		<div id="introduction">
+			<div class="alt-arrow-up"></div>
+			<div class="container">
+				<div class="col-md-12">
+					<div class="video-container"><iframe src="http://youtube.com/embed/m4cgLL8JaVI?rel=0" frameborder="0" allowfullscreen></iframe></div>
+					<div class="pricing-container">
+						<div class="width-100-percent">
+							<div class="left">
+								<p>Beautiful template of your choice<em>You can change it whenever you want</em></p>
+								<p>Professional, 24/7/365 support<em>We won't leave you in the dark</em></p>
+							</div>
+							<div><img src="images/price-badge.png" class="img-responsive" alt="$12.50" /></div>
+							<div class="right">
+								<p>Powerful and stable cloud hosting<em>Over 66 PoP''s around the world</em></p>
+								<p>Edit your own site content<em>Easy and powerful management tools</em></p>
+							</div>
+						</div>
+						<div class="width-100-percent text-align-center">
+							<a href="step_1.html" type="button" class="btn btn-default btn-lg build-site">Build a Site Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="blurb" class="alt">
+				<div class="arrow-up"></div>
+				<div class="container">
+					<p>"Outstandingly simple, and so powerful. Well worth the money."<small>- John Smith</small></p>
+				</div>
+				<div class="arrow-down"></div>
+			</div>
+			<div id="templates" class="block">
+				<div class="container">
+					<div class="left col-md-5">
+						<h3>Over 100 Beautiful HTML 5 templates</h3>
+						<p>This copy must be replaced with some information about the templates on offer.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="images/home_templates.png" class="img-responsive" alt="Templates" />
+					</div>
+				</div>
+				<div class="alt-arrow-down"></div>
+			</div>
+			<div id="cloud" class="alt block">
+				<div class="container">
+					<div class="col-md-6">
+						<img src="images/home_cloud.png" class="img-responsive" alt="Templates" />
+					</div>
+					<div class="right col-md-6">
+						<h3>Free Fast Powerful Cloud Hosting</h3>
+						<p>Your website and content are served from the latest in cloud networks with over 66 PoPs (locations with servers) worldwide for serving content faster.</p>
+					</div>
+				</div>	
+				<div class="arrow-down"></div>
+			</div>
+			<div class="block">
+				<div class="container">
+					<div class="left col-md-6">
+						<h3>Powerful Management Tools & Software</h3>
+						<p>We also offer an amazing set of powerful management tools, features and software for premium users available to the Web PC, Mac, Linux, Android, iOS, and a number of supported TV Screens.</p>
+					</div>
+					<div class="col-md-6">
+						<img src="images/home_tools.png" class="img-responsive" alt="Templates" />
+					</div>
+				</div>
+				<div class="alt-arrow-down"></div>
+			</div>
+			<div class="alt block">
+				<div class="container">
+					<div class=" col-md-5">
+						<img src="images/home_support.png" class="img-responsive" alt="Templates" />
+					</div>
+					<div class="right col-md-7">
+						<h3>Excellent 24/7/365 Support</h3>
+						<p>We are a service company and as such we believe that supporting your success, our world class support system is the same system used by the likes of Nasa, Acer, FedEx and General Electric.</p>
+					</div>
+				</div>
+				<div class="footer-arrow-down"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<div class="col-md-3">
+					<h2>Quick Links</h2>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Make Money</a></li>
+						<li><a href="#">Downloads</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h2>Community</h2>
+					<ul>
+						<li><a href="#">About Build</a></li>
+						<li><a href="#">Affiliate Program</a></li>
+						<li><a href="#">Developer Program</a></li>
+						<li><a href="#">Designer Program</a></li>
+						<li><a href="#">Documentation</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h2>Legal</h2>
+					<ul>
+						<li><a href="#_" onclick="$('#tcModal').modal('show')">Terms of Use</a></li>
+						<li><a href="#_" onclick="$('#privacyModal').modal('show')">Privacy Policy</a></li>
+						<li><a href="#_" onclick="$('#refundModal').modal('show')">Refund Policy</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<a href="step_1.html" type="button" class="btn btn-default btn-lg build-site">Build a Site Now</a>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+
+<div class="modal fade" id="tcModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+		<h2>Terms of Service</h2>
+		<ul>
+		  <li>All terms are subject to change with out notice.</li>
+		  <li>Build2Trade reserves the right to errors and omissions.</li>
+		  <li>By using and/or viewing Build2Trade technology, resources, materials, domains, brands,software and or website(s) you agree to the terms set within and to uphold and protect the rights of Build2Trade.</li>
+		  <li>This includes all technologies and or offering powered by Build2Trade.</li>
+		</ul>
+		<p><strong>All terms are subject to change with out notice and Build2Trade reserves the right to errors and omissions. By using our software and or website(s) you agree to the terms set within. This includes all technologies powered by Build2Trade and any relevant domains.All terms set forth include any and all Build2Trade technology, resources, materials, domains, brands,software and or website(s) and communications.</strong></p>
+		<p>1. Read these terms carefully before You ("You") accept these Terms by: (a) placing an order through/or with Build2Trade, or (b) otherwise using the Website (c) viewing any software (d) making use of any recourse relating to Build2Trade'e and or products/property or materials relating to Build2Trade. If you do not agree with all of these Terms, do not use this Website or any materials rating to Build2Trade.</p>
+		<p>The Terms are entered into by and between Build2Trade and You. Any reference herein to Build2Trade shall be deemed to refer to Build2Trade or any website and/or any related software and or products, as applicable under the circumstances. The products offered for sale and other on-line resources accessible via Build2Trade, are provided to You, subject to the Terms. Unless explicitly stated otherwise, the Terms will govern Your use of any new features that augment or enhance the Website.</p>
+		<p>2. Intellectual Property Rights</p>
+		<p>2.1 Copyright 2001-2005© Build2Trade Dot Com. All rights not expressly granted are reserved. To obtain permissions for the commercial use of any content on this site contact <a href="mailto:info@build2trade.com">info@Build2Trade.com </a>, if we choose to consider your proposal further we will notify you of the correct channels to communicate with in writing. Build2Trade reserves the right to deny any and all proposals at Build2Trade's sole discretion.</p>
+		<p>2.2 Users may download, view and print content from this site for private and non-commercial purposes only.</p>
+		<p>2.3 All moral rights of Build2Trade and its employees/agents/advertisers/distributors are reserved.</p>
+		<p>2.4 Build2Trade cannot screen or edit all the content available from the Build2Trade site, it users, its products and all relating materials and does not accept any liability for illegal, defamatory or obscene content. Users and visitors are encouraged to inform Build2Trade of any content that may be offensive or illegal.</p>
+		<p>All the content, trademarks and data on this web site, including but not limited to, software, databases, text, graphics, icons, hyperlinks, private information, designs and agreements, are the property of or licensed to Build2Trade and as such are protected from infringement by local and international legislation and treaties. All other Trademarks mentioned are the trademark of their respective holders.</p>
+		<p>2.5 Build2Trade does not warrant the function or operation of this web site, products or technology.Nor that they will be uninterrupted or error-free. Build2Trade does not warrant that defects will be corrected, or that relating teachnology/products and or software will be available. Build2Trade makes no warranty that any relating materials will be free of viruses or other harmful elements.<br>
+		  <br>
+		  As the user, you assume full responsibility for any costs associated with servicing of equipment used in connection with the use of our web site, products and or technology. Likewise, in doing so, you agree that access/usage is undertaken at your own risk. Build2Trade shall not be liable for damages of any kind related to your use of, or inability to access, this site or any products and or technology relating to Build2Trade in any form. <br>
+		</p>
+		<p>3. Your Conduct</p>
+		<p>You agree to use Build2Trade only for lawful purposes. You are prohibited from posting on or transmitting through Build2Trade any Content that violates or infringes anyone's intellectual property rights (including copyrights, trademarks, trade secrets, patents, publicity rights or (to the extent protectable) confidential ideas) or that is obscene, obscene as to minors, child pornography, defamatory, racist, lewd, lascivious, filthy, excessively violent, harassing, rude or otherwise deemed by Build2Trade to be harmful or objectionable, or that intentionally or unintentionally violates any applicable local, national or international law, or any regulations having the force of law.</p>
+		<p>Build2Trade reserves the right to deny service based on these grounds. You intern agree</p>
+		<p>to relinquish all legal rights in regards to any outcomes resulting from breach of this clause and indemnify Build2Trade of all claims, refunds, damages or any form of legal action. You agree to be bound with out question by Build2Trade's decision in this regard.</p>
+		<p>4. Comments, Communications and Other Content</p>
+		<p>All comments, communications, ideas, and other content disclosed, submitted or offered to Build2Trade on or by this Website, Software, Email, SMS, Written or otherwise disclosed, submitted or offered in connection with Your use of this Build2Trade products, services, property and or communications (collectively, the "Comments") shall be and remain Build2Trade property. Such disclosure, submission or offer of any Comments shall constitute an assignment to Build2Trade of all worldwide rights, titles and interests in all copyrights and other intellectual properties in the Comments. Thus, Build2Trade will own exclusively all such rights, titles and interests and shall not be limited in any way in its use, commercial or otherwise, of any Comments. Build2Trade is and shall be under no obligation (1) to maintain any Comments in confidence; (2) to pay to user any compensation for any Comments; or (3) to respond to any user Comments. You agree that no Comments submitted by You to the Website will violate any right of any third party, including copyright, trademark, privacy or other personal or proprietary right(s). You further agree that no Comments submitted by You to the Website will be or contain libelous or otherwise unlawful, abusive or obscene material. You are and shall remain solely responsible for the content of any Comments you make.</p>
+		<p>5. Links</p>
+		<p>The Website may provide, or third parties may provide, links to other Internet sites or resources. Because Build2Trade has no control over such sites and resources, You acknowledge and agree that Build2Trade is not responsible for the availability of such external sites or resources, and does not endorse and is not responsible or liable for any content, advertising, products, or other materials on or available from such sites or resources. Build2Trade will not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such site or resource.</p>
+		<p>Build2Trade may be linked to other websites that are not under the control of and are not maintained by I- Build2Trade. Build2Trade is not responsible for the content of those sites. Build2Trade is providing these links to You only as a convenience, and the inclusion of any link to such sites does not imply endorsement by Build2Trade of those sites.</p>
+		<p>6. Indemnification</p>
+		<p>You agree to indemnify and hold Build2Trade , and its subsidiaries, affiliates, officers, agents, co-branders, partners, advertisers, contractors, and employees, harmless from any claim or demand, including reasonable attorneys' fees, made by any third party due to or arising out of the use of the Website/Software or any other related products and or services.</p>
+		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+		<h2>Privacy Policy</h2>
+		<p>This policy covers how we use your personal information. We take your privacy seriously and will take all measures to protect your personal information.</p>
+		<p>Any personal information received will only be used to fill your order. We will not sell or redistribute your information to anyone.</p>		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="refundModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+		<h2>Refund Policy</h2>
+		<p>If you are not 100% satisfied with this service, you can cancel within 30 days of signing up. Due to high incidences of online credit card fraud, refunds are only offered on a per case basis following evaluation of each request and do not include services already rendered and paid for (domain purchases, hosting used etc.)</p>
+		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  </div>
+    </div>
+  </div>
+</div>
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+
+</html>

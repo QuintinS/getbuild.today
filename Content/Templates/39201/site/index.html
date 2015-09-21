@@ -1,0 +1,396 @@
+<!--#include file="../../../includes/GetContent.inc" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include file="../../../includes/ContentHead.inc" -->
+<!--#include file="../../../includes/ContentJscripts.inc" -->
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/superfish.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/jquery.hoverIntent.js"></script>
+	<script src="js/jquery.responsivemenu.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="js/jquery.twitter.js" type="text/javascript"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				effect: 'fade',
+				fadeSpeed:700,
+				play: 7000,
+				pause: 4000,
+				generateNextPrev:true,
+				generatePagination: false,
+				crossfade: true,
+				hoverPause: true,
+				animationStart: function(current){
+					$('.right').animate({right:-999},200);
+					$('.left').animate({left:-999},200);
+				},
+				animationComplete: function(current){
+					$('.right').animate({right:0},300);
+					$('.left').animate({left:0},300);
+				},
+				slidesLoaded: function() {
+					$('.right').animate({right:0},300);
+					$('.left').animate({left:0},300);
+				}
+			});
+		});
+		$(function(){$('.next, .prev')
+			.mouseover(function(){$(this).stop().animate({opacity:1}, 300)})
+			.mouseout(function(){$(this).stop().animate({opacity:0.2}, 300)});
+		});
+		$(document).ready(function(){
+			//accordion begin
+			$("#accordion dt").eq(0).addClass("active");
+			$("#accordion dd").eq(0).show();
+			$("#accordion dt").click(function(){
+				$(this).next("#accordion dd").slideToggle("fast")
+				.siblings("#accordion dd:visible").slideUp("slow");
+				$(this).toggleClass("active");
+				$(this).siblings("#accordion dt").removeClass("active");
+				return false;
+			});
+		});
+	</script>
+	<!--[if lt IE 8]>
+		<div style='clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+			</a>
+		</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css"> 
+	<![endif]-->
+	<!--[if IE 9]>
+		<style>body{word-spacing:1px;}</style>
+	<![endif]-->
+</head>
+<body id="page1" >
+	<!--======================== header ============================-->
+	<header>
+		<div class="container_24">
+			<!--======================== logo ============================-->
+			<h1>
+				<a href="index.html">Gway</a>
+				<span>Best Business Solutions</span>
+			</h1>
+			<!--======================== menu ============================-->
+			<nav>
+				<div id="menu-icon"><span class="right"><span class="tail">Menu</span></span></div>
+				<ul class="menu responsive-menu">
+					<li class="current"><a href="index.html"><span class="right"><span class="tail">Home</span></span></a></li>
+					<li><a href="index-1.html"><span class="right"><span class="tail">Company</span></span></a>
+						<ul>
+							<li><a href="#">Welcome Message</a></li>
+							<li><a href="#">Company Profile</a></li>
+							<li><a href="#">Our History</a>
+								<ul>
+									<li><a href="#">Our Capabilities</a></li>
+									<li><a href="#">Advantages</a></li>
+									<li><a href="#">Work Team</a></li>
+									<li><a href="#">Partnership</a></li>
+									<li class="last-item"><a href="#">Support</a></li>
+								</ul>
+							</li>
+							<li class="last-item"><a href="#">Testimonials</a></li>
+						</ul>
+					</li>
+					<li><a href="index-2.html"><span class="right"><span class="tail">Services</span></span></a></li>
+					<li><a href="index-3.html"><span class="right"><span class="tail">Solutions</span></span></a></li>
+					<li><a href="index-4.html"><span class="right"><span class="tail">Clients</span></span></a></li>
+					<li class="last-item"><a href="index-5.html"><span class="right"><span class="tail">Contacts</span></span></a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+		<!--=================== slider ==================-->
+		<div class="wrapper">
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide">
+						<img src="images/slide1.jpg" alt="">
+						<div class="caption">
+							<span class="right">Powerful and effective </span>
+							<span class="left">cooperation </span>
+							<span class="right">lasting for years</span>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="images/slide2.jpg" alt="">
+						<div class="caption">
+							<span class="right">We have propositions </span>
+							<span class="left">for everybody!</span>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="images/slide3.jpg" alt="">
+						<div class="caption">
+							<span class="right">Give us a chance </span>
+							<span class="left">and we will prove our </span>
+							<span class="right">efficiency!</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--======================== content ===========================-->
+	<section id="content">
+		<div class="bg">
+			<div class="container_24">
+				<div class="indent-bottom12">
+					<div class="grid_24">
+						<div class="banners">
+							<div class="grid_12 alpha">
+								<div class="dcol-6">
+									<div class="indents">
+										<h4 class="p6">Management <br>Consulting</h4>
+										<p class="p5-1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+										<a href="#" class="button">more info</a>
+									</div>
+								</div>
+								<div class="dcol-6 border-left">
+									<div class="indents">
+										<h4 class="p6">Market <br>Assessment</h4>
+										<p class="p5-1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+										<a href="#" class="button">more info</a>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="grid_12 omega">
+								<div class="dcol-6 border-left">
+									<div class="indents">
+										<h4 class="p6">Regulatory <br>Support</h4>
+										<p class="p5-1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+										<a href="#" class="button">more info</a>
+									</div>
+								</div>
+								<div class="dcol-6 border-left">
+									<div class="indents">
+										<h4 class="p6">Program <br>Management</h4>
+										<p class="p5-1">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis.</p>
+										<a href="#" class="button">more info</a>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+					<div class="grid_14">
+						<div class="suffix_2">
+							<div class="indent-bottom6-1">
+								<div class="dcol-6">
+									<a href="#" class="box p3-1">
+										<div class="indents">
+											<figure class="p3-1">
+												<img src="images/page1-img1.jpg" alt="">
+											</figure>
+											<h4>Planning</h4>
+										</div>
+									</a>
+									<div class="box-caption">Praesent vestibulum <br>molestie us. Aenean nonummy hendrerit mauris</div>
+								</div>
+								<div class="dcol-6">
+									<a href="#" class="box p3-1">
+										<div class="indents">
+											<figure class="p3-1">
+												<img src="images/page1-img2.jpg" alt="">
+											</figure>
+											<h4>Integration</h4>
+										</div>
+									</a>
+									<div class="box-caption">Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius.</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div>
+								<div class="dcol-6">
+									<a href="#" class="box p3-1">
+										<div class="indents">
+											<figure class="p3-1">
+												<img src="images/page1-img3.jpg" alt="">
+											</figure>
+											<h4>Analysis</h4>
+										</div>
+									</a>
+									<div class="box-caption">Praesent vestibulum <br>molestie us. Aenean nonummy hendrerit mauris</div>
+								</div>
+								<div class="dcol-6">
+									<a href="#" class="box p3-1">
+										<div class="indents">
+											<figure class="p3-1">
+												<img src="images/page1-img4.jpg" alt="">
+											</figure>
+											<h4>Research</h4>
+										</div>
+									</a>
+									<div class="box-caption">Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius.</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="grid_10 last-col indent-top1">
+						<div class="indent-bottom8-1 border-bottom p8-1">
+							<h3 class="p8-1">welcome to our company</h3>
+							<h6 class="p3-1">Praesent vestibulum molestie lacus. Aenean <br>nonummy hendrerit mauris</h6>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio gravida at, cursus nec, luctus a, lorem. 
+						</div>
+						<h3 class="p8">Our Services</h3>
+						<!--============== Accordeon ==============-->
+						<dl id="accordion">
+							<dt><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></dt>
+							<dd>
+								<div class="indents">
+									<p class="p1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy.<br>hendrerit mauris. Phasellus porta. Fusce suscipit.</p>
+									<a href="#" class="link">more info</a>
+								</div>
+							</dd>
+							<dt><a href="#">Consectetuer adipiscing</a></dt>
+							<dd>
+								<div class="indents">
+									<p class="p1">Donec lacinia enim eget mauris ullamcorper eu imperdiet sem pretium. Mauris diam elit, tempus scelerisque rutrum a, lobortis et est. </p>
+									<a href="#" class="link">more info</a>
+								</div>
+							</dd>
+							<dt><a href="#">Adipiscing praesent vestibulum molestie lacus</a></dt>
+							<dd>
+								<div class="indents">
+									<p class="p1">Vivamus venenatis ornare purus, sodales scelerisque diam iaculis in. Duis vitae erat non ligula bibendum suscipit. Curabitur lacus velit, tincidunt. </p>
+									<a href="#" class="link">more info</a>
+								</div>
+							</dd>
+							<dt><a href="#">Praesent vestibulum molestie</a></dt>
+							<dd>
+								<div class="indents">
+									<p class="p1">Vestibulum nec auctor leo. Maecenas id nibh in leo sagittis pulvinar. Nam lobortis euismod orci vitae posuere. Vestibulum luctus fringilla. </p>
+									<a href="#" class="link">more info</a>
+								</div>
+							</dd>
+						</dl>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--======================== aside============================-->
+	<aside>
+		<div class="border-top">
+			<div class="container_24">
+				<div class="wrapper">
+					<div class="grid_12">
+						<div class="wrapper">
+							<div class="dcol-6">
+								<div class="indent-right2">
+									<h4 class="p5">Latest tweets</h4>
+									<div id="twitter" class="twitter p6"></div>
+									<a href="#" class="link-1">Follow us</a>
+								</div>
+							</div>
+							<div class="dcol-6 font-1">
+								<div class="indent-right2">
+									<h4 class="p6">From the blog</h4>
+									<div class="wrapper p8">
+										<figure class="img-indent2-1 borders">
+											<img src="images/page1-img5.jpg" alt="">
+										</figure>
+										<div class="extra-wrap">
+											<div><time datetime="2012-01-01">01/02/12</time></div>
+											<a href="#">Lorem ipsum dolor id dolor&nbsp;mauris tortor</a>
+										</div>
+									</div>
+									<div class="wrapper p8-1">
+										<figure class="img-indent2-1 borders">
+											<img src="images/page1-img6.jpg" alt="">
+										</figure>
+										<div class="extra-wrap">
+											<div><time datetime="2012-01-01">01/02/12</time></div>
+											<a href="#">Lorem ipsum dolor id dolor&nbsp;mauris tortor</a>
+										</div>
+									</div>
+									<div class="wrapper p6-1">
+										<figure class="img-indent2-1 borders">
+											<img src="images/page1-img7.jpg" alt="">
+										</figure>
+										<div class="extra-wrap">
+											<div><time datetime="2012-01-01">01/02/12</time></div>
+											<a href="#">Lorem ipsum dolor id dolor&nbsp;mauris tortor</a>
+										</div>
+									</div>
+									<a href="#" class="link-1">View all posts</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid_12 last-col">
+						<div class="wrapper">
+							<div class="dcol-6">
+								<div class="indent-right2">
+									<h4 class="p6">Categories</h4>
+									<ul class="list-1">
+										<li><a href="#">Praesent vestibulum molestie </a></li>
+										<li><a href="#">Aenean nonummy hendrerit </a></li>
+										<li><a href="#">mauris phasellus porta</a></li>
+										<li><a href="#">Fusce suscipit varius Cum </a></li>
+										<li><a href="#">sociis natoque penatibus et</a></li>
+										<li><a href="#">magnis dis parturient</a></li>
+										<li class="last-item"><a href="#">montes nascetur ridiculus </a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="dcol-6 font-1">
+								<div class="indent-right2">
+									<h4 class="p6">Quick links</h4>
+									<ul class="list-1">
+										<li><a href="#">sociis natoque penatibus et</a></li>
+										<li><a href="#">magnis dis parturient</a></li>
+										<li><a href="#">montes nascetur ridiculus </a></li>
+										<li><a href="#">mus. Nulla dui. Fusce feugiat </a></li>
+										<li><a href="#">Praesent vestibulum molestie </a></li>
+										<li><a href="#">Aenean nonummy hendrerit </a></li>
+										<li class="last-item"><a href="#">mauris phasellus porta</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!--======================== footer ============================-->
+	<footer>
+		<div class="border-top">
+			<div class="container_24">
+				<div class="indents">
+					<div class="wrapper">
+						<div class="footer-text"><span>Gway</span> <!--#include file="../../../includes/powered-by.inc" --> |<a href="index-6.html">Privacy Policy</a></div>
+						<div class="footer-link"><!--{%FOOTER_LINK} --></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!--#include file="../../../includes/ContentPageEnd.inc" -->
+</body>
+</html>

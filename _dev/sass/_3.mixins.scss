@@ -1,0 +1,62 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+
+@mixin build-block-focus-style() {
+	outline: none;
+	text-shadow: none;
+
+	opacity: 1;
+	box-shadow: 0 0 5px rgba(180,212,85, .75) !important;
+	background-color: $build-color-green;
+}
+
+@mixin build-text-focus-style() {
+	outline: none;
+	box-shadow: none;
+	opacity: 1;
+	text-shadow: 0 0 5px rgba(180,212,85, .75) !important;
+	color: $build-color-green;
+}
+
+@mixin ButtonStyle($myButtonColor, $myButtonBackgroundImage) {
+
+	background: $myButtonColor $myButtonBackgroundImage;
+	
+	@include transition-property(background-color);
+	@include transition-duration(0.2s);
+	@include box-shadow(0 0 5px rgba(0,0,0,.2));
+
+	border-color: $myButtonColor;
+
+	&.active, &.current, &.active:active,
+	&:hover { background: lighten($myButtonColor, 10%) $myButtonBackgroundImage; border-color: lighten($myButtonColor, 10%); @include box-shadow(0 0 5px rgba($myButtonColor, 0.75));}
+	&:active { background: darken($myButtonColor, 10%) $myButtonBackgroundImage; border-color: darken($myButtonColor, 10%);}
+	&:focus { background: lighten($myButtonColor, 10%) $myButtonBackgroundImage; border-color: lighten($myButtonColor, 10%);}
+	&:active:focus { background: darken($myButtonColor, 20%) $myButtonBackgroundImage; border-color: darken($myButtonColor, 20%);}
+
+	&.hollow {
+
+		background: transparent;
+		border-color: $myButtonColor;
+		color: $myButtonColor;
+		
+		&:hover {
+			background-color: transparent;
+			color: lighten($myButtonColor, 10%);
+			border-color: lighten($myButtonColor, 10%);
+		}
+		&:focus {
+			@include box-shadow(0 0 5px rgba($myButtonColor, 0.75));
+		}
+		&:focus:active {
+			color: #fff;
+			background: $myButtonColor;
+			border-color: $myButtonColor;	
+		}
+		&:active {
+			
+		}
+		
+
+	}
+}

@@ -1,0 +1,1 @@
+﻿$(function(){$(".lightbox-image").append("<span><\/span>");$(".lightbox-image").hover(function(){$(this).find("span").stop().animate({opacity:.8},"normal")},function(){$(this).find("span").stop().animate({opacity:0},"normal")})});

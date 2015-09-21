@@ -1,0 +1,267 @@
+<!--#include file="../../../includes/GetContent.inc" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include file="../../../includes/ContentHead.inc" -->
+<!--#include file="../../../includes/ContentJscripts.inc" -->
+    <title>Products</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <script src="js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="js/cufon-yui.js" type="text/javascript"></script>
+    <script src="js/cufon-replace.js" type="text/javascript"></script> 
+    <script src="js/MgOpen_Moderna_400-MgOpen_Moderna_700.font.js" type="text/javascript"></script>
+    <script src="js/superfish.js" type="text/javascript"></script>
+    <script src="js/slides.min.jquery.js"></script>
+    <script src="js/FF-cash.js" type="text/javascript"></script> 
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/jquery.hoverIntent.js" type="text/javascript"></script>
+    <script>
+  		$(window).load(function() {	
+			h = $('.product a').height();
+			$('.product a span').css({'top':h-38, 'height':h-12})
+			$('.product a').hover(
+				function(){$(this).find('span').stop().animate({top: "0px"}, 200);},
+				function(){$(this).find('span').stop().animate({top: h-38}, 200)}
+			)
+		}); 
+		
+		$(window).resize(function(){
+			h = $('.product a').height();
+			$('.product a span').css({'top':h-38, 'height':h-12})
+		});
+
+	</script>
+    <!--[if lt IE 8]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+             <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+            </a>
+        </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	<![endif]-->
+</head>
+<body id="page3" >
+	<div class="extra">
+		<div class="bg">
+			<!--==============================header=================================-->
+		    <header>
+		    	<div class="container_12">
+	            	<div class="row-1">
+		           		<a class="button1" href="#"><strong>get started</strong><span></span></a>
+		            	<div class="grid_3">
+				        	<h1><a href="index.html">Maneuver</a></h1>
+		                </div>
+		                <div class="grid_9">
+				            <nav id="main-menu">
+				                <ul class="menu responsive-menu">
+				                    <li><a href="index.html">Home</a></li>
+				                    <li><a href="index-1.html">Services</a>
+	                                	<span></span>
+	                                	<strong></strong>
+		                            	<ul>
+		                                	<li><a href="#">Overview</a></li>
+		                                    <li><a href="#">Small Business</a>
+		                                    	<ul>
+		                                        	<li><a href="#">Starting up</a></li>
+		                                            <li><a href="#">E-Commerce</a></li>
+		                                            <li class="last"><a href="#">Online Marketing</a></li>
+		                                        </ul>
+		                                    </li>
+		                                    <li class="last"><a href="#">Corporate</a></li>
+		                                </ul>
+		                            </li>
+				                    <li><a class="active" href="index-2.html">Products</a></li>
+				                    <li><a href="index-3.html">Partners</a></li>
+				                    <li><a href="index-4.html">About Us</a></li>
+				                    <li class="last"><a href="index-5.html">Contacts</a></li>
+				                </ul>
+		                        <div class="clear"></div>
+				            </nav>
+		                </div>
+		                <div class="clear"></div>
+	                </div>
+		        </div>
+	            <div class="slider">
+	            	<div class="slider-bottom">
+		            	<div class="slider-bg">
+	                    	<div class="slider-h3">Our Products</div>
+	                    </div>
+	                </div>
+	            </div>
+		    </header>
+		    
+			<!--==============================content================================-->
+		    <section id="content">
+	        	<div class="container_12">
+	            	<div class="wrapper indent-bot6">
+						<div class="grid_12">
+		                    <h3 class="p3">Business Products Contributing To Success</h3>
+	                        <div class="wrapper indent-bot indent-sw-2">
+	                        	<div class="alpha grid_3 width-sw-3 width-sw-6 indent-r-sw indent-sw-2">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img1.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 1</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 indent-sw-2">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img2.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 2</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 indent-r-sw">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img3.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 3</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 omega">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img4.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 4</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        </div>
+	                        <div class="wrapper">
+	                        	<div class="alpha grid_3 width-sw-3 width-sw-6 indent-r-sw indent-sw-2">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img5.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 5</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 indent-sw-2">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img6.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 6</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 indent-r-sw">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img7.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 7</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        	<div class="grid_3 width-sw-3 width-sw-6 omega">
+	                            	<figure class="product">
+	                                	<a href="#">
+	                                    	<img src="images/page3-img8.jpg" alt="" />
+	                                        <span>
+	                                        	<strong class="p1">product name 8</strong>
+	                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. <em>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi.</em>
+	                                        </span>
+	                                    </a>
+	                                </figure>
+	                            </div>
+	                        </div>
+		                </div>
+		            </div>
+	                <div class="wrapper">
+	                    <div class="grid_7 indent-sw-1">
+	                        <h3 class="indent-bot2">Featured Products</h3>
+	                        <div class="wrapper p2 indent-sw-1">
+	                            <figure class="img-pos img-border img-style3 bot-indent float-none-sw indent-sw-3 width-sw-4 float-sw-2 indent-r-sw2"><a href="#"><img class="width-sw-2" src="images/page3-img9.jpg" alt="" /></a></figure>
+	                            <div class="extra-wrap overflow-sw-1">
+	                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis.
+	                            </div>
+	                        </div>
+	                        <div class="wrapper">
+	                            <figure class="img-pos img-border img-style3 bot-indent float-none-sw indent-sw-3 width-sw-4 float-sw-2 indent-r-sw2"><a href="#"><img class="width-sw-2" src="images/page3-img10.jpg" alt="" /></a></figure>
+	                            <div class="extra-wrap overflow-sw-1">
+	                                Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis.
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="grid_5">
+	                        <h3 class="indent-bot2">Useful Information</h3>
+	                        <p class="p1">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. </p>
+	                        <div class="wrapper indent-bot2">
+	                        	<div class="alpha grid_2 indent-sw-2">
+	                            	<h5 class="st p3 indent-sw-2">Fusce euismod conse- quat ante. Lorem ipsum dolor sit amet.</h5>
+	                                <ul class="list-1">
+	                                	<li><a href="#">Vivamus eget</a></li>
+	                                    <li><a href="#">Etiam cursusl</a></li>
+	                                    <li class="last"><a href="#">Nulla facilisi</a></li>
+	                                </ul>
+	                            </div>
+	                            <div class="grid_3 omega">
+	                            	<div class="result text-1">
+	                                	<p class="p1">1. Lorem ipsum dolor sit amet, consec tetuer adipi- scing elit. Praesent vestibu- lum molestie lacus.</p>
+	                                    2. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris nulla vel diam. Sed in lacus ut enim.
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <p class="p0">Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus. Lorem ipsum dolor sit amet.</p>
+	                    </div>
+	                </div>
+	            </div>
+		    </section>
+	    </div>
+        <div class="block"></div>
+    </div>
+	    
+    <!--==============================footer=================================-->
+    <footer>
+        <div class="container_12">
+            <div class="wrapper">
+                <div class="grid_2">
+                    <ul class="social-buttons">
+                        <li>Social:</li>
+                        <li><a href="#"></a></li>
+                        <li><a class="item-2" href="#"></a></li>
+                        <li><a class="item-3" href="#"></a></li>
+                        <li class="last"><a class="item-4" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="grid_10">
+                    <div class="left-pad">
+                        <!--#include file="../../../includes/powered-by.inc" --> | <a class="link" href="index-6.html">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script type="text/javascript"> Cufon.now(); </script>
+    <!--#include file="../../../includes/ContentPageEnd.inc" -->
+</body>
+</html>

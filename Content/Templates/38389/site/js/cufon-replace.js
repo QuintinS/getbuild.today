@@ -1,0 +1,1 @@
+﻿Cufon.replace("h3, .sf-menu li a, .caption, .box .link, .banner1, .banner2, .banner3, .list-4 a",{fontFamily:"Trajan Pro",hover:!0});

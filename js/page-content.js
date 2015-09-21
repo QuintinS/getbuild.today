@@ -1,0 +1,1 @@
+$("abbr, [data-toggle='tooltip']").tooltip();

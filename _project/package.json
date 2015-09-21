@@ -1,0 +1,19 @@
+{
+	"name" : "buildstyleguide",
+	"version" : "0.0.1",
+	"description" : "The basic visual style guide and front-end development kit for front-end projects related to Build.",
+	"author" : { 
+		"name" : "Quintin Schnehage",
+		"e-mail" : "quintin.schnehage@gmail.com"
+	},
+	"license" : "All Rights Reserved",
+	"dependencies" : {
+		"grunt" : "~0.4.5",
+		"compass" : "~1.0.3",
+		"grunt-contrib-watch" : "~0.6.1",
+		"grunt-contrib-compass" : "~1.0.1",
+		"grunt-contrib-uglify" : "~0.7.0",
+		"matchdep" : "~0.3.0"
+	},
+	"repository" : "https://github.com/QuintinS/buildstyleguide.git"
+}

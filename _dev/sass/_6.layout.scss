@@ -1,0 +1,227 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+.Background {
+
+	position:relative;
+	overflow:hidden;
+
+	> * {
+		z-index: 1;
+		position:relative;
+	}
+
+	&:before,
+	&:after {
+		display:block;
+		content:'';
+		position:absolute;
+		z-index:0;
+		left:0;
+		right: 0;
+		background-repeat: repeat-x;
+		width: 100%;
+		height: 319px;
+	}
+
+	&:before {
+		top:0;
+		background-position:top;
+		
+	}
+
+	&:after {
+		bottom:0;
+		background-position:bottom;
+	}
+
+}
+
+.BackgroundBlue {
+
+	@extend .Background;
+
+	background-color: #29495e;
+	@include box-shadow(0 0 20px rgba(0,0,0,.2) inset);
+	
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: #fff;
+	}
+
+	&:after {
+		background: #29495e url(/images/buildings-blue-top-tile.jpg);
+	}
+	
+}
+
+.BackgroundWhite {
+	@extend .Background;
+	background-color: #fff;
+	&:after {
+		background: #fff url(/images/buildings-white-top-tile.jpg);
+	}	
+}
+
+.BackgroundBlack {
+	@extend .Background;
+	background-color: #29495e;
+	&:after {
+		background: #29495e url(/images/buildings-black-top-tile.jpg);
+	}	
+}
+
+.BackgroundGrey {
+	@extend .Background;
+	background-color: #363636;
+	&:after {
+		background: #363636 url(/images/buildings-grey-top-tile.jpg);
+	}	
+}
+
+.NoBackgroundImage {
+	&:before,
+	&:after {
+		content: none;
+	}
+}
+
+body {
+	
+	> header {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		h1 {
+			margin: 0;
+		}
+	}
+
+	> footer {
+		
+	}
+
+}
+
+main {
+
+	h1, h2, h3, h4, h5, h6 {
+		// font-size: 2em;
+		margin-top: 1em;
+	}
+
+	> header {
+
+		padding: 30px 0;
+
+		@extend .BackgroundBlue;
+
+		h1 {
+			color: #fff;
+			font-family: "OpenSans", Arial, Helvetica, sans-serif;
+			font-size: 32px;
+			font-weight: bold;
+			letter-spacing: -1px;
+			text-align: center;
+			text-shadow: 0 0 5px rgba(0,0,0,.5);
+			margin-bottom: 1em;
+			margin-top: 0;
+		}
+
+		.VideoContainer {
+			width: 100%;
+			background: rgba(0,0,0,.25);
+			padding: 10px;
+			border-radius: 6px;
+			box-shadow: 0 0 5px rgba(0,0,0,.25) inset;
+			.VideoIFrameContainer {
+				position:relative;
+				padding-bottom: 56.25%;
+				padding-top: 25px;
+				height:0;
+				iframe {
+					position: absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+				}
+			}
+			
+		}
+
+		.Actions {
+			text-align: center;
+			margin-top: 2em;
+		}
+
+	}
+
+	> section {
+
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+
+}
+
+.content-box {
+
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  
+}
+
+@media (max-width: 768px) {
+
+	main {
+		> section {
+			&.alternating-sections {
+				text-align:center;
+			}
+		}
+	}
+
+}
+
+@media (min-width: 768px) {
+	main {
+		> section {
+			&.alternating-sections {
+				text-align:left;
+			}
+		}
+	}	
+}
+
+@media (min-width: 992px) {
+
+	.Video {
+		padding: 0 100px;					
+	}
+
+	.content-box {
+		padding: 40px;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+
+	main {
+		> section {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+}

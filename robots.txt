@@ -1,0 +1,11 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /styleguide/
+Disallow: /induction/
+Disallow: /Content/
+Disallow: /_backup/
+Disallow: /_content/
+Disallow: /tests/
+Sitemap: http://www.getbuild.today/sitemap.xml

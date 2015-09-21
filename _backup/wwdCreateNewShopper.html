@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>WWD Integration Test</title>
+		
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+		
+		<style>
+		
+			.required:after {
+				content: '*';
+				color: red;
+			}
+		
+		</style>
+
+	</head>
+
+	<body>
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h1>WWD Integration</h1>
+					<hr>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+		
+			<form id="wwdCreateNewShopper" action="/Godaddy/EatMe.asp" method="post">
+			
+				<div class="row">
+				
+					<div class="col-md-12">
+					
+						<h2>CreateNewShopper</h2>
+						
+						<fieldset>
+						
+							<div class="row">
+							
+								<div class="col-sm-4 col-md-4">
+			
+									<div class="form-group">			
+										<label for="wwdFirstName" class="required">First Name</label>		
+										<input type="text" id="wwdFirstName" name="wwdFirstName" class="form-control" placeholder="Enter your first name." tabindex="1">
+									</div>
+								
+								</div>
+								
+								<div class="col-sm-4 col-md-4">
+									
+									<div class="form-group">			
+										<label for="wwdLastName" class="required">Last Name</label>		
+										<input type="text" id="wwdLastName" name="wwdLastName" class="form-control" placeholder="Enter your last name." tabindex="2">
+									</div>
+								
+								</div>
+							
+							</div>
+						
+						</fieldset>
+						
+						<fieldset>
+
+							<div class="row">
+							
+								<div class="col-sm-4 col-md-4">
+						
+									<div class="form-group">			
+										<label for="wwdEmail" class="required">E-Mail Address</label>		
+										<input type="email" id="wwdEmail" name="wwdEmail" class="form-control" placeholder="Enter a valid E-Mail Address" tabindex="3">
+									</div>
+									
+									<div class="form-group">			
+										<label for="wwdPassword" class="required">Password</label>
+										<input type="password" id="wwdPassword" name="wwdPassword" class="form-control" placeholder="Enter your password." tabindex="5">
+									</div>
+
+								</div>
+								
+								<div class="col-sm-4 col-md-4">
+								
+									<div class="form-group">			
+										<label for="wwdEmailConf" class="required">Confirm E-Mail Address</label>		
+										<input type="email" id="wwdEmailConf" name="wwdEmailConf" class="form-control" placeholder="Enter a valid E-Mail Address" tabindex="4">
+									</div>
+									
+									<div class="form-group">			
+										<label for="wwdPasswordConf" class="required">Confirm Password</label>
+										<input type="password" id="wwdPasswordConf" name="wwdPasswordConf" class="form-control" placeholder="Enter your password." tabindex="6">
+									</div>
+									
+								</div>
+								
+							</div>
+			
+						</fieldset>
+						
+						<fieldset>
+						
+							<div class="row">
+							
+								<div class="col-sm-4 col-md-4">
+						
+									<div class="form-group">			
+										<label for="wwdPhoneNumber" class="required">Telephone Number</label>		
+										<input type="tel" id="wwdPhoneNumber" name="wwdPhoneNumber" class="form-control" placeholder="Enter your phone number (landline or mobile)." tabindex="7">
+									</div>
+									
+								</div>
+							
+							</div>
+						
+						</fieldset>
+						
+						<!--
+						
+						Additional fields allowed by WWD API
+						
+						wwdPwdHint			: $(wwdPwdHint).val(),
+						wwdFax				: $(wwdFax).val(),
+						wwdCompany			: $(wwdCompany).val(),
+						wwdAddress			: $(wwdAddress).val(),
+						wwdCity				: $(wwdCity).val(),
+						wwdState			: $(wwdState).val(),
+						wwdZip				: $(wwdZip).val(),
+						wwdCountry			: $(wwdCountry).val(),
+						wwdShopperPin		: $(wwdShopperPin).val()
+						
+						-->
+						
+						<fieldset>
+
+							<div class="row">
+							
+								<div class="col-sm-4 col-md-4">
+						
+									<div class="form-group">			
+										<input type="reset" class="btn btn-link" tabindex="8">
+										<input type="submit" class="btn btn-primary" tabindex="9">
+									</div>
+								
+								</div>
+						
+							</div>
+							
+						</div>
+						
+						<hr>
+					
+					</div>
+				
+				</div>
+				
+			</form>
+		
+		</div>
+	
+	</body>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/wwdIntegration.js"></script>
+	<script src="js/wwdIntegrationInit.js"></script>
+	
+	<script>
+	
+	$("#wwdCLTRID").attr("value", "F9168C5E-CEB2-4FAA-B6BF-329BF39FA1E4");
+	$("#wwdCredential").attr("value", "Credential");
+	
+	var myVar1Text = $("#wwdCLTRID").attr("value");
+	$("span.wwdCLTRID").text(myVar1Text);
+	
+	var myVar2Text = $("#wwdCredential").attr("value");
+	$("span.wwdCredential").text(myVar2Text);
+	
+	</script>
+
+</html>	

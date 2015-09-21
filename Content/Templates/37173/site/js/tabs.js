@@ -1,0 +1,1 @@
+﻿$(function(){tabs.init()});tabs={init:function(){$(".tabs-news").each(function(){$(this).find(".tab-content:gt(0)").hide();$(this).find("ul.tabs-nav a").click(function(){return $(this).parents("div.tabs-news").find(".tab-content").hide(),$($(this).attr("href")).show(),$(this).parent().addClass("selected").siblings().removeClass("selected"),!1})})}};

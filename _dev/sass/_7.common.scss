@@ -1,0 +1,456 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+.build-logo-text {
+	
+	background: #218ec7;
+	padding: 2px 8px;
+	border-radius: 6px;
+	font-size: 1em;
+
+	> .build-word { 
+		color: #fff;
+		text-shadow: 0 0px 3px rgba(0,0,0,.5);
+	}	
+	> .build-period { 
+		color: red;
+	}
+
+}
+
+header.parallax {
+
+	&:before,
+	&:after {
+		content: none;
+	}
+
+}
+
+
+/* 	========================================
+	Brand Bar
+	======================================== */
+
+.BrandBar {
+	text-align:center;
+	a {
+		opacity: 0.5;
+		&:hover,
+		&:focus {
+			opacity: 0.75;
+		}
+
+		&:active {
+			opacity: 1;
+		}
+		&:first-child img {
+			margin-left:0;
+		}
+		&:last-child img {
+			margin-right:0;
+		}
+	}
+	img {
+		display:inline-block;
+		
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.BrandBar {
+		text-align: center;
+		margin-bottom: 1em;
+		float:none;
+		img {
+			display:inline-block;
+			max-height: 40px;
+			max-width: 150px;
+			margin: 15px;
+		}
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.BrandBar {
+		img {
+			max-height: 50px;
+			max-width: 150px;
+			margin: 15px;
+		}
+	}
+
+}
+
+/* 	========================================
+	Buttons
+	======================================== */
+
+label.mandatory {
+	margin: 0 .4em;
+	&::after {
+		content: " *";
+		color: $build-color-blue;
+	}
+}
+
+span.tooltip-icon {
+	color: $build-color-blue;
+	cursor: pointer;
+}
+
+button {
+	> span {
+		&.glyphicon:first-child {
+			margin-right: 8px;
+		}
+		&.glyphicon:last-child {
+			margin-left: 8px;
+		}
+	}
+}
+
+.loading-overlay {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	width:100%;
+	background: rgba(255,255,255,.8);
+	z-index: 20;
+
+	.modal-content > & {
+		border-radius:4px;
+	}
+}
+
+
+
+.img-container {
+	img {
+		width: 100%;
+	}
+}
+
+.b2t-button {
+
+	display: inline-block;
+	height: 30px;
+	padding: 0 10px;
+	
+	border: 0;
+
+	font: bold 14px Arial; 
+	line-height: 18px;
+
+	color: #fff;
+	background-color: rgba(0,0,0,.25); 
+	cursor: pointer;
+	@include border-radius(4px);
+	@include transition-property(color);
+	@include transition-duration(.1s);
+
+	span{ display:block; float:left; line-height:30px; height:30px;} 
+	span.glyphicon { font-size:20px; position:relative; top:-1px; left:-4px; color: #428BCA; }
+	span.text {padding-left:.25em; font-size:12px; color: #fff; }
+
+	&.right { float:right; margin-left: 5px}
+	&.left {float:left; margin-right: 5px;}
+
+	&:hover { 
+
+		span {color: #B4D455;}
+		span.glyphicon {color: #B4D455}sass
+		span.text {color: #B4D455}
+
+	}
+
+}
+
+.b2t-button.style2 {
+
+	height: auto;
+	padding: 10px;
+	margin:0;
+
+	background-color: none !important;
+	border:none;
+
+	@include border-radius(0);
+
+	span.glyphicon { font-size: 32px; position:static; margin-right:.1em;}
+	span.text { font-size: 16px;}	
+
+}
+
+.b2t-button.style3 {
+
+	background-color: #222;
+	height: 50px;
+
+	@include border-radius(0);
+	@include transition-property(none);
+
+	span{ line-height:50px; height:50px;} 
+	span.glyphicon { font-size:20px; color: #428BCA; }
+	span.text {font-size:12px; color: #fff; }
+
+}
+
+.b2t-button.style4 {
+
+	background-color: #fff;
+	height: 50px;
+	text-align:center;
+
+	margin: 0 !important;
+	padding: 0 !important;
+
+	@include border-radius(0);
+	@include transition-property(none);
+
+	span{ line-height:50px; height:50px;} 
+	span.glyphicon { font-size:20px; color: #428BCA; }
+	span.text {font-size:12px; color: #fff; }
+
+	&:hover {
+		color: #000 !important;
+		span {color: #000 !important;}
+	}
+
+}
+
+
+.buildtheme-button {
+
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	padding: 12px 18px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+
+	cursor: pointer;
+
+	&.hollow {
+
+		font-family: "OpenSansLight", Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		background: transparent;
+		@include border-radius(2px);
+		@include text-shadow(none);
+		@include box-shadow(none);
+
+		&:hover {
+			color: #fff;
+		}
+
+	}
+
+	.badge {
+		text-shadow: none;
+	}
+
+	.glyphicon {
+		&:first-child {
+			margin-right: .5em;
+		}
+		&:last-child {
+			margin-left: .5em;
+		}
+	}
+
+	&.active,
+	&.active {
+		text-shadow: none;
+	}
+	&[disabled] {
+		background-image: none;
+	}
+	&:active {
+		@include box-shadow(0 0 5px rgba($build-color-green, 1));
+	}
+	&:focus {
+		color: #fff;
+		@include box-shadow(0 0 5px rgba($build-color-green, 1));
+	}
+	&:active:focus {
+		outline: none; box-shadow: none;
+	}
+}
+
+.buildtheme-button-extrasmall {
+	// font-size: 12px;
+	padding: 4px 10px
+}
+
+.buildtheme-button-small {
+	// font-size: 14px;
+	padding: 6px 12px;
+}
+
+.buildtheme-button-large {
+	// font-size: 16px;
+	padding: 15px 26px;
+
+}
+
+.buildtheme-button-default,
+.buildtheme-button-primary,
+.buildtheme-button-success,
+.buildtheme-button-info,
+.buildtheme-button-warning,
+.buildtheme-button-danger {
+	@include text-shadow (1px 1px 1px rgba(0,0,0,.3));
+	@include box-shadow(0 1px 0 rgba(255,255,255,.15), inset 0 1px 1px rgba(0, 0, 0, .075));
+
+	&:hover {
+
+	}
+	&:active {
+
+	}
+	&:focus {
+
+	}
+	&.active{
+		@include box-shadow(0 0 5px rgba(0,0,0,.25) inset);
+	}
+}
+
+.buildtheme-button-hollow {
+
+	// padding: 1em 2em;
+	color: #fff;
+	border: 1px solid rgb(255,255,255);
+	opacity: .75;
+	font-family: "OpenSansLight";
+	background: transparent;
+	@include border-radius(0px);
+
+	&:active,
+	&:hover {
+		color: #fff;
+		border: 1px solid rgb(255,255,255);
+		text-decoration: none;
+		opacity: 1;
+		box-shadow: 0 0 5px rgba(255,255,255,.5);
+	}
+
+	&:focus {
+		text-decoration: none;
+		opacity: 1;
+	}
+
+}
+
+.buildtheme-button-default {
+	@include ButtonStyle($build-button-color-default, $build-background-mesh)
+}
+
+.buildtheme-button-primary {
+	@include ButtonStyle($build-button-color-primary, $build-background-mesh)
+}
+
+.buildtheme-button-success {	
+	@include ButtonStyle($build-button-color-success, $build-background-mesh)
+}
+
+.buildtheme-button-info {
+	@include ButtonStyle($build-button-color-info, $build-background-mesh)
+}
+
+.buildtheme-button-warning {
+	@include ButtonStyle($build-button-color-warning, $build-background-mesh)
+}
+
+.buildtheme-button-danger {
+	@include ButtonStyle($build-button-color-danger, $build-background-mesh)
+}
+
+.buildtheme-button-link {
+	color: $build-color-blue;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
+	// background: $build-button-color-link $build-background-mesh
+	&:focus { color: lighten($build-color-blue, 10%); outline: none; box-shadow: none; }
+	&:hover { color: lighten($build-color-blue, 10%); }
+	&:hover:focus { color: darken($build-color-blue, 20%); outline: none; box-shadow: none; text-decoration: none; }
+	&:active { color: darken($build-color-blue, 10%); outline: none; box-shadow: none; }
+	&:active:focus { color: darken($build-color-blue, 20%); outline: none; box-shadow: none; }
+	
+}
+
+.load-fadein {
+	visibility:hidden;
+}
+
+.btn-extended {
+	position:relative;
+	padding: 8px 20px;
+	margin: 10px 10px 0 0;
+	.btn-extended-icon {
+		background: rgba(0,0,0,.1);
+		width: 55px;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		.glyphicon {
+			font-size: 32px;
+			padding: 0;
+			margin: 0;
+			margin-top: 12px;
+		}
+	}
+	.btn-extended-text {
+		text-align: left;
+		display: inline-block;
+		margin-left: 50px;
+		.btn-extended-heading {
+			font-size: 18px;
+			display: block;
+		}
+		.btn-extended-message {
+			font-weight: normal;
+			font-size: 14px;
+			font-style: italic;
+			display: block;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.btn-extended {
+		margin-top: 10px;
+		display:block;
+		.btn-extended-icon {
+			display:none;
+		}
+		.btn-extended-text {
+			margin-left: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (min-width: 750px) {
+
+}
+
+main.BackgroundWhite {
+	background: #fff;
+}
