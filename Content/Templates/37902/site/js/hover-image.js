@@ -1,1 +1,0 @@
-﻿$(document).ready(function(){$(".lightbox-image").append("<span><\/span>");$(".lightbox-image").live("mouseenter",function(){$(this).find("img").stop().animate({opacity:.4},300)}).live("mouseleave",function(){$(this).find("img").stop().animate({opacity:1},300)})});

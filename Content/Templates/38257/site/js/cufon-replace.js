@@ -1,1 +1,0 @@
-﻿Cufon.replace(".slider-h1, .slider-h2, .slider-h3",{fontFamily:"MgOpen Moderna",textShadow:"1px 1px #287d9a",hover:!0});Cufon.replace(".slider-block, h3",{fontFamily:"MgOpen Moderna",hover:!0});Cufon.replace(".slider-block .slider-h2",{textShadow:!1,hover:!0});
