@@ -1,3 +1,93 @@
+var Stripe = {
+
+	StripeHandler: null,
+
+	
+
+	StripeOptions: {
+
+		data: {
+			key: null,
+			token: function(token) {
+			  // Use the token to create the charge with a server-side script.
+			  // You can access the token ID with `token.id`
+			  console.log(token.id);
+			},
+			image: null,
+			locale: null,
+			currency: null,
+			panelLabel: null,
+			zipCode: null,
+			billingAddress: null,
+			shippingAddress: null,
+			email: null,
+			labelOnly: null,
+			allowRememberMe: null,
+			bitcoin: null,
+			alipay: null,
+			alipayReusable: null,
+			opened: null,
+			closed: null
+		},
+
+		capture: function(){
+
+			var myAddress = "";
+			myAddress += PaymentGateway.PostData.data.street_address + ", ";
+			myAddress += PaymentGateway.PostData.data.street_address2 + ", ";
+			myAddress += PaymentGateway.PostData.data.city + ", ";
+			myAddress += PaymentGateway.PostData.data.state;
+
+			Stripe.StripeOptions.data.token = function(token) {
+			  // Use the token to create the charge with a server-side script.
+			  // You can access the token ID with `token.id`
+			  // console.log(token.id);
+			};
+
+			Stripe.StripeOptions.data.key = PaymentGateway.API.Keys.TestPublishable;
+			Stripe.StripeOptions.data.image = '/images/stripe-logo.png';
+			Stripe.StripeOptions.data.locale = 'auto';
+			Stripe.StripeOptions.data.currency = "USD";
+			Stripe.StripeOptions.data.panelLabel = null;
+			Stripe.StripeOptions.data.zipCode = PaymentGateway.PostData.data.zip;
+			// Stripe.StripeOptions.data.billingAddress = myAddress;
+			// Stripe.StripeOptions.data.shippingAddress = myAddress;
+			Stripe.StripeOptions.data.email = PaymentGateway.PostData.data.email;
+			Stripe.StripeOptions.data.labelOnly = null;
+			Stripe.StripeOptions.data.allowRememberMe = null;
+			Stripe.StripeOptions.data.bitcoin = null;
+			Stripe.StripeOptions.data.alipay = null;
+			Stripe.StripeOptions.data.alipayReusable = null;
+			Stripe.StripeOptions.data.opened = PageLoadingOverlay.add;
+			Stripe.StripeOptions.data.closed = function(){ console.log("MOTHERFUCKERS")};
+
+		},
+
+		clear: function() {
+
+			Stripe.StripeOptions.data.key = null;
+			Stripe.StripeOptions.data.token = null;
+			Stripe.StripeOptions.data.image = null;
+			Stripe.StripeOptions.data.locale = null;
+			Stripe.StripeOptions.data.currency = null;
+			Stripe.StripeOptions.data.panelLabel = null;
+			Stripe.StripeOptions.data.zipCode = null;
+			Stripe.StripeOptions.data.billingAddress = null;
+			Stripe.StripeOptions.data.shippingAddress = null;
+			Stripe.StripeOptions.data.email = null;
+			Stripe.StripeOptions.data.labelOnly = null;
+			Stripe.StripeOptions.data.allowRememberMe = null;
+			Stripe.StripeOptions.data.bitcoin = null;
+			Stripe.StripeOptions.data.alipay = null;
+			Stripe.StripeOptions.data.alipayReusable = null;
+			Stripe.StripeOptions.data.opened = null;
+			Stripe.StripeOptions.data.closed = null;
+
+		}
+	  
+	}
+
+};
 
 var PaymentGateway = {
 
@@ -10,15 +100,42 @@ var PaymentGateway = {
 		}
 	},
 
+	templates: {
+
+		printCheckout: function(options){
+
+			if (options.amount === undefined || typeof options.amount !== "string") {
+				throw "ArgumentError: Must pass argument 'amount' as type 'string'.";
+			}
+
+			myKey = PaymentGateway.API.Keys.TestPublishable;
+			myImage = "/images/logo-build-b-large.png";
+			myName = "GetBuild.Today";
+			myDescription = options.description || null;
+			myAmount = options.amount;
+			myLocale = options.locale || "auto";
+
+			returnHTML =	'';
+			returnHTML +=	'<script';
+			returnHTML +=	    ' src="https://checkout.stripe.com/checkout.js"';
+			returnHTML +=	    ' class="stripe-button"';
+			returnHTML +=	    ' data-key="' + myKey + '"';
+			returnHTML +=	    ' data-image="' + myImage + '"';
+			returnHTML +=	    ' data-name="' + myName + '"';
+			returnHTML +=	    ' data-description="' + myDescription + '"';
+			returnHTML +=	    ' data-amount="' + myAmount + '"';
+			returnHTML +=	    ' data-locale="' + myLocale + '">';
+			returnHTML +=	'</script>';
+
+			return returnHTML;
+		}
+
+	},
+
 	PostData: {
 
 		clear: function(){
 
-			PaymentGateway.PostData.data.sid = "2140176";
-			PaymentGateway.PostData.data.mode = "2CO";
-			PaymentGateway.PostData.data.li_0_name = null;
-			PaymentGateway.PostData.data.li_0_price = null;
-			PaymentGateway.PostData.data.li_0_recurrence = null;
 			PaymentGateway.PostData.data.card_holder_name = null;
 			PaymentGateway.PostData.data.street_address = null;
 			PaymentGateway.PostData.data.street_address2 = null;
@@ -61,20 +178,38 @@ var PaymentGateway = {
 			var ProductDuration;
 			var ProductRecurrence;
 
-			var Product2Name;
-			var Product2Quantity;
-			var Product2Price;
-			var Product2Duration;
-			var Product2Recurrence;
+			if (Checkout.storage.PricingPlan.code === "free") {
 
-			TwoCheckoutPostData = {
+				ProductName = "Build - 14 Day Trial";
+				ProductQuantity = 1;
+				ProductPrice = 0;
+				ProductDuration = "14 Days";		
 
-				sid : "2140176",
-				mode : "2CO",
+			}
+			else
+			if (Checkout.storage.PricingPlan.code === "monthly") {
+				
+				ProductName = "Build - Monthly Subscription";
+				ProductQuantity = 1;
+				ProductPrice = 20.00;
+				ProductDuration = "1 Month";
+				ProductRecurrence = "1 Month";
+			}
+			else
+			if (Checkout.storage.PricingPlan.code === "yearly") {
 
-				// li_0_name : null,
-				// li_0_price : null,
-				// li_0_recurrence : null,
+				ProductName = "Build - Yearly Subcription";
+				ProductQuantity = 1;
+				ProductPrice = 150;
+				ProductDuration = "12 Months";
+
+			}
+			else
+			{
+				throw "Error: Checkout.storage.PricingPlan.code must be 'free', 'monthly' or 'yearly'.";
+			}
+
+			PaymentGateway.PostData.data = {
 
 				card_holder_name : myFullName,
 				street_address : myAddressLine1,
@@ -95,126 +230,20 @@ var PaymentGateway = {
 				email : myEmailAddress,
 				phone : myPhoneNumber,
 
+				product: {
+					name: ProductName,
+					quantity: ProductQuantity,
+					price: ProductPrice,
+					duration: ProductDuration,
+					recurrance: ProductRecurrence
+				}
+
 			};
-
-			if (Checkout.storage.PricingPlan === "free") {
-				FormPostLocation = "/trial.asp";
-
-				ProductName = "Build - 14 Day Trial";
-				ProductQuantity = 1;
-				ProductPrice = 0;
-				ProductDuration = "14 Days";		
-
-				$("#RegistrationForm [name='card_holder_name']").val(myFullName);
-				$("#RegistrationForm [name='street_address']").val(myAddressLine1);
-				$("#RegistrationForm [name='street_address2']").val(myAddressLine2);
-				$("#RegistrationForm [name='city']").val(myCity);
-				$("#RegistrationForm [name='state']").val(myRegionName);
-				$("#RegistrationForm [name='zip']").val(myPostalCode);
-				$("#RegistrationForm [name='country']").val(myCountryName);
-				$("#RegistrationForm [name='email']").val(myEmailAddress);
-				$("#RegistrationForm [name='phone']").val(myPhoneNumber);
-				// $("#RegistrationForm [name='country']").val(ProductDuration);
-
-				$("#RegistrationForm [name='li_0_type']").val('product');
-				$("#RegistrationForm [name='li_0_name']").val(ProductName);
-				$("#RegistrationForm [name='li_0_description']").val(TemplateID);
-				$("#RegistrationForm [name='li_0_quantity']").val(ProductQuantity);
-				$("#RegistrationForm [name='li_0_price']").val(ProductPrice);
-				$("#RegistrationForm [name='li_0_tangible']").val('N');
-				$("#RegistrationForm [name='li_0_duration']").val(ProductDuration);
-
-				$("#RegistrationForm [name='li_1_type']").val('product');
-				$("#RegistrationForm [name='li_1_name']").val("Your chosen subdomain");
-				$("#RegistrationForm [name='li_1_description']").val(mySubDomain);
-				$("#RegistrationForm [name='li_1_quantity']").val(1);
-				$("#RegistrationForm [name='li_1_price']").val(0);
-				$("#RegistrationForm [name='li_1_tangible']").val('N');
-
-			}
-			else
-			if (Checkout.storage.PricingPlan === "monthly") {
-				
-				FormPostLocation = "2checkout";
-				
-				ProductName = "Build - Monthly Subscription";
-				ProductQuantity = 1;
-				ProductPrice = 20.00;
-				ProductDuration = "1 Month";
-				ProductRecurrence = "1 Month";
-			}
-			else
-			if (Checkout.storage.PricingPlan === "yearly") {
-
-				FormPostLocation = "2checkout";
-
-				ProductName = "Build - Yearly Subcription";
-				ProductQuantity = 1;
-				ProductPrice = 150;
-				ProductDuration = "12 Months";
-				// ProductRecurrence = "12 Months";
-				
-				Product2Name = "6 Months Free";
-				Product2Quantity = 1;
-				Product2Price = 0;
-				Product2Duration = "6 Months";
-			}
-			else
-			{
-				throw "Error: Checkout.storage.PricingPlan must be 'free', 'monthly' or 'yearly'.";
-			}
-
-			if (Checkout.storage.PricingPlan !== "free") {
-
-				TwoCheckoutPostData.li_0_type = "product";
-				TwoCheckoutPostData.li_0_name = ProductName;
-				TwoCheckoutPostData.li_0_description = TemplateID;
-				TwoCheckoutPostData.li_0_quantity = ProductQuantity;
-				TwoCheckoutPostData.li_0_price = ProductPrice;
-				TwoCheckoutPostData.li_0_tangible = "N";
-				TwoCheckoutPostData.li_0_duration = ProductDuration;
-
-				if (ProductRecurrence !== undefined) {
-					TwoCheckoutPostData.li_0_recurrence = ProductRecurrence;
-				}
-
-				if (Product2Name !== undefined) {
-
-		            TwoCheckoutPostData.li_1_type = "product";
-		            TwoCheckoutPostData.li_1_name = "Your chosen subdomain";
-		            TwoCheckoutPostData.li_1_price = 0;
-		            TwoCheckoutPostData.li_1_description = mySubDomain;
-
-		            TwoCheckoutPostData.li_2_type = "product";
-		            TwoCheckoutPostData.li_2_tangible = "N";
-		            TwoCheckoutPostData.li_2_name = Product2Name;
-		            TwoCheckoutPostData.li_2_quantity = Product2Quantity;
-		            TwoCheckoutPostData.li_2_price = Product2Price;
-		            TwoCheckoutPostData.li_2_duration = Product2Duration;
-				}
-				else
-				{
-					TwoCheckoutPostData.li_1_type = "product";
-					TwoCheckoutPostData.li_1_name = "Your chosen subdomain";
-					TwoCheckoutPostData.li_1_price = 0;
-					TwoCheckoutPostData.li_1_description = mySubDomain;	
-				}
-
-				
-
-				TwoCheckoutPostData.currency_code = "USD";
-
-			}
 
 		},
 
 		data: {
 
-			sid : "2140176",
-			mode : "2CO",
-			li_0_name : null,
-			li_0_price : null,
-			li_0_recurrence : null,
 			card_holder_name : null,
 			street_address : null,
 			street_address2 : null,
@@ -230,14 +259,64 @@ var PaymentGateway = {
 			ship_zip : null,
 			ship_country : null,
 			email : null,
-			phone : null
+			phone : null,
+
+			product: null
+
+		},
+
+	},
+
+	trigger: function(){
+
+		// PaymentGateway.PostData.clear();
+		// PaymentGateway.PostData.capture();
+
+		PaymentGateway.PostData.capture();
+		Stripe.StripeOptions.capture();
+
+		PageLoadingOverlay.add();
+
+		console.log(PaymentGateway.PostData.data);
+		console.log(Stripe.StripeOptions.data);
+
+		if (Checkout.storage.PricingPlan.code === "free") {
+			documents.forms.RegistrationForm.submit();
+		}
+		else
+		{
+			myOptions = {
+				id: Checkout.storage.PricingPlan,
+				code: Checkout.storage.PricingPlan.code,
+				name: "Build",
+				description: Checkout.storage.PricingPlan.description + " Membership",
+				amount: Checkout.storage.PricingPlan.amount * 100,
+				token: Stripe.StripeOptions.data.token,
+				image: Stripe.StripeOptions.data.image,
+				// locale: Stripe.StripeOptions.data.locale,
+				currency: Stripe.StripeOptions.data.currency
+			};
+
+			Stripe.StripeHandler.open(myOptions);
+
+			$(window).on("DOMSubtreeModified", function(event){
+				PageLoadingOverlay.hide();
+				$(window).off("DOMSubtreeModified");
+			});
 
 		}
 
+		
+
+	},
+
+	successRedirect : function(options){
+		console.log(options);
 	},
 
 	reset: function(){
 		PaymentGateway.PostData.clear();
+		// PaymentGateway.PostData.capture();
 	}
 
 };
@@ -246,7 +325,13 @@ var Checkout = {
 
 	storage: {
 		TemplateID: null,
-		PricingPlan: null
+		PricingPlan: {
+			id: null,
+			code: null,
+			name: null,
+			description: null,
+			amount: null
+		}
 	},
 
 	validateForms : function() {
@@ -276,10 +361,14 @@ var Checkout = {
 					// }
 				},
 
-				RegistrationSubdomain: {
+				fqdn: {
 
 					pattern: "[A-Za-z0-9\-]{0,61}",
 					required: true,	
+					remote: {
+						// url: "/domains/subdomains/CheckDomains.asp",
+						// type: "post"
+					}
 
 				}
 		
@@ -300,7 +389,7 @@ var Checkout = {
 					required: "Please enter your e-mail address.",
 					remote: "Sorry, this e-mail address has already been taken!",
 				},
-				RegistrationSubdomain : {
+				fqdn : {
 					pattern: "Sorry, this isn't a valid subdomain!",
 					required: "Please enter the subdomain you would like to use.",
 					remote: "Sorry, this subdomain has already been taken!",
@@ -310,10 +399,17 @@ var Checkout = {
 
 			submitHandler : function(form){
 
+				PaymentGateway.trigger();
+
+				/*
+
 				$.ajax({
 					url: "/json/true.json",
 					// url: "/domains/subdomains/CheckDomains.asp",
 					// type: "post",
+					beforeSend: function(){
+						PageLoadingOverlay.show();
+					},
 					data : {
 						fqdn : ($("#RegistrationSubdomain").val() + ".usebuild.co")
 					}
@@ -321,12 +417,9 @@ var Checkout = {
 				.success(function(data){
 
 					var myAuth = data;
-
-					console.log(myAuth);
 					
 					if (myAuth === "true" || myAuth === true) {
-						PageLoadingOverlay.show();
-						Checkout.reset();
+						PaymentGateway.trigger();
 					}
 					if (myAuth === "false" || myAuth === false) {
 						utilities.createErrorPopover($("#RegistrationSubdomain"), "Sorry, that subdomain is already taken.");
@@ -342,6 +435,8 @@ var Checkout = {
 				});
 
 				return false;
+
+				*/
 				
 			},
 
@@ -354,43 +449,19 @@ var Checkout = {
 
 	},
 
-	hiddenForm: {
 
-		populate: function(){
-
-			var myFormInputName = "";
-			var myFormInputValue = "";
-			var myFormInput = "";
-
-			$("#CheckoutHiddenForm").empty();
-
-			for (var property in TwoCheckoutPostData) {
-				if (TwoCheckoutPostData.hasOwnProperty(property)) {
-					myFormInputName = "" + property;
-					myFormInputValue = "" + TwoCheckoutPostData[property];
-					myFormInput = "<input type='hidden' name='" + myFormInputName + "' value='" + myFormInputValue + "' />";
-					$("#CheckoutHiddenForm").append(myFormInput);
-				}
-			}
-
-			var mySubmitButton = "<input name='submit' type='submit' value='Checkout' />";
-
-			$("#CheckoutHiddenForm").append(mySubmitButton);
-
-		},
-
-		submit: function(){
-
-			// $("#CheckoutHiddenForm input[type='submit']").click();
-			// self.document.all.RegistrationForm.submit();
-
-		}
-
-	},
 
 	assignEventListeners: function(){
 
 		$("[data-action='SelectPricingPlan']").on("click", Checkout.eventHandlers.SelectPricingPlan);
+
+		$(window).on('popstate', function() {
+			Stripe.StripeHandler.close();
+		});
+
+		$(window).on("charge.succeeded", function(e){
+			console.log("Charge Succeeded.");
+		});
 
 	},
 
@@ -400,18 +471,46 @@ var Checkout = {
 
 			console.log(event);
 
-			var PricingPlanID = $(event.currentTarget).closest(".PricingPlan").attr("id");
+			var PricingPlan = $(event.currentTarget).closest(".PricingPlan");
+			var PricingPlanID = PricingPlan.attr("id");
+			var PricingPlanName = PricingPlan.find(".PricingPlanTitle").text();
+			var PricingPlanDescription = PricingPlan.find(".PricingPlanDescription").text();
+			var PricingPlanAmount = PricingPlan.attr("data-amount").toString();
 
 			if (PricingPlanID === "PricingPlanFree") {
-				Checkout.storage.PricingPlan = "free";
+
+				Checkout.storage.PricingPlan = {
+					id: PricingPlanID,
+					code: "free",
+					name: "GetBuild.Today",
+					description: PricingPlanName,
+					amount: PricingPlanAmount
+				};
+
 			}
 			else
 			if (PricingPlanID === "PricingPlanMonthly") {
-				Checkout.storage.PricingPlan = "monthly";
+
+				Checkout.storage.PricingPlan = {
+					id: PricingPlanID,
+					code: "monthly",
+					name: "GetBuild.Today",
+					description: PricingPlanName,
+					amount: PricingPlanAmount
+				};
+
 			}
 			else
 			if (PricingPlanID === "PricingPlanYearly") {
-				Checkout.storage.PricingPlan = "yearly";
+
+				Checkout.storage.PricingPlan = {
+					id: PricingPlanID,
+					code: "yearly",
+					name: "GetBuild.Today",
+					description: PricingPlanName,
+					amount: PricingPlanAmount
+				};
+
 			}
 			else
 			{
@@ -479,6 +578,36 @@ var utilities = {
 
 };
 
+
+var stripeResponseHandler = function(status, response) {
+
+	if (response.error) {
+
+		// Show the errors on the form
+		var n = noty({
+		  layout: 'bottom',
+		  theme: 'relax',
+		  text: response.error.message,
+		  type: "error",
+		  animation: {
+		    open: "animated fadeInUp",
+		    close: "animated fadeOut",
+		  },
+		  timeout: 5000
+		});
+		
+	} else {
+
+		var token = response.id;
+
+		$("#RegistrationForm").attr("action", "/Purchase.asp");
+		$("#RegistrationForm").append($('<input type="hidden" name="stripeToken" />').val(token));
+		$("#RegistrationForm")[0].submit();
+
+	}
+};
+
+
 Checkout.reset();
 PaymentGateway.reset();
 
@@ -488,7 +617,15 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
+
 	console.log("Window Ready");
+
+	Stripe.StripeHandler = StripeCheckout.configure({
+	    key: PaymentGateway.API.Keys.TestPublishable,
+	    locale: "auto"
+	});
+
 	PaymentGateway.ready = true; // Remove after testing
 	Checkout.eventHandlers.isCheckoutReady();
+
 });

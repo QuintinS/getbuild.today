@@ -204,7 +204,7 @@
 												http://
 											</label>
 											<input class="form-control" type="text" id="RegistrationSubdomain" name="RegistrationSubdomain" placeholder="Subdomain" tabindex="11" />
-											<label class="input-group-addon" for="RegistrationSubdomain" aria-label="Subdomain">
+											<label class="input-group-addon" for="fqdn" aria-label="Subdomain">
 												.usebuild.co
 											</label>
 										</div>
@@ -223,7 +223,7 @@
 
 							<div class="PricingPlans" id="PricingPlans">
 								
-								<div id="PricingPlanFree" class="PricingPlan PricingPlanGrey">
+								<div id="PricingPlanFree" class="PricingPlan PricingPlanGrey" data-amount="0">
 
 									<div class="PricingPlanTitle">
 										<span>Free Trial</span>
@@ -250,7 +250,7 @@
 								</div>
 
 								
-								<div id="PricingPlanYearly" class="PricingPlan PricingPlanBlue">
+								<div id="PricingPlanYearly" class="PricingPlan PricingPlanBlue" data-amount="150">
 
 									<div class="PricingPlanTitle">
 										<span>Yearly</span>
@@ -276,7 +276,7 @@
 									
 								</div>
 
-								<div id="PricingPlanMonthly" class="PricingPlan PricingPlanGreen">
+								<div id="PricingPlanMonthly" class="PricingPlan PricingPlanGreen" data-amount="20">
 
 									<div class="PricingPlanTitle">
 										<span>Monthly</span>
@@ -309,6 +309,10 @@
 
 					</div>
 
+					<div id="CreditCardDetailsContainer" class="process col-md-10 col-sm-10 col-lg-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-2">
+
+					</div>
+
 				</form>
 
 			</div>
@@ -334,46 +338,6 @@
 		</div>
 	</footer>
 
-	<form action='https://www.stripe.com/' method='post' id="CheckoutHiddenForm" class="hidden">
-
-		<!--
-		<input type='hidden' name='sid' value='2140176' />
-		<input type='hidden' name='mode' value='2CO' />
-
-		<input type='hidden' name='li_0_type' value='product' />
-		<input type='hidden' name='li_0_name' value='invoice123' />
-		<input type='hidden' name='li_0_price' value='25.99' />
-		<input type='hidden' name='li_0_tangible' value='Y' />
-		<input type='hidden' name='li_1_type' value='shipping' />
-		<input type='hidden' name='li_1_name' value='Express Shipping' />
-		<input type='hidden' name='li_1_price' value='13.99' />
-
-		<input type='hidden' name='card_holder_name' value='Checkout Shopper' />
-
-		<input type='hidden' name='street_address' value='123 Test Address' />
-		<input type='hidden' name='street_address2' value='Suite 200' />
-		<input type='hidden' name='city' value='Columbus' />
-		<input type='hidden' name='state' value='OH' />
-		<input type='hidden' name='zip' value='43228' />
-		<input type='hidden' name='country' value='USA' />
-
-		<input type='hidden' name='ship_name' value='Checkout Shopper' />
-		<input type='hidden' name='ship_street_address' value='123 Test Address' />
-		<input type='hidden' name='ship_street_address2' value='Suite 200' />
-		<input type='hidden' name='ship_city' value='Columbus' />
-		<input type='hidden' name='ship_state' value='OH' />
-		<input type='hidden' name='ship_zip' value='43228' />
-		<input type='hidden' name='ship_country' value='USA' />
-
-		<input type='hidden' name='email' value='example@2co.com' />
-		<input type='hidden' name='phone' value='614-921-2450' />
-
-		<input name='submit' type='submit' value='Checkout' />
-		-->
-
-	</form>
-
-
 	<!-- SCRIPTS -->
 
 	<!-- Global - Include on All Pages -->
@@ -387,7 +351,7 @@
 	<script type="text/javascript" src="/js/utilities.js"></script>
 	<script type="text/javascript" src="/js/header.js"></script>
 	<script type="text/javascript" src="/js/build-modal.js"></script>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32"></script>
+	<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32"></script> -->
  	<script type="text/javascript"> (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-49577301-1","auto");ga("send","pageview") </script>
 	<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='//v2.zopim.com/?1qRBkAJuMOVh3bZY7NkJuyzmBt5AfmSr';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
 
@@ -406,7 +370,9 @@
 			
 	<!-- Include on This Page Only -->		
 	<script src="/js/crs.js" type="text/javascript"></script>
-	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script src="https://checkout.stripe.com/checkout.js"></script>
+	<!-- <script type="text/javascript" src="https://js.stripe.com/v2/"></script> -->
+
 
 </body>
 
