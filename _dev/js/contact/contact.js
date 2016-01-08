@@ -4,10 +4,10 @@
 	
 function sendContactEmail() {
 
-	myEmail 				= $("#ContactEmail").val();
-	myName 					= $("#ContactName").val();
-	myMessage 				= $("#ContactMessage").val();
-	myCheckbox 				= $("#ContactNewsletter").is(':checked');
+	var myEmail = $("#ContactEmail").val();
+	var myName = $("#ContactName").val();
+	var myMessage = $("#ContactMessage").val();
+	var myCheckbox = $("#ContactNewsletter").is(':checked');
 
 	$.ajax({
 	    type: "POST",
@@ -20,11 +20,17 @@ function sendContactEmail() {
 	    	buildContactCheckbox : myCheckbox
 	    	
 	    },
-	    beforeSend: function() {}
+	    beforeSend: function() {
+	    	Framework.UI.loadingOverlay.add({
+	    		text: "Sending Message..."
+	    	});
+	    }
 	})
 	.success(function(response){
 	
 		myAuth = $(response).find("authentication").text();
+
+		Framework.UI.loadingOverlay.hide();
 		
 		if (myAuth == "updated") {
 
@@ -67,6 +73,8 @@ function sendContactEmail() {
 		
 	})
 	.fail(function() {
+
+		Framework.UI.loadingOverlay.hide();
 		
 		var n = noty({
 
@@ -87,41 +95,48 @@ function sendContactEmail() {
 
 }
 
-var validateContactForm = $("#ContactForm").validate({
+var validateContactForm = function(){
 
-	rules: {
-	
-		ContactEmail : {
-			required: true,
-			email:true
+	$("#ContactForm").validate({
+
+		rules: {
+		
+			ContactEmail : {
+				required: true,
+				email:true
+			},
+
+			ContactName : {
+				required: true
+			},
+			
+			ContactMessage : {
+				required: true
+			}
+
 		},
 
-		ContactName : {
-			required: true
+
+		messages : {
+
+			ContactEmail: {
+				required: "Please enter your e-mail address.",
+				email: "Sorry, your email address is not valid. Please try again!",
+			},
+			ContactName: "Please enter your name.",
+			ContactMessage: "Please enter your message.",
+
+		},
+
+		submitHandler : function(){
+			sendContactEmail();
 		},
 		
-		ContactMessage : {
-			required: true
-		}
-
-	},
+		showErrors: generateErrorList,
 
 
-	messages : {
+	});
 
-		ContactEmail: {
-			required: "Please enter your e-mail address.",
-			email: "Sorry, your email address is not valid. Please try again!",
-		},
-		ContactName: "Please enter your name.",
-		ContactMessage: "Please enter your message.",
+};
 
-	},
-
-	submitHandler : sendContactEmail,
-	
-	showErrors: generateErrorList,
-
-
-});
-
+validateContactForm();
