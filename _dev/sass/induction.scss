@@ -379,7 +379,7 @@ body.page-induction-2 {
 
 			.PricingPlan {
 				margin: 0;
-				min-height: 500px;
+				min-height: 450px;
 				max-width: 220px;
 				float: left;
 			}
@@ -393,12 +393,13 @@ body.page-induction-2 {
 
 		}
 		
-		.PricingPlans .PricingPlan#PricingPlanFree, .PricingPlans .PricingPlan#PricingPlanMonthly {
+		#PricingPlanFree, 
+		#PricingPlanMonthly {
 		margin-top: 20px;
-		// height: 490px;
 		}
-		.PricingPlans .PricingPlan#PricingPlanYearly {
-		height: 540px;
+
+		#PricingPlanYearly {
+		height: 490px;
 		}
 
 	}
@@ -419,13 +420,13 @@ body.page-induction-2 {
 				min-height: 500px;
 			}
 
-			#PricingPlanYearly,
+			#PricingPlanMonthly,
 			#PricingPlanFree, {
 
 			}
 
-			#PricingPlanMonthly {
-				// min-height: 540px;
+			#PricingPlanYearly {
+				min-height: 540px;
 			}
 
 		}

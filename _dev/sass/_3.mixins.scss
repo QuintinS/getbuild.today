@@ -1,6 +1,48 @@
 @import "compass/css3";
 @import "_2.variables.scss";
 
+@mixin bannerStyle($color) {
+
+	position:relative;
+	padding: 20px 20px 20px 60px;
+	border: 1px solid #e7e7e7;
+	border-radius: 2px;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+	border-left: 3px solid $color;
+	color: darken($color, 10%);
+
+	margin-bottom:20px;
+
+	> .icon {
+
+		color : $color;
+		position:absolute;
+		left:22px;
+		top:18px;
+
+	}
+
+	p {
+		&:first-of-type {
+			margin-top: 0;
+		}
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	&:first-child {
+		margin-top:0;
+	}
+	&:last-child {
+		margin-bottom:0;
+	}
+	&:only-child {
+		margin-bottom:20px;
+	}
+
+}
+
 @mixin build-block-focus-style() {
 	outline: none;
 	text-shadow: none;

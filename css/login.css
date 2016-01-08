@@ -1,0 +1,26 @@
+/* line 5, ../_dev/sass/login.scss */
+.login-box {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 16, ../_dev/sass/login.scss */
+.login-message {
+  text-align: center;
+}
+/* line 18, ../_dev/sass/login.scss */
+.login-message .message {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+/* line 22, ../_dev/sass/login.scss */
+.login-message .title {
+  margin-bottom: 20px;
+}

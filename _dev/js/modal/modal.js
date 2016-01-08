@@ -1070,5 +1070,3 @@ BuildModal = function(options) {
 	// this.loadingOverlay("create");
 
 };
-
-var myDebug;

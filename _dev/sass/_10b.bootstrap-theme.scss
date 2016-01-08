@@ -136,6 +136,9 @@ a {
   button.form-control {
     width: auto;
   }
+  &:last-child{
+   margin-bottom: 0;
+  }
 }
 
 .form-control {

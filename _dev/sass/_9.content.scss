@@ -1,7 +1,4 @@
 @import "compass/css3";
-// Bootstrap XS
-
-
 
 body.page-content {
 	
@@ -76,24 +73,11 @@ body.page-content {
 
 }
 
+// Bootstrap XS
 @media screen and (max-width: 767px) {
 
-	body.page-content {
-		
-		main {
 
-			h1, h2, h3, h4, h5, h6 {
 
-				&:first-child {
-					margin-top: 1em;
-				}
-
-			}
-
-		}
-
-	}
-	
 }
 
 @media screen and (max-width: 870px) {

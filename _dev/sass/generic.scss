@@ -34,12 +34,12 @@
 @import "_9.content.scss";
 
 // 10. Third Party CSS
-@import "_10.animations.scss";
 @import "_10.animate.scss";
 @import "_10.trip.scss";
 @import "_10.fancybox.scss";
 @import "_10.noty.scss";
 @import "_10.jreject.scss";
+@import "_animations.scss";
 
 // 11. Utility Classes
 @import "_11.utilityclasses.scss";

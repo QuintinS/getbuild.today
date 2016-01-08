@@ -188,6 +188,7 @@ main {
 				text-align:center;
 			}
 		}
+
 	}
 
 }
@@ -198,6 +199,18 @@ main {
 			&.alternating-sections {
 				text-align:left;
 			}
+			&.longform {
+
+				.row > div {
+					padding: 0 200px;
+					font-size: 1.2em;
+				}
+
+				h2 {
+					text-align: center;
+				}
+				
+			} 
 		}
 	}	
 }

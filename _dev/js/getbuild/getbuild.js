@@ -2,7 +2,6 @@
 	GetBuild.Today
 	======================================== */
 
-
 var GiftModal = {
 
 	create : function() {
@@ -137,13 +136,6 @@ var onClickGiftModalOverlayBackground = function(event) {
 };
 
 
-if ( $.cookie("BuildGiftModalDismissed") === undefined ) {
-	// console.log("Show Modal");
-	setTimeout(
-		function(){
-			GiftModal.create();
-			GiftModal.addEventListeners();
-		}, 4000);
-}
+
 
 // $.removeCookie("BuildGiftModalDismissed", $.cookie("BuildGiftModalDismissed"))

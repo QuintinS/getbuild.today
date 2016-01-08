@@ -359,7 +359,7 @@
 		</div>
 	</footer>
 
-	<form action='https://www.stripe.com/' method='post' id="CheckoutHiddenForm" class="hidden">
+	<form action='https://www.2checkout.com/checkout/purchase' method='post' id="CheckoutHiddenForm" class="hidden">
 
 		<!--
 		<input type='hidden' name='sid' value='2140176' />
@@ -417,11 +417,24 @@
 	<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='//v2.zopim.com/?1qRBkAJuMOVh3bZY7NkJuyzmBt5AfmSr';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
 
 	<script type="text/javascript">
-		$.reject({
+		/*	========================================
+			JQuery Reject
+			======================================== */
+
+		jQuery.reject({
+			
 			reject : {
-				msie: 9,
-				// unknown: true
-			}
+				msie: 9
+			},
+			
+			imagePath: '/images/',
+
+			paragraph1: "Looks like you're using an older browser! This site works best " +
+						'with the latest versions of the major browsers. Please update yours' + 
+						', or take a look at some of the excellent options below.',
+
+			paragraph2: 'Note: If you use your current browser to view this site, your experience will be degraded.'
+			
 		});
 	</script>
 
@@ -431,7 +444,6 @@
 			
 	<!-- Include on This Page Only -->		
 	<script src="/js/crs.js" type="text/javascript"></script>
-	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
 </body>
 

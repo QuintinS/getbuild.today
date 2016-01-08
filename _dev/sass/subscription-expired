@@ -1,0 +1,139 @@
+.PricingPlans {
+
+		.PricingPlan {
+		transition: all 0.25s;
+		margin: 10px;
+		padding: 20px 20px 0 20px;
+		position: relative;
+		overflow: hidden;
+		border: 1px solid #e5e5e5;
+		text-align: center;
+		background-color: #fff;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		}
+		.PricingPlan > div {
+		margin-bottom: 20px;
+		}
+		.PricingPlan > div:last-child {
+		margin-bottom: 0px;
+		}
+		.PricingPlan .PricingPlanTitle {
+		margin-bottom: 0;
+		}
+		.PricingPlan .PricingPlanTitle span {
+		font-size: 18px;
+		font-family: "OpenSans", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		color: $build-color-bodytext;
+		}
+		.PricingPlan .PricingPlanPrice {
+		text-align: center;
+		}
+		.PricingPlan .PricingPlanPrice > span {
+		display: inline-block;
+		width: 100%;
+		}
+		.PricingPlan .PricingPlanPrice span {
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		}
+		.PricingPlan .PricingPlanPrice span.CurrencySymbol {
+		font-size: 48px;
+		}
+		.PricingPlan .PricingPlanPrice span.CurrencyUnits {
+		font-size: 48px;
+		}
+		.PricingPlan .PricingPlanPrice span.CurrencyCents {
+		font-size: 30px;
+		}
+		.PricingPlan .PricingPlanPrice:before {
+		content: '';
+		display: inline-block;
+		width: 50%;
+		height: 1px;
+		background-color: #e6e6e6;
+		}
+		.PricingPlan .PricingPlanPrice:after {
+		content: '';
+		display: inline-block;
+		width: 50%;
+		height: 1px;
+		background-color: #e6e6e6;
+		}
+		.PricingPlan .PricingPlanDescription {
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		}
+		.PricingPlan .PricingPlanDescription strong {
+		font-weight: bold;
+		font-family: "OpenSans", Helvetica, Arial, sans-serif;
+		}
+		.PricingPlan .PricingPlanDescription p {
+		font-style: italic;
+		}
+		.PricingPlan .PricingPlanAction .PricingPlanActionDescription {
+		font-size: 14px;
+		font-family: "OpenSans", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		}
+		.PricingPlan .PricingPlanAction button {
+		padding: 0.75em 1.25em;
+		}
+		.PricingPlan .PricingPlanExtras .PricingPlanSash {
+		display: inline-block;
+		padding: 5px 100px;
+		}
+		.PricingPlan .PricingPlanExtras .PricingPlanSash.SpecialOffer {
+		display: inline-block;
+		width: 117px;
+		height: 117px;
+		background: url("../images/sash-specialoffer-blue.png") no-repeat;
+		position: absolute;
+		padding: 0;
+		top: 0px;
+		right: -3px;
+		}
+		.PricingPlan.Selected#PricingPlanFree {
+		-webkit-box-shadow: 0 0 10px #9c9c9c;
+		-moz-box-shadow: 0 0 10px #9c9c9c;
+		box-shadow: 0 0 10px #9c9c9c;
+		}
+		.PricingPlan.Selected#PricingPlanMonthly {
+		-webkit-box-shadow: 0 0 10px $build-color-green;
+		-moz-box-shadow: 0 0 10px $build-color-green;
+		box-shadow: 0 0 10px $build-color-green;
+		}
+		.PricingPlan.Selected#PricingPlanYearly {
+		-webkit-box-shadow: 0 0 10px $build-color-blue;
+		-moz-box-shadow: 0 0 10px $build-color-blue;
+		box-shadow: 0 0 10px $build-color-blue;
+		}
+		.PricingPlan.NotSelected {
+		opacity: 0.5;
+		}
+		.PricingPlan#PricingPlanFree .PricingPlanPrice span {
+		color: $build-color-bodytext;
+		}
+		.PricingPlan#PricingPlanFree .PricingPlanDescription strong {
+		color: $build-color-bodytext;
+		}
+		.PricingPlan#PricingPlanMonthly .PricingPlanPrice span {
+		color: $build-color-green;
+		}
+		.PricingPlan#PricingPlanMonthly .PricingPlanDescription strong {
+		color: $build-color-green;
+		}
+		.PricingPlan#PricingPlanYearly .PricingPlanPrice span {
+		color: $build-color-blue;
+		}
+		.PricingPlan#PricingPlanYearly .PricingPlanDescription strong {
+		font-weight: bold;
+		color: $build-color-blue;
+		}
+
+	}

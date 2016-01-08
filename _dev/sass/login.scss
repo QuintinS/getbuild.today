@@ -1,0 +1,61 @@
+@import "compass/css3";
+@import "_2.variables.scss";
+@import "_3.mixins.scss";
+
+.login-box {
+
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	
+	@include border-radius(4px);
+	@include box-shadow(0 0 10px rgba(0,0,0,.1));
+
+}
+
+.login-message {
+  text-align: center;
+  .message {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+@media only screen and (min-width: 767px) {
+
+
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+
+   
+}
+
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+
+}

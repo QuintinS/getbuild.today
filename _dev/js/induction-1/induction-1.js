@@ -228,8 +228,6 @@ var Step1 = {
 		var myTemplateID = $(event.currentTarget).closest(".template").attr("data-templateid");
 		Step1.currentTemplateID = myTemplateID;
 
-		console.log(Step1.currentTemplateID);
-
 		Step1.showTemplateDemoFrame();
 
 	},
@@ -238,7 +236,6 @@ var Step1 = {
 
 		var myTemplateID = $(event.currentTarget).closest(".template").attr("data-templateid");
 		Step1.currentTemplateID = myTemplateID;
-		console.log(Step1.currentTemplateID);
 
 		Step1.templateSelect();
 
