@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 		uglify: {
 			options: {
 				// wrap: "Build",
-				// mangle: false,
+				mangle: false,
 				// compress: false, // true or false or {}
 				// beautify: true, // true or false or {}
 				// preserveComments: 'all', // true or 'all' or 'some'

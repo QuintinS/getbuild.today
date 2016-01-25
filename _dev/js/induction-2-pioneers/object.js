@@ -1,88 +1,20 @@
-var TemplateID = "";
-
 var FormPostLocation = "";
 
-var TwoCheckoutPostData = {
-
-	sid : "2140176",
-	mode : "2CO",
-
-	li_0_name : null,
-	li_0_price : null,
-	li_0_recurrence : null,
-
-	card_holder_name : null,
-	street_address : null,
-	street_address2 : null,
-	city : null,
-	state : null,
-	zip : null,
-	country : null,
-
-	ship_name : null,
-	ship_street_address : null,
-	ship_street_address2 : null,
-	ship_city : null,
-	ship_state : null,
-	ship_zip : null,
-	ship_country : null,
-
-	email : null,
-	phone : null,
-
-};
-
-var ClearTwoCheckoutPostData = function() {
-
-	TwoCheckoutPostData = {
-
-		sid : "2140176",
-		mode : "2CO",
-
-		li_0_name : null,
-		li_0_price : null,
-		li_0_recurrence : null,
-
-		card_holder_name : null,
-		street_address : null,
-		street_address2 : null,
-		city : null,
-		state : null,
-		zip : null,
-		country : null,
-
-		ship_name : null,
-		ship_street_address : null,
-		ship_street_address2 : null,
-		ship_city : null,
-		ship_state : null,
-		ship_zip : null,
-		ship_country : null,
-
-		email : null,
-		phone : null,
-
-	};
-
-};
-
-
-var CaptureTwoCheckoutPostData = function() {
+var CaptureFormData = function() {
 
 	var myFullName = "";
-	var myAddressLine1 = $("#RegistrationAddressLine1").val();
-	var myAddressLine2 = $("#RegistrationAddressLine2").val();
-	var myCity = $("#RegistrationCity").val();
-	var myRegionName = $("#RegistrationRegion").find("option:selected").text();
-	var myCountryName = $("#RegistrationCountry").find("option:selected").text();
-	var myPostalCode = $("#RegistrationPostalCode").val();
-	var myEmailAddress = $("#emailaddress").val();
-	var myPhoneNumber = $("#RegistrationPhoneNumber").val();
-	var mySubDomain = $("#RegistrationSubdomain").val();
+	var myFirstName = $("#RegistrationFirstName").val();
+	var myLastName = $("#RegistrationLastName").val();
 
-	myFullName += $("#RegistrationFirstName").val();
-	myFullName += " ";
-	myFullName += $("#RegistrationLastName").val();
+	var myAddressLine1;
+	var myAddressLine2;
+	var myCity;
+	var myRegionName;
+	var myCountryName;
+	var myPostalCode;
+	var myEmailAddress;
+	var myPhoneNumber;
+	var mySubDomain;
 
 	var ProductName;
 	var ProductQuantity;
@@ -96,31 +28,26 @@ var CaptureTwoCheckoutPostData = function() {
 	var Product2Duration;
 	var Product2Recurrence;
 
-	TwoCheckoutPostData = {
+	var myTemplateID = getParameterByName("templateid");
 
-		sid : "2140176",
-		mode : "2CO",
+	if (typeof myTemplateID !== "string") {
+		location.href="/pioneers/getstarted/index.html" + "?" + "nbCodes=ind-w-001";
+		return;
+	}
 
-		card_holder_name : myFullName,
-		street_address : myAddressLine1,
-		street_address2 : myAddressLine2,
-		city : myCity,
-		state : myRegionName,
-		zip : myPostalCode,
-		country : myCountryName,
+	myFullName += myFirstName;
+	myFullName += " ";
+	myFullName += myLastName;
 
-		ship_name : myFullName,
-		ship_street_address : myAddressLine1,
-		ship_street_address2 : myAddressLine2,
-		ship_city : myCity,
-		ship_state : myRegionName,
-		ship_zip : myPostalCode,
-		ship_country : myCountryName,
-
-		email : myEmailAddress,
-		phone : myPhoneNumber,
-
-	};
+	myAddressLine1 = $("#RegistrationAddressLine1").val();
+	myAddressLine2 = $("#RegistrationAddressLine2").val();
+	myCity = $("#RegistrationCity").val();
+	myRegionName = $("#RegistrationRegion").find("option:selected").text();
+	myCountryName = $("#RegistrationCountry").find("option:selected").text();
+	myPostalCode = $("#RegistrationPostalCode").val();
+	myEmailAddress = $("#emailaddress").val();
+	myPhoneNumber = $("#RegistrationPhoneNumber").val();
+	mySubDomain = $("#RegistrationSubdomain").val();
 
 	FormPostLocation = "/pioneers/RedeemVoucher.asp";
 
@@ -129,21 +56,28 @@ var CaptureTwoCheckoutPostData = function() {
 	ProductPrice = 0;
 	ProductDuration = "1 Year";
 
-	TwoCheckoutPostData.li_0_type = "product";
-	TwoCheckoutPostData.li_0_name = ProductName;
-	TwoCheckoutPostData.li_0_description = TemplateID;
-	TwoCheckoutPostData.li_0_quantity = ProductQuantity;
-	TwoCheckoutPostData.li_0_price = ProductPrice;
-	TwoCheckoutPostData.li_0_tangible = "N";
-	TwoCheckoutPostData.li_0_duration = ProductDuration;
+	Product2Name = mySubDomain;
 
-	TwoCheckoutPostData.li_1_type = "product";
-	TwoCheckoutPostData.li_1_name = "Your chosen subdomain";
-	TwoCheckoutPostData.li_1_price = 0;
-	TwoCheckoutPostData.li_1_description = mySubDomain;
-	
-	TwoCheckoutPostData.currency_code = "USD";
+	// $("#RegistrationForm [name='li_0_type'").val();
+	// $("#RegistrationForm [name='li_0_name'").val();
+	$("#RegistrationForm [name='li_0_description'").val(myTemplateID);
+	$("#RegistrationForm [name='li_0_quantity'").val(ProductQuantity);
+	$("#RegistrationForm [name='li_0_price'").val(ProductPrice);
+	$("#RegistrationForm [name='li_0_tangible'").val("N");
+	$("#RegistrationForm [name='li_0_duration'").val(ProductDuration);
 
+	// $("#RegistrationForm [name='li_1_type'").val();
+	// $("#RegistrationForm [name='li_1_name'").val();
+	$("#RegistrationForm [name='li_1_description'").val(Product2Name);
+	$("#RegistrationForm [name='li_1_quantity'").val(Product2Quantity);
+	$("#RegistrationForm [name='li_1_price'").val(Product2Price);
+	$("#RegistrationForm [name='li_1_tangible'").val("N");
+	$("#RegistrationForm [name='li_1_duration'").val(Product2Duration);
+
+	$("#RegistrationForm [name='first_name']").val(myFirstName);
+	$("#RegistrationForm [name='last_name']").val(myLastName);
+	$("#RegistrationForm [name='country']").val(myCountryName);
+	$("#RegistrationForm [name='email']").val(myEmailAddress);
 	
 };
 
@@ -214,7 +148,7 @@ var ValidateStep2Form = function() {
 			$.ajax({
 				url: "/domains/subdomains/CheckDomains.asp",
 				type: "post",
-				data : {
+				data: {
 					fqdn : ($("#RegistrationSubdomain").val() + ".usebuild.co")
 				}
 			})
@@ -223,17 +157,12 @@ var ValidateStep2Form = function() {
 				var myAuth = data;
 				
 				if (myAuth === "true" || myAuth === true) {
-					PageLoadingOverlay.show();
-					ResetCheckout();
 					TriggerCheckout();
 				}
 				if (myAuth === "false" || myAuth === false) {
 					createErrorPopover($("#RegistrationSubdomain"), "Sorry, that subdomain is already taken.");
 				} 
-				else 
-				{			
-					// createErrorPopover($("#RegistrationSubdomain"), "Sorry, something went wrong.");
-				}
+
 
 			})
 			.fail(function(){
@@ -253,12 +182,9 @@ var ValidateStep2Form = function() {
 };
 
 
-var ResetCheckout = function(form) {
-	ClearTwoCheckoutPostData();
-};
-
 var TriggerCheckout = function() {
-	CaptureTwoCheckoutPostData();
+	Framework.UI.loadingOverlay.add({text:"Setting up your free website..."});
+	CaptureFormData();
 	document.forms.RegistrationForm.submit();
 };
 
@@ -293,23 +219,7 @@ var TriggerCheckout = function() {
 	Event Listeners
 	-------------------------- */
 
-var selectionType = "free-subdomain",
-    myNewDomain = "",
-    mySubDomain = "";
-
-$("input[type=radio][name=domain-type]").change(function() {
-    $("#proceed-actions").hasClass("hidden") == !0 && $("#proceed-actions").removeClass("hidden");
-});
-
-$("#registerSub").on("keyup", function() {
-    mySubDomain = $("#registerSub").val();
-    updateMessage();
-});
-
-TemplateID = getParameterByName("templateid");
-
 $(document).ready(function(){
 	$.crs();
 	ValidateStep2Form();
 });
-

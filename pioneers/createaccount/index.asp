@@ -248,9 +248,6 @@
 					</div>
 					
 
-					<input type='hidden' name='sid' value='2140176' />
-					<input type='hidden' name='mode' value='2CO' />
-
 					<input type="hidden" name="li_0_type" value="" />
 					<input type="hidden" name="li_0_name" value="" />
 					<input type="hidden" name="li_0_description" value="" />
@@ -275,6 +272,9 @@
 					<input type='hidden' name='country' value='' />
 					<input type='hidden' name='email' value='' />
 					<input type='hidden' name='phone' value='' />
+
+					<input type='hidden' name='first_name' value='' />
+					<input type='hidden' name='last_name' value='' />
 					<!-- <input name='submit' type='submit' value='' /> -->
 
 				</form>
@@ -345,6 +345,7 @@
 	<!-- SCRIPTS -->
 
 	<!-- Global - Include on All Pages -->
+	<script type="text/javascript" src="/js/framework.js"></script>
 	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/velocity.min.js"></script>
 	<script type="text/javascript" src="/js/trip.js"></script>

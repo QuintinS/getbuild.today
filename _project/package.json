@@ -9,7 +9,7 @@
 	"license" : "All Rights Reserved",
 	"dependencies" : {
 		"grunt" : "~0.4.5",
-		"compass" : "~1.0.3",
+		"compass" : "*",
 		"grunt-contrib-watch" : "~0.6.1",
 		"grunt-contrib-compass" : "~1.0.1",
 		"grunt-contrib-uglify" : "~0.7.0",

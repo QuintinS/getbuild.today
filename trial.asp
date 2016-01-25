@@ -603,7 +603,7 @@ end if
 
 		<title>Website Order Confirmation</title>
 
-		<link href="css/order.css" rel="stylesheet" media="screen, projection">
+		<link href="css/order-old.css" rel="stylesheet" media="screen, projection">
 		<link href="css/jquery.reject.css" rel="stylesheet" media="screen, projection">
 
 		<script src="https://code.jquery.com/jquery.js"></script>
@@ -723,6 +723,7 @@ end if
 			</div>
 		</div>
 
+        <script type="text/javascript" src="/js/framework.js"></script>
 		<script type="text/javascript" src="js/order.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.min.js" type="text/javascript"></script>

@@ -16,9 +16,6 @@
 		<link rel="stylesheet" href="/css/induction.css">
 		<link rel="icon" type="image/png" href="/images/logo-build-b-favicon.png">
 
-		<script src="/js/jquery.js"></script>
-
-
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -402,16 +399,18 @@
 	<!-- SCRIPTS -->
 
 	<!-- Global - Include on All Pages -->
-	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/js/velocity.min.js"></script>
-	<script type="text/javascript" src="/js/trip.js"></script>
-	<script type="text/javascript" src="/js/jquery.reject.js"></script>
-	<script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="/js/noty/packaged/jquery.noty.packaged.js"></script>
-	<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="/js/libs.js"></script>
+	<script type="text/javascript" src="/js/framework.js"></script>
+	<!-- <script type="text/javascript" src="/js/bootstrap.min.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/velocity.min.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/trip.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/jquery.reject.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/noty/packaged/jquery.noty.packaged.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/jquery.validate.min.js"></script> -->
 	<script type="text/javascript" src="/js/utilities.js"></script>
-	<script type="text/javascript" src="/js/header.js"></script>
-	<script type="text/javascript" src="/js/build-modal.js"></script>
+	<!-- <script type="text/javascript" src="/js/header.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/build-modal.js"></script> -->
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53eb314074421b32"></script>
  	<script type="text/javascript"> (function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-49577301-1","auto");ga("send","pageview") </script>
 	<script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='//v2.zopim.com/?1qRBkAJuMOVh3bZY7NkJuyzmBt5AfmSr';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script>
@@ -442,8 +441,6 @@
 	<script src="/js/pattern.js" type="text/javascript"></script>
 	<script src="/js/induction-2.js"></script>
 			
-	<!-- Include on This Page Only -->		
-	<script src="/js/crs.js" type="text/javascript"></script>
 
 </body>
 

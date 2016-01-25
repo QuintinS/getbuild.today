@@ -729,7 +729,8 @@ end if
 			</div>
 		</div>
 
-		<script type="text/javascript" src="js/order.js"></script>
+		<script type="text/javascript" src="/js/framework.js"></script>
+        <script type="text/javascript" src="js/order.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="js/build-modal.js" type="text/javascript"></script>

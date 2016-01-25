@@ -270,14 +270,12 @@ var IncludeCheckoutScript = function() {
 	PopulateTwoCheckoutPostData();
 	
 	if (SelectedPricingPlan === "free") {
-
+		Framework.UI.loadingOverlay.add({ text: "Setting up your free trial..." });
 		document.forms.RegistrationForm.submit();
 
 	}
 	else
 	if ((SelectedPricingPlan === "monthly") || (SelectedPricingPlan === "yearly")) {
-
-		console.log("Posting to 2Checkout");
 
 		if (!document.getElementById("tco_lightbox")) {
 			$.getScript("/js/direct.min.js", function(){
@@ -413,7 +411,6 @@ var ValidateStep2Form = function() {
 				var myAuth = data;
 				
 				if (myAuth === "true" || myAuth === true) {
-					PageLoadingOverlay.show();
 					ResetCheckout();
 					TriggerCheckout();
 				}
