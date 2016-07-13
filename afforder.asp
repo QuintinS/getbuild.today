@@ -14,18 +14,21 @@ myMail.From="support@beta.build2trade.com"
 myMail.To="craig@b2tsa.com"
 myMail.TextBody="Order Confirmation data 2:" & vbcrlf & myMsg 
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendusing")=2
+("http://schemas.microsoft.com/cdo/configuration/sendusing")= 2
 'Name or IP of remote SMTP server
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserver")="localhost"
+("http://schemas.microsoft.com/cdo/configuration/smtpserver")="smtp.sendgrid.net"
 'Server port
+myMail.Configuration.Fields.Item ("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = False
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserverport")=25
-
+("http://schemas.microsoft.com/cdo/configuration/smtpserverport")= 587
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendusername")= "support@beta.build2trade.com"
+("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "3Ly9j9B14f9Hz9S6D"
+("http://schemas.microsoft.com/cdo/configuration/sendusername")= "Xtreame96"
+myMail.Configuration.Fields.Item _
+("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "xsmurf96"
+myMail.Configuration.Fields.Update
 
 
 myMail.Configuration.Fields.Update

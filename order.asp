@@ -450,16 +450,18 @@ myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/sendusing")= 2
 'Name or IP of remote SMTP server
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserver")="oxmail.registrar-servers.com"
+("http://schemas.microsoft.com/cdo/configuration/smtpserver")="smtp.sendgrid.net"
 'Server port
+myMail.Configuration.Fields.Item ("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = False
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserverport")= 25
+("http://schemas.microsoft.com/cdo/configuration/smtpserverport")= 587
 myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendusername")= "support@getbuild.today"
+("http://schemas.microsoft.com/cdo/configuration/sendusername")= "Xtreame96"
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "As$fjsiskesifksf2342lasdfijasdfj"
+("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "xsmurf96"
+myMail.Configuration.Fields.Update
 
 
 myMail.Configuration.Fields.Update
@@ -479,16 +481,18 @@ myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/sendusing")= 2
 'Name or IP of remote SMTP server
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserver")="oxmail.registrar-servers.com"
+("http://schemas.microsoft.com/cdo/configuration/smtpserver")="smtp.sendgrid.net"
 'Server port
+myMail.Configuration.Fields.Item ("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = False
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserverport")= 25
+("http://schemas.microsoft.com/cdo/configuration/smtpserverport")= 587
 myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendusername")= "support@getbuild.today"
+("http://schemas.microsoft.com/cdo/configuration/sendusername")= "Xtreame96"
 myMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "As$fjsiskesifksf2342lasdfijasdfj"
+("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "xsmurf96"
+myMail.Configuration.Fields.Update
 myMail.Configuration.Fields.Update
 
 myMail.Send
