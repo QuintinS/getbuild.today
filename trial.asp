@@ -435,7 +435,7 @@ on error resume next
 Set myMail=CreateObject("CDO.Message")
 myMail.Subject="Trial Account Created" 
 myMail.From="support@getbuild.today"
-myMail.To="craig@b2tsa.com;nico@build2trade.com"
+myMail.To="craig@b2tsa.com;"
 myMail.TextBody="Trial Data (Trial.asp):" & vbcrlf & myMsg 
 myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/sendusing")= 2
