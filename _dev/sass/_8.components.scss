@@ -2,6 +2,71 @@
 @import "_2.variables.scss";
 @import "_3.mixins.scss";
 
+@import "_components-formelements.scss";
+
+/*	------------------------------
+	Tables
+	------------------------------ */
+
+	table {
+		&.b-table {
+			td {
+				vertical-align:top;
+			}
+		}
+		&.b-table-fixed {
+			table-layout: fixed;
+		}
+	}
+
+	
+
+	table.b-table-bordered {
+
+		border: 1px solid #e6e6e6;
+
+		@include border-radius(4px);
+
+		caption {
+			text-align: left;
+			padding: 15px;
+			border: 1px solid #e6e6e6;
+			border-bottom: none;
+			font-size: 1.2em;
+			font-weight:bold;
+		}
+		
+	}
+
+	table {
+
+		tr {
+
+
+		}
+
+		td {
+			&.actions {
+
+				width: 300px !important;
+				vertical-align: top;
+
+			}
+			> .loading-message {
+
+				background: #fafafa;
+				margin: 5px;
+				border: 1px dashed #e6e6e6;
+				color: #999;
+				text-align: center;
+				@include border-radius(5px);
+
+			}
+		}
+
+	}
+
+
 section.dark {
 	background: #222 !important;
 }

@@ -87,6 +87,7 @@ h4 {
 	font-family: "OpenSans";
 	font-size: 1.4em;
 	color: $build-color-bodytext;
+	text-align: left;
 	a {
 		color: lighten($build-color-bodytext, 20%);
 		border-bottom: 1px dotted $build-color-bodytext;
@@ -145,8 +146,8 @@ h6 {
 		font-weight:bold;
 	}
 	&:only-child {
-		margin-top: 0;
-		margin-bottom: 0;
+		// margin-top: 0;
+		// margin-bottom: 0;
 	}
 }
 
@@ -261,7 +262,56 @@ form {
 	}
 }
 
+table {
 
+	width: 100%;
+	margin-bottom:20px;
+
+	tr {
+		border-top: 1px solid #eee
+	}
+
+	th,
+	td {
+		padding:10px;
+		text-align: left;
+		vertical-align:middle;
+		&:last-of-type {
+			text-align:right;
+		}
+		&:first-of-type {
+		}
+		input,
+		button,
+		textarea {
+			margin: 0 !important;
+		}
+	}
+
+	th:first-child,
+	td:first-child {
+		// width:150px;
+		font-weight:bold;
+	}
+
+	th:last-child,
+	td:last-child {
+		// width: 150px;
+	}
+
+	thead {
+		tr {
+			border-top: 0;
+		}
+		th {
+		}
+	}
+
+	tfoot {
+		background: #f7f7f7;
+	}
+
+}
 
 /* 	========================================
 	Media Queries

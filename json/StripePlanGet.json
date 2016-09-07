@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Trial",
+    "currency": "usd",
+    "created": "/Date(1472648173)/",
+    "amount": 0,
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "statement_descriptor": "string",
+    "trial_period_days": 30,
+    "metadata": {
+      "description": "This is the most awesome website builder ever!",
+      "tagline": "Do the thing."
+    },
+    "id": "trial"
+  },
+  {
+    "name": "Build 1 Month",
+    "currency": "usd",
+    "created": "/Date(1443775043)/",
+    "amount": 2000,
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "statement_descriptor": "1M Build Subscription",
+    "trial_period_days": null,
+    "metadata": {
+      "description": "This is the most awesome website builder ever!",
+      "tagline": "Do the thing."
+    },
+    "id": "Build1M"
+  },
+  {
+    "name": "Build 1 Year",
+    "currency": "usd",
+    "created": "/Date(1443775008)/",
+    "amount": 15000,
+    "interval": "year",
+    "interval_count": 1,
+    "livemode": false,
+    "statement_descriptor": "1Y Build Subscription",
+    "trial_period_days": null,
+    "metadata": {
+      "description": "This is the most awesome website builder ever!",
+      "tagline": "Do the thing."
+    },
+    "id": "Build1Year"
+  }
+]

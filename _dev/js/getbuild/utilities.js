@@ -1,3 +1,15 @@
+var currency = {
+
+    format: {
+
+        decimalise: function(cents) {
+            return cents.toFixed(2);
+        }
+
+    }
+
+};
+
 var generateErrorList = function(errorMap, errorList) {
     $.each(this.successList, function(index, value) {
         $(value).removeClass("error").addClass("valid");
@@ -5,7 +17,6 @@ var generateErrorList = function(errorMap, errorList) {
     });
     return $.each(errorList, function(index, value) {
         var _popover;
-        console.log(value.message);
         _popover = $(value.element).popover({
             trigger: "manual",
             placement: "bottom",

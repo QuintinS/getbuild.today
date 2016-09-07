@@ -22,6 +22,36 @@
 	margin: 0 .5em;
 }
 
+body.page-induction-2 {
+
+	.bs-callout  {
+		h4 {
+			margin-bottom: 0.75em;
+		}
+		p {
+			margin-bottom: 0.75em;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		.panel {
+			margin-bottom: 0;
+		}
+		.form-group input {
+			margin: 0;
+		}
+	}
+
+	.btn-lg {
+		.glyphicon {
+			font-size: 18px;
+			position:relative;
+			top: 3px;
+		}
+	}
+
+}
+
 body.page-induction-1 {
 
 	.template { 
@@ -209,230 +239,196 @@ body.page-induction-1 {
 
 }
 
-body.page-induction-2 {
+.pricingplan {
 
+	position:relative;
+	background: #fff;
+	margin-bottom: 20px;
 
+	@include box-shadow(0 0 5px rgba(0,0,0,.15));
 
-	.PricingPlans {
-
-		.PricingPlan {
-		transition: all 0.25s;
-		margin: 10px;
-		padding: 20px 20px 0 20px;
-		position: relative;
-		overflow: hidden;
-		border: 1px solid #e5e5e5;
-		text-align: center;
-		background-color: #fff;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		-ms-border-radius: 2px;
-		-o-border-radius: 2px;
-		border-radius: 2px;
-		-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-		-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	&:nth-child(1) {
+		.pricingplan-title {
+			background: $build-button-color-default;
+			color: #fff;
 		}
-		.PricingPlan > div {
+		.pricingplan-price {
+			color: $build-button-color-default;
+		}
+	}
+	&:nth-child(2) {
+		.pricingplan-title {
+			background: $build-button-color-primary;
+			color: #fff;
+		}
+		.pricingplan-price {
+			color: $build-button-color-primary;
+		}
+	}
+	&:nth-child(3) {
+		.pricingplan-title {
+			background: $build-button-color-success;
+			color: #fff;
+		}
+		.pricingplan-price {
+			color: $build-button-color-success;
+		}
+	}
+	&:nth-child(4) {
+		.pricingplan-title {
+			background: $build-button-color-info;
+			color: #fff;
+		}
+		.pricingplan-price {
+			color: $build-button-color-info;
+		}
+	}
+	&:nth-child(5) {
+		.pricingplan-title {
+			background: $build-button-color-warning;
+			color: #fff;
+		}
+		.pricingplan-price {
+			color: $build-button-color-warning;
+		}
+	}
+	&:nth-child(6) {
+		.pricingplan-title {
+			background: $build-button-color-danger;
+			color: #fff;
+		}
+		.pricingplan-price {
+			color: $build-button-color-danger;
+		}
+	}
+
+	&.unselected {
+
+		/*
+
+		.pricingplan-title {
+			background: #ddd;
+		}
+
+		.pricingplan-price {
+			color: #ddd;
+		}
+
+		.pricingplan-action-button {
+			background: #aaa;
+			border-color: #aaa;
+		}
+
+		.pricingplan-action-button:hover,
+		.pricingplan-action-button:focus {
+			border-color: #999 !important;
+			background: #999 !important;
+		}
+
+		*/
+
+		.pricingplan-title {
+		}
+
+		.pricingplan-price {
+		}
+
+		.pricingplan-action-button {
+		}
+
+		.pricingplan-action-button:hover,
+		.pricingplan-action-button:focus {
+		}
+
+	}
+
+	&.selected {
+		@include box-shadow(0 0 15px rgba($build-button-color-success, 0.75));
+	}
+
+	.pricingplan-description {
+		text-align: center;
+	}
+
+	.pricingplan-title,
+	.pricingplan-price-container,
+	.pricingplan-permonth,
+	.pricingplan-description,
+	.pricingplan-price-action {
+		padding: 0 20px;
+	}
+
+	.pricingplan-title {
+
+		font-size: 24px;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: -1px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #f2f2f2;
+		background: #fbfbfb;
+		@include text-shadow(0 0 5px rgba(0,0,0,.25));
+		@include transition(0.25s background);
+		font-weight: bold;
+
+	}
+
+
+	.pricingplan-price-container {
+
+		text-align: center;
+		letter-spacing: -1px;
 		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #f2f2f2;
+
+		.pricingplan-price-symbol,
+		.pricingplan-price-amount {
+
+			font-size: 32px;
+
 		}
-		.PricingPlan > div:last-child {
-		margin-bottom: 0px;
+
+		.pricingplan-price {
+
+			font-size: 24px;
+			font-weight: bold;
+			@include transition(0.25s color);
+
 		}
-		.PricingPlan .PricingPlanTitle {
-		margin-bottom: 0;
+
+		.pricingplan-price-permonth {
+
+			font-size: 16px;
+			text-align: center;
+			font-style: italic;
+
 		}
-		.PricingPlan .PricingPlanTitle span {
-		font-size: 18px;
-		font-family: "OpenSans", Helvetica, Arial, sans-serif;
-		font-weight: bold;
-		color: $build-color-bodytext;
-		}
-		.PricingPlan .PricingPlanPrice {
-		text-align: center;
-		}
-		.PricingPlan .PricingPlanPrice > span {
-		display: inline-block;
-		width: 100%;
-		}
-		.PricingPlan .PricingPlanPrice span {
-		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
-		}
-		.PricingPlan .PricingPlanPrice span.CurrencySymbol {
-		font-size: 48px;
-		}
-		.PricingPlan .PricingPlanPrice span.CurrencyUnits {
-		font-size: 48px;
-		}
-		.PricingPlan .PricingPlanPrice span.CurrencyCents {
-		font-size: 30px;
-		}
-		.PricingPlan .PricingPlanPrice:before {
-		content: '';
-		display: inline-block;
-		width: 50%;
-		height: 1px;
-		background-color: #e6e6e6;
-		}
-		.PricingPlan .PricingPlanPrice:after {
-		content: '';
-		display: inline-block;
-		width: 50%;
-		height: 1px;
-		background-color: #e6e6e6;
-		}
-		.PricingPlan .PricingPlanDescription {
-		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
-		}
-		.PricingPlan .PricingPlanDescription strong {
-		font-weight: bold;
-		font-family: "OpenSans", Helvetica, Arial, sans-serif;
-		}
-		.PricingPlan .PricingPlanDescription p {
+
+	}
+
+	.pricingplan-action-description {
+	
 		font-style: italic;
-		}
-		.PricingPlan .PricingPlanAction .PricingPlanActionDescription {
-		font-size: 14px;
-		font-family: "OpenSans", Helvetica, Arial, sans-serif;
 		font-weight: bold;
-		}
-		.PricingPlan .PricingPlanAction button {
-		padding: 0.75em 1.25em;
-		}
-		.PricingPlan .PricingPlanExtras .PricingPlanSash {
-		display: inline-block;
-		padding: 5px 100px;
-		}
-		.PricingPlan .PricingPlanExtras .PricingPlanSash.SpecialOffer {
-		display: inline-block;
-		width: 117px;
-		height: 117px;
-		background: url("../images/sash-specialoffer-blue.png") no-repeat;
-		position: absolute;
-		padding: 0;
-		top: 0px;
-		right: -3px;
-		}
-		.PricingPlan.Selected#PricingPlanFree {
-		-webkit-box-shadow: 0 0 10px #9c9c9c;
-		-moz-box-shadow: 0 0 10px #9c9c9c;
-		box-shadow: 0 0 10px #9c9c9c;
-		}
-		.PricingPlan.Selected#PricingPlanMonthly {
-		-webkit-box-shadow: 0 0 10px $build-color-green;
-		-moz-box-shadow: 0 0 10px $build-color-green;
-		box-shadow: 0 0 10px $build-color-green;
-		}
-		.PricingPlan.Selected#PricingPlanYearly {
-		-webkit-box-shadow: 0 0 10px $build-color-blue;
-		-moz-box-shadow: 0 0 10px $build-color-blue;
-		box-shadow: 0 0 10px $build-color-blue;
-		}
-		.PricingPlan.NotSelected {
-		opacity: 0.5;
-		}
-		.PricingPlan#PricingPlanFree .PricingPlanPrice span {
-		color: $build-color-bodytext;
-		}
-		.PricingPlan#PricingPlanFree .PricingPlanDescription strong {
-		color: $build-color-bodytext;
-		}
-		.PricingPlan#PricingPlanMonthly .PricingPlanPrice span {
-		color: $build-color-green;
-		}
-		.PricingPlan#PricingPlanMonthly .PricingPlanDescription strong {
-		color: $build-color-green;
-		}
-		.PricingPlan#PricingPlanYearly .PricingPlanPrice span {
-		color: $build-color-blue;
-		}
-		.PricingPlan#PricingPlanYearly .PricingPlanDescription strong {
-		font-weight: bold;
-		color: $build-color-blue;
+		margin-bottom: 10px;
+		text-align:center;
+	
+	}
+
+	.pricingplan-action {
+
+		text-align: center;
+		padding: 0 20px 20px 20px;
+
+		.pricingplan-action-button {
+			@include transition(0.25s background border-color);
 		}
 
 	}
 
-	@media only screen and (max-width: 767px) {
-
-
-
-	}
-
-	@media only screen and (min-width: 767px) {
-
-
-
-	}
-
-	@media only screen and (min-width: 767px) and (max-width: 992px) {
-
-
-	   
-	}
-
-	@media only screen and (min-width: 992px) {
-
-		.PricingPlans {
-			margin-top: 20px;
-			padding-bottom: 20px;
-			margin-left: 45px;
-
-			.PricingPlan {
-				margin: 0;
-				min-height: 450px;
-				max-width: 220px;
-				float: left;
-			}
-
-			.PricingPlanAction {
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				right: 0;
-			}
-
-		}
-		
-		#PricingPlanFree, 
-		#PricingPlanMonthly {
-		margin-top: 20px;
-		}
-
-		#PricingPlanYearly {
-		height: 490px;
-		}
-
-	}
-
-	@media only screen and (min-width: 992px) and (max-width: 1200px) {
-
-
-
-	}
-
-	@media only screen and (min-width: 1200px) {
-
-		.PricingPlans {
-
-			margin-left: 30px;
-
-			.PricingPlan {
-				min-height: 500px;
-			}
-
-			#PricingPlanMonthly,
-			#PricingPlanFree, {
-
-			}
-
-			#PricingPlanYearly {
-				min-height: 540px;
-			}
-
-		}
-
-	}
 
 }
 
@@ -440,12 +436,171 @@ body.page-induction-2 {
 
 
 
+.pricingplan-container {
+	position:relative;
+}
+
+.form-group .form-group {
+	margin-bottom: 0 !important;
+	overflow: hidden;
+}
 
 
 
 
+.payment-line {
+
+	font-weight: 700;
+	font-size: 1.1em;
+
+	.payment-line-value {
+		font-weight: 700;
+	}
+	.payment-line-amount {
+		color: $build-button-color-success;
+	}
+
+	&.payment-line-total {
+		.payment-line-label {
+			color: #aaa;
+		}
+	}
+
+	&.payment-line-coupon {
+		.payment-line-value:before {
+			content: "- ";
+		}
+		
+	}
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+	.pricingplan-container {
+		@include display-flex;
+		@include flex-flow(row wrap);
+		@include align-content(center);
+		@include justify-content(center);
+		margin-top: 40px;
+	}
+
+	.pricingplan {
+
+		width: 30%;
+		// margin-left: 1%;
+		// margin-right: 1%;
+
+		@include display-flex;
+		@include order(0);
+		@include flex-grow(0);
+		@include flex-shrink(1);
+		@include flex-direction(column);
+		@include align-items(center);
+		
+
+		.pricingplan-title,
+		.pricingplan-price-container,
+		.pricingplan-description,
+		.pricingplan-action {
+			width: 100%;	
+		}
+
+		&:nth-child(2) {
+			@include transform(scale(1.05));
+			z-index: 1;
+		}
+
+	}
+
+
+
+	.pricingplan-action {
+		margin-top: auto;
+	}
+		
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+@media only screen and (min-width: 767px) {
+
+
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+
+
+   
+}
+
+@media only screen and (min-width: 992px) {
+
+	
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+	
+
+}
 
 
 
 
+.step {
 
+	opacity: 0;
+	display: none;
+
+	@include transition-property(opacity, transform);
+	@include transition-duration(0.5s);
+	@include transition-timing-function(ease-in-out);
+
+	&.step-transitioning {
+		display:block;
+	}
+
+	&.step-position-left {
+		transform: translateX(-50%);
+	}
+
+	&.step-position-right {
+		transform: translateX(50%);
+	}
+
+	&.step-out {
+		opacity: 0;
+	}
+
+	&.step-in {
+		opacity: 1;
+	}
+
+	&.step-current {
+		opacity: 1;
+		display:block;
+	}
+
+	.step-actions {
+		border-top: 1px solid #f2f2f2;
+		margin: 40px -40px -40px -40px;
+		background: #f7f7f7;
+		padding: 20px;
+	}
+
+}

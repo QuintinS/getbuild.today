@@ -14,9 +14,8 @@ myMsg = ""
 
 Set myMail=CreateObject("CDO.Message")
 myMail.Subject="Contact from website"
-myMail.From="craig@b2tsa.com"
-myMail.To="info@b2tsa.com"
-myMail.CC="quintin.schnehage@gmail.com"
+myMail.From="website@getbuild.today"
+myMail.To="support@getbuild.today"
 myMail.TextBody="Website Contact from getbuild.today at:" & vbcrlf & myMsg & vbcrlf & vbcrlf & request.ServerVariables("HTTP_USER_AGENT") & vbcrlf & request.ServerVariables("REMOTE_ADDR") & vbcrlf & request.ServerVariables("REMOTE_HOST") & vbcrlf & request.ServerVariables("REMOTE_USER")
 myMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/sendusing")= 2

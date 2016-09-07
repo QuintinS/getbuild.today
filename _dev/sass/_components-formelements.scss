@@ -1,0 +1,302 @@
+/*	------------------------------
+	Forms
+	------------------------------ */
+
+		.b-label {
+
+			@include labelStyle();
+
+		}
+
+		.b-input-hint {
+
+			font-size: 14px;
+			font-style: italic;
+
+			color: #999999;
+
+		}
+
+		.b-field-preview {
+
+			padding: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			background: #f2f2f2;
+			border: 1px solid #e6e6e6;
+			border-radius: 2px;
+			color: #666;
+
+			&.small {
+				font-size: 12px;
+				padding: 10px;
+			}
+
+		}
+
+		.b-input-group {
+
+			margin-bottom: 5px;
+			position:relative;
+			display: block;
+
+			@extend .clearfix;
+
+			> * {
+				float:left;
+			}
+
+			> label {
+				display: block;
+			}
+
+			> button,
+			> input,
+			> textarea {
+				// margin-bottom: 0.5em;
+				width: 85%;
+				display:table-cell;
+
+				&.b-validation-error {
+					color: $build-color-red;
+				}
+				&.b-validation-success {
+					color: $build-color-green;
+				}
+				&:only-child {
+					width: 100%;
+				}
+			}
+
+			> .b-input-group-addon {
+
+				display:table-cell;
+				float:left;
+				width: 15%;
+				height: 51px;
+				padding: 10px 0;
+				border-width: 1px;
+
+				text-align: center;
+				font-weight: bold;
+				line-height: 26px;
+
+				border-color: #ddd;
+				border-style: solid;
+				background: #f2f2f2;
+				color: #666;
+				cursor: default;
+				
+				&:first-child {
+					border-right: 0;
+				}
+
+				&:last-child {
+					border-left: 0;
+				}
+
+			}
+
+			&.b-wider-addons {
+				> button,
+				> input {
+					width: 70%;
+				}
+				> .b-input-group-addon {
+					width: 30%;
+				}
+			}
+
+			&.b-inline {
+				display:inline-block;
+			}
+			
+		}
+
+		.b-mandatory {
+			&:after {
+				content: '*';
+				padding-left: 5px;
+				color: $build-color-red
+			}
+		}
+
+
+/*	------------------------------
+	Checkbox
+	------------------------------ */
+
+		.b-checkbox {
+
+			display:inline-block;
+			padding-right: 1em;
+			padding-left: 1em;		
+
+			> .b-checkbox-label {
+				@include labelStyle();
+				padding-left: 10px;
+				cursor: pointer !important;
+				> span {
+					color: #576274;
+				}
+			}
+
+			.b-checkbox-label,
+			.b-checkbox-group {
+			  display:inline-block;
+			  float:left;
+		      margin: 12px 0;
+			}
+			
+			> .b-checkbox-group {
+
+				width: 24px;
+				height: 24px;
+				position: relative;
+				background: #f6f6f6;
+
+				// border: 1px solid #fafafa;
+
+				@include box-shadow(0 0px 3px rgba(0,0,0,0.5));
+
+				cursor: pointer;
+
+				&:focus,
+				&:hover {
+					// @include box-shadow(0 0px 3px rgba($build-color-blue,0.5));
+					// @include box-shadow(0 0px 3px rgba(0,0,0,0.5), inset 0 0px 1px rgba($build-color-blue,1));
+				}
+
+				label {
+
+					width: 20px;
+					height: 20px;
+					position: absolute;
+					left: 2px;
+					top: 2px;
+
+					&:after {
+
+						font-family: "Glyphicons Regular";
+						content: '\E207';
+						
+						cursor: pointer;
+						color: #666;
+						opacity: 0;
+
+						display: inline-block;
+						width: 18px;
+						height: 18px;
+						overflow: hidden;
+
+						@include transition-property(opacity);
+						@include transition-duration(0.15s);
+						@include border-radius(50px);
+						@include box-shadow(inset 0 0 1px rgba(0,0,0,0.75));
+					}
+
+					&:hover::after {
+						opacity: 0.3;
+					}
+
+					.b-checkbox-label {
+						display:none;
+					}
+
+				}
+
+				input[type="radio"],
+				input[type="checkbox"] {
+					visibility: hidden;
+					&:checked + label:after {
+						opacity: 1;
+					}
+				}
+
+				input[type="radio"] + label {
+					@include border-radius(50px);
+				}
+
+				input[disabled] {
+					cursor: not-allowed;
+				}
+
+				input[disabled] + label {
+
+					width: 24px;
+					height:24px;
+					z-index: 100;
+					position:absolute;
+					left:0;
+					right:0;
+					bottom:0;
+					top:0;
+					background: rgba(0,0,0,.1);
+
+					cursor: not-allowed;
+
+					&:after {
+						cursor: not-allowed !important;
+						top: 4px;
+					    left: 4px;
+					}
+
+				}
+
+			}
+
+			
+
+			&.b-checkbox-light {
+				.b-checkbox-group{
+					background: #f6f6f6;
+					@include box-shadow(0 0 3px rgba(0,0,0,0.5));
+					label {
+						&:after {
+							background: #8f8d99;
+						}
+					}	
+				}
+			}
+
+			&.b-checkbox-dark {
+				.b-checkbox-group {
+					background: #8f8d99;
+					@include box-shadow(inset 0 1px 3px rgba(0,0,0,0.5));
+					label {
+						&:after {
+							@include box-shadow(0 0 2px rgba(0,0,0,0.75));
+							background: #f6f6f6;
+						}
+					}
+				}
+			}
+
+			&.b-checkbox-radio {
+				.b-checkbox-group {
+					@include border-radius(50px);
+					label {
+						&:after {
+							@include border-radius(50px);
+						}
+					}
+				}
+			}
+
+			&.b-checkbox-checkbox {
+				.b-checkbox-group {
+					@include border-radius(2px);
+					label {
+						&:after {
+							// background: transparent;
+							@include box-shadow(none);
+							@include border-radius(0);
+						}
+					}
+				}
+			}
+
+			    
+
+		}
+

@@ -14,11 +14,38 @@
   margin: 0 .5em;
 }
 
-/* line 27, ../_dev/sass/induction.scss */
+/* line 28, ../_dev/sass/induction.scss */
+body.page-induction-2 .bs-callout h4 {
+  margin-bottom: 0.75em;
+}
+/* line 31, ../_dev/sass/induction.scss */
+body.page-induction-2 .bs-callout p {
+  margin-bottom: 0.75em;
+}
+/* line 33, ../_dev/sass/induction.scss */
+body.page-induction-2 .bs-callout p:last-child {
+  margin-bottom: 0;
+}
+/* line 37, ../_dev/sass/induction.scss */
+body.page-induction-2 .bs-callout .panel {
+  margin-bottom: 0;
+}
+/* line 40, ../_dev/sass/induction.scss */
+body.page-induction-2 .bs-callout .form-group input {
+  margin: 0;
+}
+/* line 46, ../_dev/sass/induction.scss */
+body.page-induction-2 .btn-lg .glyphicon {
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+}
+
+/* line 57, ../_dev/sass/induction.scss */
 body.page-induction-1 .template {
   position: relative;
 }
-/* line 31, ../_dev/sass/induction.scss */
+/* line 61, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-wrapper {
   background: #fff;
   margin-bottom: 20px;
@@ -28,12 +55,12 @@ body.page-induction-1 .template .template-wrapper {
   overflow: hidden;
   position: relative;
 }
-/* line 41, ../_dev/sass/induction.scss */
+/* line 71, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-image {
   position: relative;
   overflow: hidden;
 }
-/* line 44, ../_dev/sass/induction.scss */
+/* line 74, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-image img {
   display: inline-block;
   min-width: 100%;
@@ -46,12 +73,12 @@ body.page-induction-1 .template .template-image img {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 56, ../_dev/sass/induction.scss */
+/* line 86, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-content {
   padding: 2em 2em;
   color: #333;
 }
-/* line 59, ../_dev/sass/induction.scss */
+/* line 89, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-content h5 {
   margin-top: 0;
   color: #fff;
@@ -60,7 +87,7 @@ body.page-induction-1 .template .template-content h5 {
   margin: 0;
   text-align: center;
 }
-/* line 69, ../_dev/sass/induction.scss */
+/* line 99, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-over {
   display: block;
   position: absolute;
@@ -77,35 +104,35 @@ body.page-induction-1 .template .template-over {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 86, ../_dev/sass/induction.scss */
+/* line 116, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-over button {
   display: inline-block;
   margin-bottom: 10px;
   width: 100%;
 }
-/* line 94, ../_dev/sass/induction.scss */
+/* line 124, ../_dev/sass/induction.scss */
 body.page-induction-1 .template .template-actions {
   font-size: 1.2em;
 }
-/* line 100, ../_dev/sass/induction.scss */
+/* line 130, ../_dev/sass/induction.scss */
 body.page-induction-1 .template:hover {
   text-decoration: none;
   position: relative;
 }
-/* line 109, ../_dev/sass/induction.scss */
+/* line 139, ../_dev/sass/induction.scss */
 body.page-induction-1 .template:hover .template-image {
   position: relative;
 }
-/* line 114, ../_dev/sass/induction.scss */
+/* line 144, ../_dev/sass/induction.scss */
 body.page-induction-1 .template:hover .template-image:hover {
   display: block;
   width: 100%;
 }
-/* line 120, ../_dev/sass/induction.scss */
+/* line 150, ../_dev/sass/induction.scss */
 body.page-induction-1 .template:hover .template-over {
   opacity: 1;
 }
-/* line 138, ../_dev/sass/induction.scss */
+/* line 168, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame {
   position: fixed;
   z-index: 10000;
@@ -113,7 +140,7 @@ body.page-induction-1 .template-demo-frame {
   width: 100%;
   height: 100%;
 }
-/* line 146, ../_dev/sass/induction.scss */
+/* line 176, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame .template-demo-frame-controls {
   position: relative;
   width: 100%;
@@ -122,233 +149,328 @@ body.page-induction-1 .template-demo-frame .template-demo-frame-controls {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 153, ../_dev/sass/induction.scss */
+/* line 183, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame .template-demo-frame-controls .frame-controls-left {
   float: left;
 }
-/* line 156, ../_dev/sass/induction.scss */
+/* line 186, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame .template-demo-frame-controls .frame-controls-right {
   float: right;
 }
-/* line 161, ../_dev/sass/induction.scss */
+/* line 191, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame .template-demo-frame-iframe-container {
   width: 100%;
   height: 100%;
 }
-/* line 164, ../_dev/sass/induction.scss */
+/* line 194, ../_dev/sass/induction.scss */
 body.page-induction-1 .template-demo-frame .template-demo-frame-iframe-container .template-demo-frame-iframe {
   width: 100%;
   height: 100%;
   background-color: #fff;
 }
 
-/* line 218, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan {
-  transition: all 0.25s;
-  margin: 10px;
-  padding: 20px 20px 0 20px;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #e5e5e5;
-  text-align: center;
-  background-color: #fff;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-/* line 236, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan > div {
-  margin-bottom: 20px;
-}
-/* line 239, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan > div:last-child {
-  margin-bottom: 0px;
-}
 /* line 242, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanTitle {
-  margin-bottom: 0;
-}
-/* line 245, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanTitle span {
-  font-size: 18px;
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #333;
+.pricingplan {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 /* line 251, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice {
-  text-align: center;
+.pricingplan:nth-child(1) .pricingplan-title {
+  background: #9c9c9c;
+  color: #fff;
 }
-/* line 254, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice > span {
-  display: inline-block;
-  width: 100%;
+/* line 255, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(1) .pricingplan-price {
+  color: #9c9c9c;
 }
-/* line 258, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice span {
-  font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
-}
-/* line 261, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice span.CurrencySymbol {
-  font-size: 48px;
+/* line 260, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(2) .pricingplan-title {
+  background: #499bd3;
+  color: #fff;
 }
 /* line 264, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice span.CurrencyUnits {
-  font-size: 48px;
+.pricingplan:nth-child(2) .pricingplan-price {
+  color: #499bd3;
 }
-/* line 267, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice span.CurrencyCents {
-  font-size: 30px;
+/* line 269, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(3) .pricingplan-title {
+  background: #b4d455;
+  color: #fff;
 }
-/* line 270, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice:before {
-  content: '';
-  display: inline-block;
-  width: 50%;
-  height: 1px;
-  background-color: #e6e6e6;
+/* line 273, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(3) .pricingplan-price {
+  color: #b4d455;
 }
-/* line 277, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanPrice:after {
-  content: '';
-  display: inline-block;
-  width: 50%;
-  height: 1px;
-  background-color: #e6e6e6;
+/* line 278, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(4) .pricingplan-title {
+  background: #7fbdcf;
+  color: #fff;
 }
-/* line 284, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanDescription {
-  font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+/* line 282, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(4) .pricingplan-price {
+  color: #7fbdcf;
 }
 /* line 287, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanDescription strong {
-  font-weight: bold;
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
+.pricingplan:nth-child(5) .pricingplan-title {
+  background: #ff9600;
+  color: #fff;
 }
 /* line 291, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanDescription p {
-  font-style: italic;
+.pricingplan:nth-child(5) .pricingplan-price {
+  color: #ff9600;
 }
-/* line 294, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanAction .PricingPlanActionDescription {
-  font-size: 14px;
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+/* line 296, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(6) .pricingplan-title {
+  background: #f34040;
+  color: #fff;
 }
-/* line 299, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanAction button {
-  padding: 0.75em 1.25em;
+/* line 300, ../_dev/sass/induction.scss */
+.pricingplan:nth-child(6) .pricingplan-price {
+  color: #f34040;
 }
-/* line 302, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanExtras .PricingPlanSash {
-  display: inline-block;
-  padding: 5px 100px;
+/* line 305, ../_dev/sass/induction.scss */
+.pricingplan.unselected {
+  		/*
+  
+  		.pricingplan-title {
+  			background: #ddd;
+  		}
+  
+  		.pricingplan-price {
+  			color: #ddd;
+  		}
+  
+  		.pricingplan-action-button {
+  			background: #aaa;
+  			border-color: #aaa;
+  		}
+  
+  		.pricingplan-action-button:hover,
+  		.pricingplan-action-button:focus {
+  			border-color: #999 !important;
+  			background: #999 !important;
+  		}
+  
+  		*/
 }
-/* line 306, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan .PricingPlanExtras .PricingPlanSash.SpecialOffer {
-  display: inline-block;
-  width: 117px;
-  height: 117px;
-  background: url("../images/sash-specialoffer-blue.png") no-repeat;
-  position: absolute;
-  padding: 0;
-  top: 0px;
-  right: -3px;
-}
-/* line 316, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan.Selected#PricingPlanFree {
-  -webkit-box-shadow: 0 0 10px #9c9c9c;
-  -moz-box-shadow: 0 0 10px #9c9c9c;
-  box-shadow: 0 0 10px #9c9c9c;
-}
-/* line 321, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan.Selected#PricingPlanMonthly {
-  -webkit-box-shadow: 0 0 10px #b4d455;
-  -moz-box-shadow: 0 0 10px #b4d455;
-  box-shadow: 0 0 10px #b4d455;
-}
-/* line 326, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan.Selected#PricingPlanYearly {
-  -webkit-box-shadow: 0 0 10px #218ec7;
-  -moz-box-shadow: 0 0 10px #218ec7;
-  box-shadow: 0 0 10px #218ec7;
-}
-/* line 331, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan.NotSelected {
-  opacity: 0.5;
-}
-/* line 334, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanFree .PricingPlanPrice span {
-  color: #333;
-}
-/* line 337, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanFree .PricingPlanDescription strong {
-  color: #333;
-}
-/* line 340, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanMonthly .PricingPlanPrice span {
-  color: #b4d455;
-}
-/* line 343, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanMonthly .PricingPlanDescription strong {
-  color: #b4d455;
-}
-/* line 346, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanYearly .PricingPlanPrice span {
-  color: #218ec7;
+/* line 345, ../_dev/sass/induction.scss */
+.pricingplan.selected {
+  -moz-box-shadow: 0 0 15px rgba(180, 212, 85, 0.75);
+  -webkit-box-shadow: 0 0 15px rgba(180, 212, 85, 0.75);
+  box-shadow: 0 0 15px rgba(180, 212, 85, 0.75);
 }
 /* line 349, ../_dev/sass/induction.scss */
-body.page-induction-2 .PricingPlans .PricingPlan#PricingPlanYearly .PricingPlanDescription strong {
+.pricingplan .pricingplan-description {
+  text-align: center;
+}
+/* line 353, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-title,
+.pricingplan .pricingplan-price-container,
+.pricingplan .pricingplan-permonth,
+.pricingplan .pricingplan-description,
+.pricingplan .pricingplan-price-action {
+  padding: 0 20px;
+}
+/* line 361, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  background: #fbfbfb;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  -webkit-transition: background 0.25s;
+  transition: background 0.25s;
   font-weight: bold;
-  color: #218ec7;
 }
+/* line 378, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-price-container {
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+/* line 387, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-price-container .pricingplan-price-symbol,
+.pricingplan .pricingplan-price-container .pricingplan-price-amount {
+  font-size: 32px;
+}
+/* line 394, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-price-container .pricingplan-price {
+  font-size: 24px;
+  font-weight: bold;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+/* line 402, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-price-container .pricingplan-price-permonth {
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+}
+/* line 412, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-action-description {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 421, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-action {
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+/* line 426, ../_dev/sass/induction.scss */
+.pricingplan .pricingplan-action .pricingplan-action-button {
+  -moz-transition: background 0.25s border-color;
+  -o-transition: background 0.25s border-color;
+  -webkit-transition: background 0.25s border-color;
+  transition: background 0.25s border-color;
+}
+
+/* line 439, ../_dev/sass/induction.scss */
+.pricingplan-container {
+  position: relative;
+}
+
+/* line 443, ../_dev/sass/induction.scss */
+.form-group .form-group {
+  margin-bottom: 0 !important;
+  overflow: hidden;
+}
+
+/* line 451, ../_dev/sass/induction.scss */
+.payment-line {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+/* line 456, ../_dev/sass/induction.scss */
+.payment-line .payment-line-value {
+  font-weight: 700;
+}
+/* line 459, ../_dev/sass/induction.scss */
+.payment-line .payment-line-amount {
+  color: #b4d455;
+}
+/* line 464, ../_dev/sass/induction.scss */
+.payment-line.payment-line-total .payment-line-label {
+  color: #aaa;
+}
+/* line 470, ../_dev/sass/induction.scss */
+.payment-line.payment-line-coupon .payment-line-value:before {
+  content: "- ";
+}
+
 @media only screen and (min-width: 992px) {
-  /* line 376, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans {
-    margin-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 45px;
+  /* line 481, ../_dev/sass/induction.scss */
+  .pricingplan-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 40px;
   }
-  /* line 381, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans .PricingPlan {
-    margin: 0;
-    min-height: 450px;
-    max-width: 220px;
-    float: left;
+
+  /* line 489, ../_dev/sass/induction.scss */
+  .pricingplan {
+    width: 30%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-order: 0;
+    order: 0;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
   }
-  /* line 388, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans .PricingPlanAction {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  /* line 503, ../_dev/sass/induction.scss */
+  .pricingplan .pricingplan-title,
+  .pricingplan .pricingplan-price-container,
+  .pricingplan .pricingplan-description,
+  .pricingplan .pricingplan-action {
+    width: 100%;
   }
-  /* line 397, ../_dev/sass/induction.scss */
-  body.page-induction-2 #PricingPlanFree,
-  body.page-induction-2 #PricingPlanMonthly {
-    margin-top: 20px;
+  /* line 510, ../_dev/sass/induction.scss */
+  .pricingplan:nth-child(2) {
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 1;
   }
-  /* line 402, ../_dev/sass/induction.scss */
-  body.page-induction-2 #PricingPlanYearly {
-    height: 490px;
+
+  /* line 519, ../_dev/sass/induction.scss */
+  .pricingplan-action {
+    margin-top: auto;
   }
 }
-@media only screen and (min-width: 1200px) {
-  /* line 416, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans {
-    margin-left: 30px;
-  }
-  /* line 420, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans .PricingPlan {
-    min-height: 500px;
-  }
-  /* line 429, ../_dev/sass/induction.scss */
-  body.page-induction-2 .PricingPlans #PricingPlanYearly {
-    min-height: 540px;
-  }
+/* line 565, ../_dev/sass/induction.scss */
+.step {
+  opacity: 0;
+  display: none;
+  -moz-transition-property: opacity, -moz-transform;
+  -o-transition-property: opacity, -o-transform;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 574, ../_dev/sass/induction.scss */
+.step.step-transitioning {
+  display: block;
+}
+/* line 578, ../_dev/sass/induction.scss */
+.step.step-position-left {
+  transform: translateX(-50%);
+}
+/* line 582, ../_dev/sass/induction.scss */
+.step.step-position-right {
+  transform: translateX(50%);
+}
+/* line 586, ../_dev/sass/induction.scss */
+.step.step-out {
+  opacity: 0;
+}
+/* line 590, ../_dev/sass/induction.scss */
+.step.step-in {
+  opacity: 1;
+}
+/* line 594, ../_dev/sass/induction.scss */
+.step.step-current {
+  opacity: 1;
+  display: block;
+}
+/* line 599, ../_dev/sass/induction.scss */
+.step .step-actions {
+  border-top: 1px solid #f2f2f2;
+  margin: 40px -40px -40px -40px;
+  background: #f7f7f7;
+  padding: 20px;
 }
