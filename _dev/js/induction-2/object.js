@@ -1,8 +1,3 @@
-// TO DO:
-// ------
-
-// Trial Provisioning
-
 
 var APICore = "http://getbuild.mydevsite.online";
 var APIAuth = "http://auth.mydevsite.online";
@@ -176,7 +171,7 @@ var Stripe = {
 		    },
 
 		    closed: function() {
-		    	Framework.UI.loadingOverlay.hide();
+		    	
 		    },
 
 
@@ -367,7 +362,7 @@ var Checkout = {
 						"receipt_email": Checkout.Storage.Billing.RegistrationEmailAddress,
 						"destination": null,
 						"application_fee": null,
-						"shipping": {}
+						"shipping": null
 					  }
 					break;
 
@@ -394,6 +389,7 @@ var Checkout = {
 				},
 				error: function() {
 					Framework.UI.NotificationBanner.fire({type: "error"});
+					Framework.UI.loadingOverlay.hide();
 				},
 			});
 
