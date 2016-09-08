@@ -463,6 +463,8 @@
 							
 						</table>
 
+						<!--
+
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<button data-action="AddCoupon" class="btn btn-primary btn-hollow">
@@ -471,6 +473,8 @@
 								</button>
 							</div>	
 						</div>
+
+
 
 						<div id="coupon-panel" style="display:none">
 
@@ -501,6 +505,8 @@
 							</div>
 							
 						</div>
+
+						-->
 
 						<hr>
 
