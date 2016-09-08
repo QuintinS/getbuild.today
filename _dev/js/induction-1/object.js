@@ -184,7 +184,7 @@ var Step1 = {
 
 	templateSelect : function() {	
 		
-		window.location.href = "/createaccount/index.asp?templateid=" + Step1.currentTemplateID;
+		window.location.href = "https://" + window.location.hostname + "/createaccount/index.asp?templateid=" + Step1.currentTemplateID;
 
 	},
 

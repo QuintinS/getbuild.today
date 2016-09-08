@@ -1,7 +1,11 @@
 
-var APICore = "http://getbuild.mydevsite.online";
-var APIAuth = "http://auth.mydevsite.online";
-// var APICore = "";
+// var APICore = "https://mydevsite-02.azurewebsites.net";
+// var APICore = "https://getbuild.mydevsite.online";
+var APICore = "https://getbuild.usebuildv8.co";
+
+// var APIAuth = "https://mydevsiteauth01.azurewebsites.net";
+// var APIAuth = "https://auth.mydevsite.online";
+var APIAuth = "https://auth.usebuildv8.co";
 
 var API = {
 
@@ -47,7 +51,7 @@ var Stripe = {
 
 			PlanList: APICore + "/Stripe/Plan",
 			CouponGet: APICore + "/Stripe/Coupon",
-			
+			url
 
 		},
 
@@ -384,7 +388,13 @@ var Checkout = {
 				contentType: "application/json",
 				data: myData,
 				method: "post",
-				success: function() {
+				success: function(data) {
+
+					var myURL;
+
+					myURL = data;
+
+					location.href = "http://" + myURL;
 
 				},
 				error: function() {
@@ -424,12 +434,10 @@ var Checkout = {
 				},
 				success: function(data) {
 
-					console.log(data);
+					sessionStorage.setItem(tokenKey, data.access_token);
 
-					// sessionStorage.setItem(tokenKey, data.access_token);
-
-					// var myURL = data.url;
-					// location.href = myURL;
+					var myURL = "http://" + data.url;
+					location.href = myURL;
 
 				},
 				error: function() {
@@ -1090,6 +1098,8 @@ var Checkout = {
 
 					$("#step-billing-submit").prop("disabled", false);
 
+					$("#email-exists-message").slideUp();
+
 				}
 				else
 				{
@@ -1167,6 +1177,8 @@ var Checkout = {
 						.append('<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>');
 
 					$("#step-subdomain-submit").prop("disabled", false);
+
+					$("#domain-exists-message").slideUp();
 
 				}
 
