@@ -7,7 +7,9 @@ function sendContactEmail() {
 	var myEmail = $("#ContactEmail").val();
 	var myName = $("#ContactName").val();
 	var myMessage = $("#ContactMessage").val();
+	var mySubject = $("#ContactSubject").val();
 	var myCheckbox = $("#ContactNewsletter").is(':checked');
+	var myGRecaptcha = $("#g-recaptcha-response").val();
 
 	$.ajax({
 	    type: "POST",
@@ -17,7 +19,9 @@ function sendContactEmail() {
 	    	buildContactEmail : myEmail,
 	    	buildContactName : myName,
 	    	buildContactMessage : myMessage,
-	    	buildContactCheckbox : myCheckbox
+	    	buildContactSubject : mySubject,
+	    	buildContactCheckbox : myCheckbox,
+	    	GRecaptchaResponse : myGRecaptcha
 	    	
 	    },
 	    beforeSend: function() {
@@ -27,6 +31,8 @@ function sendContactEmail() {
 	    }
 	})
 	.success(function(response){
+
+		console.log(response);
 	
 		myAuth = $(response).find("authentication").text();
 
@@ -53,21 +59,24 @@ function sendContactEmail() {
 		else
 		
 		{
+
+			var myError = $(response).find("Error").text();
+
+			if (myError === "Captcha not passed") {
+				var n = noty({
+					text: "Please make sure you have checked the \"I am not a robot\" box and passed the test. We don't want the cyborgs to take over!",
+					type: "error",
+					theme: "relax",
+					layout: "bottomCenter",
+					timeout: 5000,
+					animation: {
+						open: "animated fadeInUp",
+						close: "animated fadeOutUp",
+					}
+				});
+			}
 		
-			var n = noty({
-
-				text: "<span class='glyphicon glyphicon-remove'>&nbsp;</span><span class='value'>Oops! Something went wrong. Don't worry, it's nothing you did... we're looking into it. Please try again later!</span>",
-				type: "error",
-				modal: true,
-				theme: "relax",
-				layout: "center",
-				timeout: 5000,
-				animation: {
-					open: "animated fadeInUp",
-					close: "animated fadeOutUp",
-				}
-
-			});
+			
 		
 		}
 		
