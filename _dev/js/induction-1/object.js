@@ -182,9 +182,15 @@ var Step1 = {
 
 	},
 
-	templateSelect : function() {	
+	templateSelect : function() {
+
+		var myPort = ""; 
+
+		if (location.port !== "") {
+			myPort = ":" + location.port;
+		}
 		
-		window.location.href = "/createaccount/index.asp?templateid=" + Step1.currentTemplateID;
+		window.location.href = "https://" + window.location.hostname + myPort +  "/createaccount/index.asp?templateid=" + Step1.currentTemplateID;
 
 	},
 

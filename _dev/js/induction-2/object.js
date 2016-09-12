@@ -1,6 +1,12 @@
 
-var APICore = "http://getbuild.mydevsite.online";
-var APIAuth = "http://auth.mydevsite.online";
+// Dev
+var APICore = "https://mydevsite-02.azurewebsites.net";
+var APIAuth = "https://mydevsiteauth01.azurewebsites.net";
+
+// Production
+// var APICore = "https://getbuild.mydevsite.online";
+// var APIAuth = "https://auth.mydevsite.online";
+
 // var APICore = "";
 
 var API = {
@@ -32,6 +38,7 @@ var Stripe = {
 		Token: null,
 		Coupons: [],
 		Plans: null,
+		isTrial: false,
 		// Customer: {},
 		// Charge: {},
 		// Affiliate: {},
@@ -52,6 +59,11 @@ var Stripe = {
 		},
 
 		getCoupon: function() {
+
+			if ($("#PaymentStatementTable tbody .payment-line-coupon").length > 0 ) {
+				Framework.UI.NotificationBanner.fire({type: "warning", text: "Sorry, you've already applied a coupon!"})
+				return;
+			}
 
 			var myCouponId = $("#CouponCode").val();
 
@@ -78,6 +90,14 @@ var Stripe = {
 
 					var existingCouponID;
 
+					$("#CouponSubmitButton")
+						.prop("disabled", true)
+						.removeClass("btn-primary")
+						.addClass("btn-default");
+
+					$("#CouponCode").prop("disabled", true);
+
+					$("#coupon-panel").slideUp();
 					
 					if (Checkout.Storage.PaymentGateway.Storage.Coupons.length === 0) {
 						applyCoupon();
@@ -86,8 +106,6 @@ var Stripe = {
 					if (Checkout.Storage.PaymentGateway.Storage.Coupons.length > 0) {
 
 						for (var i = 0; i < Checkout.Storage.PaymentGateway.Storage.Coupons.length; i++) {
-
-							console.log(i);
 
 							existingCouponID = Checkout.Storage.PaymentGateway.Storage.Coupons[i].id;
 
@@ -113,17 +131,18 @@ var Stripe = {
 
 				},
 				error: function() {
+					
+					$("#CouponSubmitButton")
+						.prop("disabled", false)
+						.addClass("btn-primary")
+						.removeClass("btn-default");
+
 					Framework.UI.NotificationBanner.fire({type: "error", text: "Sorry, your coupon code is not valid."})
 				},
 				complete: function() {
 
 					$("#CouponCode").prop("disabled", false);
 					$("#CouponCode").val("");
-
-					$("#CouponSubmitButton")
-						.prop("disabled", false)
-						.addClass("btn-primary")
-						.removeClass("btn-default");
 
 					$("#CouponSubmitButton").closest(".form-group").find(".form-group")
 						.removeClass("has-success has-info has-warning has-error has-feedback")
@@ -162,7 +181,8 @@ var Stripe = {
 		    image: "/images/stripe-logo.png",
 		    name: "Build",
 		    description: Checkout.Storage.Plan.name,
-		    amount: Checkout.Storage.Plan.amount,
+		    // amount: Checkout.Storage.Plan.amount,
+		    amount: parseFloat($(".payment-line-total [data-content='LineValue']").text()) * 100,
 
 		    email: Checkout.Storage.Billing.RegistrationEmailAddress,
 
@@ -171,7 +191,7 @@ var Stripe = {
 		    },
 
 		    closed: function() {
-		    	
+		    	Framework.UI.loadingOverlay.hide();
 		    },
 
 
@@ -233,6 +253,9 @@ var Stripe = {
 
 			$("#pricingplan-container").empty();
 			$("#pricingplan-container").html(myHTML);
+
+			// If trial, move to start.
+			$("#pricingplan-container").find(".pricingplan[data-id='trial']").remove().prependTo("#pricingplan-container")
 
 		},
 
@@ -339,9 +362,7 @@ var Checkout = {
 			  "TemplateId": Checkout.Storage.TemplateID,
 			  "ReferalId": Checkout.Storage.ReferralID,
 
-			  // "PaymentGateway": Checkout.Storage.PaymentGateway.id,
-			  // "PaymentTokenId": Stripe.Storage.token,
-			  "PaymentPlanId": Checkout.Storage.Plan.id,
+			  
 
 			}
 
@@ -350,6 +371,8 @@ var Checkout = {
 			switch (Checkout.Storage.PaymentGateway.id) {
 				
 				case "Stripe":
+					
+					/*
 					returnData.StripeCharge = {
 						"amount": Checkout.Storage.Plan.amount,
 						"currency": Checkout.Storage.Currency.code || "usd",
@@ -365,6 +388,15 @@ var Checkout = {
 						"shipping": null
 					  }
 					break;
+					*/
+
+					returnData.PaymentGateway = Checkout.Storage.PaymentGateway.id;
+					returnData.PaymentTokenId = Stripe.Storage.token;
+					returnData.PaymentPlanId = Checkout.Storage.Plan.id;
+					returnData.PaymentCouponId = Checkout.Storage.PaymentGateway.Storage.Coupons[0].id;
+					returnData.IsTrial = Checkout.Storage.isTrial;
+
+					break;
 
 			}
 
@@ -376,6 +408,16 @@ var Checkout = {
 
 			var myUserData = Checkout.API.captureCreateUserData();
 
+			debugger;
+
+			console.log(myUserData); 
+			var myTokenID = myUserData.PaymentTokenId.id
+
+			console.log(myTokenID); 
+
+			myUserData.PaymentTokenId = myTokenID;
+			console.log(myUserData); 
+
 			var myData = JSON.stringify(myUserData);
 
 			$.ajax({
@@ -384,8 +426,11 @@ var Checkout = {
 				contentType: "application/json",
 				data: myData,
 				method: "post",
-				success: function() {
-
+				beforeSend: function() {
+					
+				},
+				success: function(data) {
+					location.href = "http://" + data;
 				},
 				error: function() {
 					Framework.UI.NotificationBanner.fire({type: "error"});
@@ -583,9 +628,7 @@ var Checkout = {
 
 
 			paymentTotal = paymentTotal * ((100 - deductionsPercentTotal) / 100);
-			console.log(paymentTotal);
 			paymentTotal = paymentTotal - deductionsAmountsTotal;
-			console.log(paymentTotal);
 
 			switch (Checkout.Storage.PaymentGateway.id) {
 				case "Stripe":
@@ -595,7 +638,6 @@ var Checkout = {
 
 
 			paymentTotal = paymentTotal.toFixed(2);
-			console.log(paymentTotal);
 
 			$(".payment-line-total [data-content='LineValue']").text(paymentTotal);
 
@@ -942,6 +984,14 @@ var Checkout = {
 
 			}
 
+			if (myPricingPlanID === "trial") {
+				Checkout.Storage.isTrial = true;
+			}
+			else
+			{
+				Checkout.Storage.isTrial = false;	
+			}
+
 			// Checkout.Steps.changeStep("next");
 
 		});
@@ -949,6 +999,9 @@ var Checkout = {
 		$('[data-action="AddCoupon"]').on("click", Checkout.EventHandlers.expandCouponPanel);
 
 		$("#pricingplan-continue-button").on("click", function(){
+			$("#coupon-button").closest(".row").show();
+			$("#CouponSubmitButton").prop("disabled", false);
+			$("#coupon-panel").hide();
 			Checkout.Storage.PaymentGateway.Storage.Coupons = [];
 			Checkout.Functions.populatePayment();
 			Checkout.Steps.changeStep("next");
@@ -980,11 +1033,11 @@ var Checkout = {
 		});
 
 		$("#RegistrationAgreeTerms").on("change", function() {
-			if ($("#confirmpay-button-submit").prop("disabled") === true) {
+			if ($("#RegistrationAgreeTerms").is(":checked") === true) {
 				$("#confirmpay-button-submit").prop("disabled", false);
 			}
 			else
-			if ($("#confirmpay-button-submit").prop("disabled") === false) {
+			if ($("#RegistrationAgreeTerms").is(":checked") === false) {
 				$("#confirmpay-button-submit").prop("disabled", true);
 			}
 		});

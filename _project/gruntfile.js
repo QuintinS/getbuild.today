@@ -31,8 +31,8 @@ module.exports = function(grunt) {
 			pages: {
 
 				options: {
-					// mangle: true,
-					// compress: false, // true or false or {}
+					mangle: true,
+					// compress: true, // true or false or {}
 					// beautify: true, // true or false or {}
 					// preserveComments: 'all', // true or 'all' or 'some'
 					sourceMap : true
